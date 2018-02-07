@@ -1,0 +1,22 @@
+{
+  "name": "html-testbed",
+  "version": "1.0.0",
+  "description": "Testing the implementation of AJAX calls with the PostgresQL database.",
+  "main": "access-db.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "heroku",
+    "test"
+  ],
+  "author": "rohan-grover",
+  "license": "GPL-3.0",
+  "dependencies": {
+    "ajax-request": "1.2.3",
+    "body-parser": "1.18.2",
+    "express": "4.16.2",
+    "foreman": "2.0.0",
+    "pg": "7.4.1"
+  }
+}

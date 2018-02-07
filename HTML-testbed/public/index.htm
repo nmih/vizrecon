@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Node Sample App</title>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+    <script type="text/javascript">
+        $(function () {
+            $('#select_link').click(function (e) {
+                e.preventDefault();
+                console.log('select_link clicked');
+
+                var data = {};
+                data.title = "title";
+                data.message = "message";
+
+                $.ajax({
+                    type: 'POST',
+                    data: JSON.stringify(data),
+                    contentType: 'application/json',
+                    url: '/endpoint',
+                    success: function (data) {
+                        console.log('success');
+                        console.log(JSON.stringify(data));
+                        $(".result").html(JSON.stringify(data));
+                    }
+                });
+            });
+        });
+        $(function () {
+            $('#test_link').click(function (e) {
+                e.preventDefault();
+                console.log('test_link clicked');
+
+                var data = {};
+                data.title = "b3039";
+
+                /*$.ajax({
+                    type: 'POST',
+                    data: JSON.stringify(data),
+                    contentType: 'application/json',
+                    url: '/runit',
+                    success: function (data) {
+                        console.log('success');
+                        console.log(data);
+                    }
+                });*/
+                $.ajax({
+                    dataType: 'jsonp',
+                    data: "data=b3039",
+                    jsonp: 'callback',
+                    url: '/thispoint?callback=?',
+                    success: function (result) {
+                        jq = "";
+                        console.log('success');
+                        console.log(JSON.stringify(result));
+                        jq = result[0].name_id;
+                        $(".result").append(jq);
+                        $(".result").append(" ");
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!-- CSS -->
+    <!-- load bootstrap and our own personal stylesheet -->
+    <link href="//maxcdn.bootstrapcdn.com/bootswatch/3.2.0/superhero/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="jumbotron">
+            <h1>This is the AJAX test page!</h1>
+            <p>Let's try making a call.</p>
+            <div id="select_div">
+                <!--button id="select_link" class="btn btn-primary btn-lg">Start</button>-->
+                Gene:
+                <input type="text" name="gene_name" value="b3039" readonly disabled>
+                <br>
+                <br>
+                <button id="test_link" class="btn btn-primary btn-lg">Uniprot</button>
+            </div><br>
+            <div class="result">
+            </div>
+        </div>
+
+</body>
+
+</html>
