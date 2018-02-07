@@ -94,41 +94,33 @@ app.post('/runit', function (req, res) {
     res.send(obj);
 });
 
-app.get('/thispoint', function (req, res) {
-    console.log('params: ' + JSON.stringify(req.params));
-    console.log('body: ' + JSON.stringify(req.body));
+app.get('/thispoint', function (req, res, err) {
     console.log('query: ' + JSON.stringify(req.query));
 
     var jon = JSON.stringify(req.query.data)
     jon = jon.slice(1, 6);
     console.log(jon)
-
-    var sql = {
-        text: "SELECT a.uniprot_id, a.name_id FROM protein a WHERE gene_id='" + jon + "'",
-    };
-
-    client.query(sql, function (err, resu, callback) {
+    var regex1 = RegExp('(b)(\\d)(\\d)(\\d)(\\d)','i')
+    if (regex1.test(jon) == false) {
         var obj = {};
-        var geneInfo = resu.rows;
-        if (err) throw err;
-        console.log("The protein name is " + geneInfo[0].name_id);
-        obj = geneInfo;
+        obj.geneInfo = "None";
         res.header('Content-type', 'application/json');
         res.header('Charset', 'utf8');
         res.send(req.query.callback + '(' + JSON.stringify(obj) + ');');
-    });
-});
+        if (err) throw err;
+    } else {
+        var sql = {
+            text: "SELECT a.uniprot_id, a.name_id FROM protein a WHERE gene_id='" + jon + "'",
+        };
 
-/*app.get('/endpoint', function(req, res){
-	var obj = {};
-	obj.title = 'title';
-	obj.data = 'data';
-	
-	console.log('params: ' + JSON.stringify(req.params));
-	console.log('body: ' + JSON.stringify(req.body));
-	console.log('query: ' + JSON.stringify(req.query));
-	
-	res.header('Content-type','application/json');
-	res.header('Charset','utf8');
-	res.send(req.query.callback + '('+ JSON.stringify(obj) + ');');
-});*/
+        client.query(sql, function (err, resu, callback) {
+            var obj = {};
+            var geneInfo = resu.rows;
+            console.log("The protein name is " + geneInfo[0].name_id);
+            obj = geneInfo;
+            res.header('Content-type', 'application/json');
+            res.header('Charset', 'utf8');
+            res.send(req.query.callback + '(' + JSON.stringify(obj) + ');');
+        });
+    };
+});

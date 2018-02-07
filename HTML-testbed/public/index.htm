@@ -20,7 +20,7 @@
                     data: JSON.stringify(data),
                     contentType: 'application/json',
                     url: '/endpoint',
-                    success: function (data) {
+                    success: function (data, err) {
                         console.log('success');
                         console.log(JSON.stringify(data));
                         $(".result").html(JSON.stringify(data));
@@ -32,29 +32,14 @@
             $('#test_link').click(function (e) {
                 e.preventDefault();
                 console.log('test_link clicked');
-
-                var data = {};
-                data.title = "b3039";
-
-                /*$.ajax({
-                    type: 'POST',
-                    data: JSON.stringify(data),
-                    contentType: 'application/json',
-                    url: '/runit',
-                    success: function (data) {
-                        console.log('success');
-                        console.log(data);
-                    }
-                });*/
+                
                 $.ajax({
                     dataType: 'jsonp',
-                    data: "data=b3039",
+                    data: "data=".concat($("#gene_name").val()),
                     jsonp: 'callback',
                     url: '/thispoint?callback=?',
                     success: function (result) {
                         jq = "";
-                        console.log('success');
-                        console.log(JSON.stringify(result));
                         jq = result[0].name_id;
                         $(".result").append(jq);
                         $(".result").append(" ");
@@ -71,7 +56,6 @@
 </head>
 
 <body>
-
     <div class="container">
         <div class="jumbotron">
             <h1>This is the AJAX test page!</h1>
@@ -79,10 +63,10 @@
             <div id="select_div">
                 <!--button id="select_link" class="btn btn-primary btn-lg">Start</button>-->
                 Gene:
-                <input type="text" name="gene_name" value="b3039" readonly disabled>
+                <input type="text" id="gene_name" maxlength="5">
                 <br>
                 <br>
-                <button id="test_link" class="btn btn-primary btn-lg">Uniprot</button>
+                <button id="test_link" class="btn btn-primary btn-lg">Get Uniprot</button>
             </div><br>
             <div class="result">
             </div>
