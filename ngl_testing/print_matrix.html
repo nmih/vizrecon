@@ -1,0 +1,109 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdn.rawgit.com/arose/ngl/v0.10.4/dist/ngl.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/stage.js/0.8.2/stage.web.min.js"></script> -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+        <script src="https://cdn.rawgit.com/arose/ngl/v0.10.3/dist/ngl.js"></script>
+        <script src="https://rawgit.com/nmih/846581df3846900d6b451b41de2f1c38/raw/f3109e423bf41bd29067f41775e0c8f9468ba49c/glm.js"></script>
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="viewport" style="width:100%; height:100%;"></div>
+        <script>
+            // Setup to load data from rawgit
+            NGL.DatasourceRegistry.add(
+                "data", new NGL.StaticDatasource("//cdn.rawgit.com/arose/ngl/v0.10.4/data/")
+            );
+
+            // Create NGL Stage object
+            var stage = new NGL.Stage("viewport");
+
+            // Handle window resizing
+            window.addEventListener("resize", function(event) {
+                stage.handleResize();
+            }, false);
+
+            $.ajax({
+                url: "https://cdn.rawgit.com/RuoqingCheng/Protein-visualization-project/bc912d27/bp1425_grid50.json",
+                type: "get",
+                success: function(result) {
+                    var temp = analyzeData(result);
+                    var position = temp[0]; // e.g. [ ["hemopexin", [-436.79495, -53.614623, 34.876288], "1qjs"], ... ]
+                    var quaternion = temp[1]; // e.g. [ ["hemopexin", [0.31634009, -0, -0.84849464, -0.42424732], "1qjs"], ...]
+                    var totalnumprots = quaternion.length;
+                    var output="";
+                    id="PDB ID: "+position[0][2];
+                    //output+=id+"\n"
+                    for (var i = 0; i<totalnumprots; i++) {
+                        var name="";
+                        var id="";
+                        var rotation="";
+                        var trans="";
+                        name="Protein name: "+ position[i][0];
+                        id="PDB ID: "+position[i][2];
+                        output+=id+"\n"
+                        var r = GLM.quaternionMatrix(quaternion[i][1][0], quaternion[i][1][1], quaternion[i][1][2], quaternion[i][1][3]);
+                        var t = GLM.translateMatrix(position[i][1][0], position[i][1][1], position[i][1][2]);
+                        //grab the array information for the rotation matrix
+                        var arr0=r.arr[0].toString();
+                        var arr1=r.arr[1].toString();
+                        var arr2=r.arr[2].toString();
+                        var arr4=r.arr[4].toString();
+                        var arr5=r.arr[5].toString();
+                        var arr6=r.arr[6].toString();
+                        var arr8=r.arr[8].toString();
+                        var arr9=r.arr[9].toString();
+                        var arr10=r.arr[10].toString();
+                        //complete the rotation line
+                        rotation= arr0+","+arr1+","+arr2+","+arr4+","+arr5+","+arr6+","+arr8+","+arr9+","+arr10;
+                        //grab the translational information
+                        var trans3=t.arr[3].toString();
+                        var trans7=t.arr[7].toString();
+                        var trans11=t.arr[11].toString();
+                        //complete the translational line
+                        trans=trans3+","+trans7+","+trans11;
+                        rotation1="Remark 350"+"   "+"BIOMT1"+"   "+"1"+"  "+arr0+"  "+arr1+"  "+arr2+"        "+trans3;
+                        rotation2="Remark 350"+"   "+"BIOMT2"+"   "+"1"+"  "+arr4+"  "+arr5+"  "+arr6+"        "+trans7;
+                        rotation3="Remark 350"+"   "+"BIOMT3"+"   "+"1"+"  "+arr8+"  "+arr9+"  "+arr10+"        "+trans11;
+                        //define the output
+                        output+=rotation1+"\n"
+                        output+=rotation2+"\n"
+                        output+=rotation3+"\n"
+                    }
+                    
+                    console.log(output);
+                }
+              });
+            function analyzeData(result) {
+                var position = [];
+                var quaternion = [];
+                var copynum = [];
+                var data = result.cytoplasme.ingredients;
+                for (var k in data) {
+                    copynum.push([k, data[k].results.length, data[k].source.pdb]);
+                    for (var p in data[k].results) {
+                        for (var j in data[k].results[p]) {
+                            if (data[k].results[p][j].length === 3) {
+                                position.push([k, data[k].results[p][j], data[k].source.pdb]);
+                            } else {
+                                quaternion.push([k, data[k].results[p][j], data[k].source.pdb]);
+                            }
+                        }
+                    }
+                }
+                return [position, quaternion, copynum];
+            };
+        </script>
+
+    </body>
+
+</html>
