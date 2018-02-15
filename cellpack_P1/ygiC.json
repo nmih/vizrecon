@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.243316315796, 0.924671249353, 0.337333279256],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 39.0720991725,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ygiC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ygiC",
+    "positions": [
+        [[14.00409506586457, -0.8267876869859131, -2.4264693755983293], [-2.884199746236859, -15.083237335034347, -8.304728963395094], [14.606041653183686, 14.479126695122918, 12.735937368000457], [14.171825505806385, -12.181596637096842, -18.665052140381025], [5.303267012345414, 14.025613157464123, -2.3391678591771226], [-0.11905918061409736, -0.5089916853808812, 21.56386780160806], [0.11982385479912214, -3.9723902037313423, -19.77005291981217], [-9.886909580475809, 9.210204214278548, 11.855748701639776], [-19.19073489541585, -10.5252384609732, 8.267891091016336], [-12.345924040065894, 0.5551444246427109, -5.218019811267016]]
+    ],
+    "meshName": "ygiC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3038_1_386_2vps_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3038_1_386_2vps_clean",
+    "useRotAxis": 0
+}

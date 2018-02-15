@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0236691651693, 0.351891827539, 0.49363477655],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 46.6202037085,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "leuC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "leuC",
+    "positions": [
+        [[-2.14445519266857, -11.4583331217613, -18.105197332320188], [-11.954591607288275, 3.0813675221203143, -10.803710778063587], [7.983132724950084, -2.501788288070214, -9.266680750479859], [11.296457597334273, 18.640125479933232, 4.732551468932127], [-16.06702635106458, -12.141519261816134, -6.4699835087093565], [5.341974946043622, 17.224608845948588, -11.720928595451156], [-3.870285763841275, -13.73588960626689, 9.909809417267024], [-3.129247345258736, 1.5532914091487258, 7.641410765983303], [17.535569043466687, -4.919216100167588, 8.43771530283813], [-31.680875867386103, -16.546743133750994, 0.22062036299649776], [4.885894852443703, 4.117982779222103, 22.086784890804886]]
+    ],
+    "meshName": "leuC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b0072_3_462_4kp2_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b0072_3_462_4kp2_clean",
+    "useRotAxis": 0
+}

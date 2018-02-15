@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.437292511536, 0.109164003203, 0.120634027668],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 34.3054509445,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "trmL_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "trmL",
+    "positions": [
+        [[9.300319409260073, 12.194527293323429, -9.41209297326336], [6.383258684658666, 6.750684482013703, 7.261804369371382], [-3.193823982327118, -19.09074703820016, 6.161005591066061], [9.321063848655426, -12.149498643275017, 9.323578271338157], [-10.83995310421308, -9.703696567788795, -5.476980178723046], [-10.573970310318392, 9.414592246868025, 5.642557145452643], [-3.282693829999303, 19.05051373447379, -6.1878103520947105], [6.022561624847502, -6.47934081977055, -7.341938541351238]]
+    ],
+    "meshName": "trmL",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "4jak-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "4jak-A_clean",
+    "useRotAxis": 0
+}

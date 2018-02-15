@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.6542723379, 0.268691713112, 0.654118085569],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 44.3430807948,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "metC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "metC",
+    "positions": [
+        [[-10.782257201926665, 11.572621143708941, 8.870900904574308], [9.092090602250844, -4.297191104386928, -9.939151219608384], [20.03767143586534, 4.544126725240237, -23.827056189002725], [-1.0789813791896763, -17.331137537515446, -8.253755431798268], [-12.753148242132383, -8.951189319581003, 5.086515170705475], [6.479493595728394, -16.029412879058196, 5.047577195893687], [-0.02648273946721796, -1.4700448766105674, 14.346980695346819], [-23.483981123578523, 4.085051654164319, 12.02804342486554], [12.616735059943158, 14.33871618825426, -11.092998852620193], [5.103894783419157, 9.023473095301117, 1.1311326575429963]]
+    ],
+    "meshName": "metC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "4itx-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "4itx-A_clean",
+    "useRotAxis": 0
+}

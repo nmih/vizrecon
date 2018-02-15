@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.271274492201, 0.600249687642, 0.311568679205],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 48.4740046677,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ydiU_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ydiU",
+    "positions": [
+        [[-11.543063719076425, 20.52691986347576, 1.174979777727337], [-1.5036930782189946, -0.7367145768474541, 6.937480014048962], [-1.9034333716402463, 12.655171135099192, -14.407374504995772], [-3.5249715447144867, -13.258012096364329, 22.27847762395306], [20.93029981002256, 25.891100092413815, -8.162540806233757], [-15.643095293489868, -20.40986516233345, -3.6859251863636913], [3.285139441186833, -9.529702086088358, -11.266348685191485], [-15.572519884208987, 3.606082901944424, -8.587646862355086], [-2.9851480067960483, -26.718217496654347, -2.83246702376064], [10.680575161929267, 24.57722041672445, 4.331207747056815], [32.51276652085439, 17.868712724376824, 1.456999422075625], [-8.54593310245569, -27.10665083852689, 15.147474184436046]]
+    ],
+    "meshName": "ydiU",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E01612_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E01612_clean-X_clean",
+    "useRotAxis": 0
+}

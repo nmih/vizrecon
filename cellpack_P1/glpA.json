@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.862746999748, 0.983710855621, 0.548393850368],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 42.0156977506,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "glpA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "glpA",
+    "positions": [
+        [[19.266327984339803, -6.6105223843389, 7.562661268358229], [6.6147236227158155, -19.443520792739477, -4.698618039114191], [4.120673385850601, 21.279894704838814, -9.067445745378024], [-11.689508061742652, -18.686045545141294, -0.10674015814585283], [-18.561391473799077, 14.08690689299947, -0.730913930019674], [-6.4049255285819795, 28.160616250816812, 2.069861795904477], [11.642579178673879, 13.121937433984492, 3.8068195257525366], [-7.019135272876983, -1.4618099814613408, 7.325559939880014], [5.924371929828521, -2.143886091739519, 23.019691568193245], [-9.564944921339224, -1.3523874687882962, -11.309505621675468], [6.685083669226599, 2.2334577346869002, -12.527179835575867], [-3.278962176918418, -18.996966188831045, -18.93809909671619]]
+    ],
+    "meshName": "glpA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2241_7_506_2rgo_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2241_7_506_2rgo_clean",
+    "useRotAxis": 0
+}

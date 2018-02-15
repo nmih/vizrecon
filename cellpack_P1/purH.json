@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.398764435546, 0.467250645735, 0.59936507175],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 53.0854585699,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "purH_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "purH",
+    "positions": [
+        [[-11.287201940275173, -14.995624081257445, 37.564154537640114], [-26.899816032291604, -6.586269860526291, 28.07536271703562], [-0.4186661908383003, 13.605725159946294, -9.597202569702912], [7.686733059907838, -19.002016310451204, -29.768464472255108], [0.5913620042749346, -5.642010221408583, -7.835879915074379], [-13.615183154513142, -8.432494482107046, 20.619701488875837], [16.09850758348006, 15.970148437598532, -16.61256727408305], [17.833686079859607, -3.072201965495578, -20.741248444064553], [-12.85861801620811, 3.195533081503267, 35.95040358168992], [-4.468301285036945, 15.748773712586093, 16.47010037276103], [9.214000895095172, 9.231128575133068, 4.0214071323558285], [5.82494881702207, -2.1276586739027, -30.615690516738542]]
+    ],
+    "meshName": "purH",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b4006_6_529_1thz_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b4006_6_529_1thz_clean",
+    "useRotAxis": 0
+}

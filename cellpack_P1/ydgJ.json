@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.373327771994, 0.937384322835, 0.807854193792],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 43.5187163896,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ydgJ_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ydgJ",
+    "positions": [
+        [[-5.321620217586914, -1.8527234061928115, -17.312116098246577], [-1.8535843077342955, 11.885012768293597, 4.96361420471363], [1.379364171263697, -15.942265744681523, -15.48114736367967], [-13.402567568795318, 3.5241483360294685, -2.3298461343679975], [-0.5371707572631963, -5.195583637449218, 16.697155475673096], [8.329906265442602, -7.775978325328869, -3.9484149798699852], [-13.29026644484272, -14.860512581111934, -6.3718881594330234], [15.170193534428746, 4.505883633388562, 9.117520586074], [3.3120941802851145, 26.574925404202848, 5.872087230579722]]
+    ],
+    "meshName": "ydgJ",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1624_1_345_3kux_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1624_1_345_3kux_clean",
+    "useRotAxis": 0
+}

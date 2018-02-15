@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.462136453735, 0.413459466437, 0.255103716041],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 248.625011098,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "fliK_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "fliK",
+    "positions": [
+        [[-52.02563629743781, -52.0003055587109, 103.09523850811041], [33.33626219515662, 19.202222346845375, -75.1040082969556], [7.627222171349377, -84.05345159704092, 211.12840163266983], [-36.19950847786968, -92.665140916066, 160.0357754870545], [40.656007274392984, -31.182483415174698, 231.18282273334933], [8.184788534396423, 45.91883464134743, -85.65552731111588], [-36.42572033587342, 18.86628017794484, -130.3000850055218], [-57.662069252625194, 6.747216251093892, 49.14987811197781], [-34.142872983117414, 24.259416480036453, -21.077877208636796]]
+    ],
+    "meshName": "fliK",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E01845_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E01845_clean-X_clean",
+    "useRotAxis": 0
+}

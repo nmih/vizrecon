@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.867744515309, 0.554256805899, 0.486809658277],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.4032084249,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "arnB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "arnB",
+    "positions": [
+        [[10.370547654291114, -8.586658479741285, -6.989299375099919], [13.373797993604631, 7.136454970340959, -17.7503404996578], [-15.450482580694054, -3.9837975164306783, 0.23680367458982873], [8.666844771472398, 8.791703496885352, -0.5627451313102868], [-0.012653790363846762, -9.196664584524862, -19.03650161921682], [-7.155995409610161, -17.77368487360995, 1.3519997546765978], [0.7379151762464902, 18.469470870371495, 12.939117051898634], [4.141507552133956, -5.855645203278544, 8.96361455195429], [-9.622695237002976, 7.513699358552203, 15.118386933760679]]
+    ],
+    "meshName": "arnB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1mdz-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1mdz-A_clean",
+    "useRotAxis": 0
+}

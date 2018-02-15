@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.322228204749, 0.750328939308, 0.229303930743],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 46.7802335432,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ftsA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ftsA",
+    "positions": [
+        [[-4.0857772511905885, 10.571488020560977, -10.310886589684921], [11.449749935452433, -4.972246073073678, 21.790796551152365], [-2.919822193499285, -14.671993783112855, -7.090976972103912], [26.34968012120826, -6.048342573150766, 14.907209818456362], [10.499377913112781, -3.986289795290943, -12.378245791449736], [-9.581748811000121, 0.6761557573081622, 7.763814854182789], [-25.484531967293524, 7.828933094251122, -13.90399404818458], [-2.149598255037185, 14.57116560208019, 11.961891134450791], [8.395679045113173, 1.2173888723208894, 7.032612343807281]]
+    ],
+    "meshName": "ftsA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b0094_6_389_3wt0_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b0094_6_389_3wt0_clean",
+    "useRotAxis": 0
+}

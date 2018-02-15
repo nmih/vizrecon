@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.862956285963, 0.76164394963, 0.673403543915],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 53.1754281127,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "selA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "selA",
+    "positions": [
+        [[21.879031660254764, -9.639814346449851, -3.8800802353563535], [-4.785348360793127, 2.4276014167464495, -36.424493870957356], [13.410383760781876, -10.573321092545276, 15.44351080056139], [-21.604488271242246, -3.0782102656898096, -35.36427346363215], [0.13778138237222684, -16.983739659282538, 7.727847755748856], [-3.978885869017976, -14.94423689937879, 25.49230631236318], [-4.146333878937159, 9.405796260121702, -10.513737851327965], [-1.8034250788257187, 21.858561513585038, 3.3018977063048336], [-1.5233889658422874, 4.313388599058369, 13.431751789415364], [13.667534482138329, 5.954711326752241, 4.904683359273589], [-15.118808785141823, 23.463405234101, -7.178975987872266]]
+    ],
+    "meshName": "selA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3591_6_454_3w1k_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3591_6_454_3w1k_clean",
+    "useRotAxis": 0
+}

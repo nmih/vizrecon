@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0520230313495, 0.117936655392, 0.264755371955],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 45.1397299838,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ttcA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ttcA",
+    "positions": [
+        [[-3.4323793841762003, -5.1228391217425715, 11.083155315099308], [13.303827392520594, -6.187701076793738, -5.912816386742411], [11.167992364253701, -28.46414504976875, 0.1707887194676538], [-4.362571008716244, -4.433536203054858, -12.149226352463876], [-21.965386907863508, -1.9351817999898262, 18.045619023027278], [8.182741987739533, 7.029578744487929, -17.249834415212028], [-1.4834486966470077, 19.225605464294286, -5.376561868493118], [10.240148133781476, 5.842506295832201, 9.590259806315462]]
+    ],
+    "meshName": "ttcA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E01270_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E01270_clean-X_clean",
+    "useRotAxis": 0
+}

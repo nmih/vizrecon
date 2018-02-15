@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.838263494421, 0.280659151028, 0.305630111641],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 39.0735709712,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ybjS_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ybjS",
+    "positions": [
+        [[-6.237364460263418, 3.771929079330304, 16.984358636550198], [-5.851527353056422, -14.366651301025215, 6.948550393978511], [9.262762969131213, 11.457683802028686, -1.9865475767237735], [10.993446017821967, -3.0353319165809176, -18.803320594731208], [-1.3084157290145169, 20.805641344099097, -18.471707149477087], [-18.079915071208152, -5.361043879279102, 12.076380409087191], [4.3534196194496, -11.571684397389395, -8.830470842357276], [-9.167547468820873, 5.8901217870897495, -1.9099859593242439], [9.177490537882186, -2.006051217448842, 10.42988007356908]]
+    ],
+    "meshName": "ybjS",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b0868_3_336_3wj7_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b0868_3_336_3wj7_clean",
+    "useRotAxis": 0
+}

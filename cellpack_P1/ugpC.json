@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0980757980142, 0.563365015596, 0.592578155139],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 43.950353801,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ugpC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ugpC",
+    "positions": [
+        [[-4.337660797271617, -0.42089763287582055, -28.972322321212545], [16.226605813236684, 0.7185508797153736, 17.875332980770686], [-8.933374934441357, 15.743425946328921, 7.908894476733236], [-8.199909313302102, 5.102664961195501, -8.077805403927217], [6.7768041869039575, -8.17412228586223, 24.65439160799339], [8.035057437107351, 0.7629586877895969, 2.52425228956687], [-11.06655195514211, 6.20293390693938, 19.159511011281154], [6.081518431454174, -11.236356573024244, -14.980340442826604], [-4.143637419126774, -4.887354899551525, 8.685380226138038]]
+    ],
+    "meshName": "ugpC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3450_3_349_3d31_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3450_3_349_3d31_clean",
+    "useRotAxis": 0
+}

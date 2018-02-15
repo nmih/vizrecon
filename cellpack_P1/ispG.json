@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.90883222234, 0.296606740791, 0.388674949822],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 48.6442144165,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ispG_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ispG",
+    "positions": [
+        [[-5.301158724319805, 5.620028224628457, -2.64732644282099], [-1.7325126199988612, 0.2487421455699815, 16.741897367512017], [21.81070746928378, 8.132547671266469, -0.6195090805268711], [3.4977919308812937, -10.114143295766683, 2.172410433450277], [-5.0931118606413674, -5.8895643857282955, -11.564698401919369], [-20.248504243483698, -12.248522567670328, -6.886372823344132], [30.22001932580975, 6.4809434734173745, -12.339517412070583], [-22.562312519568582, 3.990775189970062, 1.4336100259344926], [-16.734694054110225, -1.1873452510094828, 15.317533459813763]]
+    ],
+    "meshName": "ispG",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2515_6_356_3noy_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2515_6_356_3noy_clean",
+    "useRotAxis": 0
+}

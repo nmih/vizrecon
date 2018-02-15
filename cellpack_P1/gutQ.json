@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.979580717962, 0.00559719283921, 0.0854083512055],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 290.917299704,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "gutQ_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "gutQ",
+    "positions": [
+        [[44.00824980963685, -5.744168410243617, 45.62107318301837], [-72.86304079100124, -6.875570161563286, -13.347268073157228], [-16.269842396708793, -18.397441223495452, 13.03819368254373], [115.62918308626904, 2.2451838819151932, 52.46060297213555], [-73.3780439349272, 1.2988231609176386, -42.004667695454536], [190.42931351133882, 21.55927635318143, 61.14258615056513], [-86.63838033173539, -16.33000045766453, -31.336988606371044], [246.80805576344704, 61.12918001806366, 60.767119974031615]]
+    ],
+    "meshName": "gutQ",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E02553_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E02553_clean-X_clean",
+    "useRotAxis": 0
+}

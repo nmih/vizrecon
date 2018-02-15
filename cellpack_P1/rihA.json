@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.468422925363, 0.362685738359, 0.317173954246],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 32.9792467983,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "rihA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "rihA",
+    "positions": [
+        [[-8.259920342222852, 0.49767577132657836, 8.462942965940638], [-0.8150595193244174, 7.910239848454933, -10.605195504816356], [14.461264018530791, 12.081321121515158, 1.5341856160895064], [5.053632743763668, -7.93788775503865, -7.903301272492439], [8.964541698686357, -8.187320223533588, 10.028599112046994], [0.8331606753896602, 13.65379504582714, 9.2559983425197], [-11.53334657853234, -3.3458157812923304, -13.513016691457299], [-8.99648695210682, -14.030038552924209, 2.3829128234995136]]
+    ],
+    "meshName": "rihA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1yoe-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1yoe-A_clean",
+    "useRotAxis": 0
+}

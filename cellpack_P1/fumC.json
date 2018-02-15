@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.358405691817, 0.852933372235, 0.852261269183],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 60.5041332874,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "fumC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "fumC",
+    "positions": [
+        [[25.30412069136462, -14.59125811778855, 15.059528513305814], [34.807556899089754, -28.732766482444386, 22.922298748534107], [-3.076427399000317, 1.5125621198061496, -12.6431091757515], [14.673503094292588, 0.5583536589174254, 20.35312236226101], [-19.732031394487283, -4.06741670561712, -12.558361126071325], [-16.016956432992103, 8.55011084197522, -24.887121164582627], [-16.504084034485523, 22.305145000908333, -15.967965878098749], [13.875708564888859, -3.632361045662473, 2.3291207045116797], [-27.74189695115305, 22.15567034696406, -5.12680050875225], [-4.126323752963737, -4.41620272850114, 2.1152548107993243], [-18.47725643507921, 9.949768085114915, -0.45588010347444674]]
+    ],
+    "meshName": "fumC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1fur-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1fur-A_clean",
+    "useRotAxis": 0
+}

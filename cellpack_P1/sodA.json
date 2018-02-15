@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.940728111399, 0.471756971344, 0.0901296844628],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.6458534495,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "sodA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "sodA",
+    "positions": [
+        [[0.21743345321459548, 2.117635217162415, 11.515652576087042], [18.854280064409824, 0.9663917398683426, 11.190600804697809], [7.45426400382791, 10.293876256318278, -23.391499768810945], [-9.990264179305628, -2.9482125249724978, -13.836126874051217], [-15.290641722144082, 14.615514936584113, -6.091320302940599], [-7.275455615189358, -13.542053885157152, 8.019550979221219], [3.7376020805285717, -6.499471788815395, -14.851237645627004], [-5.791780477828158, -4.1568472104371965, 25.582559528825513], [1.621044474662885, 8.942746510299465, -7.3816295825009535], [7.194428784396467, -13.116905388909643, 8.128857178948145]]
+    ],
+    "meshName": "sodA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1ix9-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1ix9-A_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.523217466722, 0.910808560959, 0.157372374808],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 135.837052942,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "lolC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "lolC",
+    "positions": [
+        [[6.321909242183808, -10.393536833956398, 0.10247565862293799], [61.635676928853556, -18.274235712002724, 10.60519080799433], [-16.039380890146916, -9.63563597859188, -5.973638672433675], [-21.281018661072235, 0.9099864903154353, 4.418601930753536], [110.99918349841323, -20.940628153543734, 18.635080087882884], [-5.018181889249479, -12.440894054547702, -15.893994531316416], [-18.73877628540874, 15.391292683614719, -5.362151204832367], [0.05293458193161371, 10.721234415233148, -9.102810686924196], [-0.6383946099594915, 9.835228820786467, 6.591488848042785], [-28.112282469665395, 22.509663911146713, 28.076910913790915]]
+    ],
+    "meshName": "lolC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E01045_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E01045_clean-X_clean",
+    "useRotAxis": 0
+}

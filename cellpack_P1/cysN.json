@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.791036024803, 0.954201713746, 0.665014213925],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 48.7109428799,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "cysN_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "cysN",
+    "positions": [
+        [[-4.477108685180146, -4.89417875658022, 35.28953786037335], [-2.127410666892939, 13.154751135894692, 21.465819289345923], [0.1902278104500258, 12.505554664243157, 4.109043419862231], [12.80955427389153, 1.6715977473063683, 4.09211760239087], [6.218878975021357, -3.9013642676345683, 21.333161872063993], [9.906484392498832, -1.128211881561109, -20.313365550928822], [-11.293618293867532, -18.941327434440712, -19.634689275154603], [-10.290384316533492, -3.467198211716998, -17.45110092363684], [-7.946140700939138, -6.969244200134189, 10.078684608422455], [12.427704968062129, 11.478526604978954, -12.341533945528782]]
+    ],
+    "meshName": "cysN",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2751_19_434_1zun_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2751_19_434_1zun_clean",
+    "useRotAxis": 0
+}

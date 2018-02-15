@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.72844450146, 0.268288712671, 0.890461706617],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.8925317522,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ldhA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ldhA",
+    "positions": [
+        [[17.322940604679317, 6.426247129541428, 4.7235226955591845], [9.644989866336404, -4.542836810591855, 17.30168789151371], [23.203594700249305, -11.397183551451295, 3.45268176912937], [4.423240512088476, 11.173340311159517, 12.980698365440931], [-12.720033383026687, 7.012986123686806, -19.703929168067404], [-2.0286914103281886, -3.060075438040774, -1.2547582947071825], [-5.073538752512007, -1.300965251061541, 18.94157187709885], [-12.713883116943812, -8.24807490866293, -14.315559105121825]]
+    ],
+    "meshName": "ldhA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3wx0-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3wx0-A_clean",
+    "useRotAxis": 0
+}

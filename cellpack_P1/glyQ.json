@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.935560112869, 0.327160033645, 0.49771630841],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.3971107756,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "glyQ_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "glyQ",
+    "positions": [
+        [[-1.7919964470258514, -1.995591578204844, -4.406058948088355], [16.876783651771326, -6.168424117245385, -9.052234293851495], [-6.61353053102863, 18.04464330311842, -1.01077051089442], [11.843868368659388, -8.15822728703586, 10.441352530710022], [2.5566387322004123, -16.57059722894955, 1.5172962017522484], [-20.008100550668527, 4.142935582068243, -2.6122942960270445], [-10.244529282431706, -4.871596240453676, 9.16131841995369], [10.534921168007921, 11.782128682086926, -6.183294154983548]]
+    ],
+    "meshName": "glyQ",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3560_7_292_3ufg_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3560_7_292_3ufg_clean",
+    "useRotAxis": 0
+}

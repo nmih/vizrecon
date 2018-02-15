@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.230162000124, 0.446006888218, 0.358499760839],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 43.9298775518,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "hdhA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "hdhA",
+    "positions": [
+        [[-8.496747980832852, -0.03568760718863745, -28.623192630372607], [-21.765857090974787, -3.7360097833124626, -7.422579495182248], [-6.257802723282713, -7.817156236181224, 2.5274443610353563], [16.1467937015516, -7.509562890115095, 23.842413553508543], [-10.344171416248454, 15.489954969922195, -17.411498273991636], [1.7440968832889179, -16.81353813658262, 18.72730436524809], [-2.3155693775109762, -2.5189747340231348, 25.454779253259304], [4.33066430642561, 10.501800760742196, -22.849763385779884], [6.424853367073313, 8.00124668620985, -3.053499078303755], [10.201904311803414, 15.012196218695827, 14.18940768984342], [3.0278167838247256, -3.683607799186189, -14.6119518507564], [9.847212761141718, -9.473535668280093, 6.566474587198741]]
+    ],
+    "meshName": "hdhA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1fmc-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1fmc-A_clean",
+    "useRotAxis": 0
+}

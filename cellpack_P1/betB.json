@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.773683168623, 0.851847459956, 0.938251611939],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 58.9247120224,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "betB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "betB",
+    "positions": [
+        [[6.093771242491721, 14.02086061224216, 14.381081500813352], [11.067865737799867, 10.505367351859288, -5.753573235539261], [-2.2188534407754026, 14.113942010565959, -15.66785343504434], [7.82029007530648, -24.208307750685435, 3.5568469132110856], [-23.673857655678823, 19.709092608638485, -30.984122434310876], [-0.7569364617368135, 22.917787327484675, 1.196331738586714], [-11.327945645177563, 11.19959994567626, 3.655136135462902], [-4.728045591009783, -6.18211791178867, -2.649671349583176], [15.191159903877985, -2.39240703552626, 6.1815104539248775], [-4.158783636410186, -19.435181185541694, 13.10457320245013], [9.158168193198497, -7.29717994451942, 18.085430071033556], [-5.604232223923317, -24.114374484922543, -7.0817253289322135]]
+    ],
+    "meshName": "betB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b0312_2_490_2xdr_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b0312_2_490_2xdr_clean",
+    "useRotAxis": 0
+}

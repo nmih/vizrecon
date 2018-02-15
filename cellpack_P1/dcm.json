@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.746753139351, 0.0185605553905, 0.71559490669],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 48.919737585,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "dcm_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "dcm",
+    "positions": [
+        [[-7.719471362692932, 8.227131379640328, -11.558969545304956], [-5.518535526000679, 7.677427755354305, 9.376478937618508], [-2.345087558651823, -16.083869178196164, 14.81252651200384], [14.321587432875846, 4.741741178286869, 3.4135079087416416], [-26.97231929978342, 2.5546728462434714, -19.47271088918263], [11.471193048392255, 0.747782536051151, 21.096140052983827], [-18.665429020784533, 9.858236166883644, -3.0663829986868945], [3.6958019502331108, -3.225453040609164, -6.919444278806635], [-7.833335168228824, -3.269181385148537, 17.238396420379598], [15.761741734251562, 5.531110322715774, -22.26282177238695], [13.707615347916635, -16.958927348337703, 8.695981472326755]]
+    ],
+    "meshName": "dcm",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3me5-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3me5-A_clean",
+    "useRotAxis": 0
+}

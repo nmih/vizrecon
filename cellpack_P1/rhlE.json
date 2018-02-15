@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.736564769962, 0.753601278009, 0.865912462431],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 44.6896440817,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "rhlE_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "rhlE",
+    "positions": [
+        [[10.87633099430509, 7.088974862721957, 3.7072061499669506], [13.262250734887571, 16.259428334059308, -13.79539410010711], [-11.070274075237007, -5.42581008381341, -5.263337215285983], [-4.4892336232414625, -5.625475151455288, 13.117746126814069], [17.05752760977089, 19.87850171241543, 4.1836910209563465], [7.736268992932072, -32.83260974524442, -5.601512176384287], [9.516968480642332, 31.19882070013539, -9.264911125015338], [-18.139436016115, -16.071994099406915, 8.818598371894675], [-3.3452934031107464, 22.636821512826995, 4.097897339264684], [0.4767918206200235, -21.87918252542545, 7.998485193782093], [-12.928107312541004, -27.588666089245837, -3.9113109842926015]]
+    ],
+    "meshName": "rhlE",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E00732_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E00732_clean-X_clean",
+    "useRotAxis": 0
+}

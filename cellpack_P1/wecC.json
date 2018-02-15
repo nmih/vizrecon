@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.297399248972, 0.558322442207, 0.176432112631],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 46.7913052237,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "wecC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "wecC",
+    "positions": [
+        [[28.56072665599232, 6.5380593430212315, -14.232644266803465], [-28.361196219422744, -14.418773913752851, 11.726877955626863], [-11.439258605665444, -9.250521570744015, 13.382394662456003], [-27.22191818888854, -1.2496461166835766, 0.4822446199276745], [20.598881757742983, -5.645246328646559, -9.523161593257436], [9.941176084050545, 8.927378774208147, 1.0386632567375405], [5.19575010828858, -18.48273717244277, 13.939987073544994], [-25.5443179323922, 7.618057778983856, 14.26259129567233], [7.325421847837562, 2.6248928157402376, -15.907045680197223], [9.774827400118944, 21.68011988355973, -13.430721539078933]]
+    ],
+    "meshName": "wecC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3787_4_420_1mfz_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3787_4_420_1mfz_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.4938360788, 0.430162496122, 0.326224278233],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 43.491387367,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "fabF_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "fabF",
+    "positions": [
+        [[-1.7744852926716637, 15.061540753642525, 8.088599431349342], [-0.5433079208525358, 3.799377947932689, -5.493242054415568], [-10.974037508883788, -3.0830555362067185, -18.976847976005907], [20.497689647593926, 5.931599001575878, -16.93640336838321], [7.913443141810461, -8.554773095135209, -13.182031254952548], [-2.958126086509264, -9.778023378550305, 8.186941377098703], [-16.455547751315653, -6.949769827854983, -7.255918711210685], [17.158106275007977, 1.175278130532222, 5.899512509349605], [2.569296245415972, 2.492953044273297, 19.018135633254452], [-15.280617417598457, 3.718396243718915, 10.051516640142383]]
+    ],
+    "meshName": "fabF",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3ho9-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3ho9-A_clean",
+    "useRotAxis": 0
+}

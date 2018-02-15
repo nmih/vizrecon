@@ -1,0 +1,94 @@
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <created>2017-12-12T01:28:21.902519</created>
+    <modified>2017-12-12T01:28:21.902527</modified>
+    <unit name="centimeter" meter="0.01"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_effects>
+    <effect name="effect0" id="effect0">
+      <profile_COMMON>
+        <technique sid="common">
+          <phong>
+            <emission>
+              <color>0.0 0.0 0.0 1.0</color>
+            </emission>
+            <ambient>
+              <color>0.0 0.0 0.0 1.0</color>
+            </ambient>
+            <diffuse>
+              <color>1 0 0 1.0</color>
+            </diffuse>
+            <specular>
+              <color>0 1 0 1.0</color>
+            </specular>
+            <shininess>
+              <float>0.0</float>
+            </shininess>
+            <reflective>
+              <color>0.0 0.0 0.0 1.0</color>
+            </reflective>
+            <reflectivity>
+              <float>0.0</float>
+            </reflectivity>
+            <transparent>
+              <color>0.0 0.0 0.0 1.0</color>
+            </transparent>
+            <transparency>
+              <float>1.0</float>
+            </transparency>
+          </phong>
+        </technique>
+        <extra>
+          <technique profile="GOOGLEEARTH">
+            <double_sided>0</double_sided>
+          </technique>
+        </extra>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="geometry0" name="infB">
+      <mesh>
+        <source id="infB-v-array">
+          <float_array count="210" id="infB-v-array-array">-176.7745 -171.1978 -92.93365 -196.6389 -171.1978 -82.55269 -199.9556 -153.0324 -82.55269 -197.5041 -153.0324 -95.60438 -176.7745 -167.835 -95.60438 -176.7745 -183.6106 -82.55269 -198.1747 -153.0324 -108.6561 -176.7745 -170.0134 -108.6561 -199.5777 -134.8669 -82.55269 -178.8403 -134.8669 -95.60438 -176.7745 -153.0324 -69.88904 -176.7745 -171.1978 -72.23362 -156.039 -153.0324 -95.60438 -153.5936 -153.0324 -82.55269 -156.91 -171.1978 -82.55269 -192.0337 -134.8669 -108.6561 -187.9501 -153.0324 -121.7078 -176.7745 -159.8282 -121.7078 -150.268 -153.0324 -108.6561 -176.7745 -150.155 -69.501 -186.9303 -134.8669 -69.501 -176.7745 -131.7174 -95.60438 -176.7745 -121.4544 -82.55269 -153.9713 -134.8669 -82.55269 -174.6558 -134.8669 -95.60438 -176.7745 -146.441 -121.7078 -176.7745 -134.8669 -115.1187 -176.7745 -125.8334 -108.6561 -176.7745 -153.0324 -126.4312 -162.7277 -153.0324 -121.7078 -161.4489 -134.8669 -108.6561 -176.7745 -134.8669 -65.2091 -176.7745 -128.8934 -69.501 -166.6187 -134.8669 -69.501 272.3512 282.938 139.326 255.5989 282.938 146.2724 255.5989 292.606 139.326 255.5989 273.27 139.326 239.1523 282.938 139.326 255.5989 282.938 132.3663 164.1981 301.1034 100.171 162.9475 301.1034 100.6752 162.9475 301.8052 100.171 162.9475 300.4017 100.171 161.7544 301.1034 100.171 162.9475 301.1034 99.66443 733.0734 282.938 230.6879 718.8562 282.938 237.4131 718.8562 291.3094 230.6879 718.8562 274.5732 230.6879 704.639 282.938 230.6879 718.8562 282.938 224.6784 637.5682 301.1034 230.6879 626.2048 301.1034 235.4901 626.2048 307.7868 230.6879 626.2048 294.4201 230.6879 611.0552 301.1034 230.6879 626.2048 301.1034 225.8858 -50.14223 192.1108 21.86082 -53.23926 192.1108 23.2696 -53.23926 193.9325 21.86082 -53.23926 190.2892 21.86082 -56.33628 192.1108 21.86082 -53.23926 192.1108 20.552 -174.1157 -98.53607 -95.60438 -176.7745 -98.53607 -94.48074 -176.7745 -96.73849 -95.60438 -176.7745 -102.4612 -95.60438 -179.4333 -98.53607 -95.60438 -176.7745 -98.53607 -96.72992</float_array>
+          <technique_common>
+            <accessor count="70" source="#infB-v-array-array" stride="3">
+              <param type="float" name="X"/>
+              <param type="float" name="Y"/>
+              <param type="float" name="Z"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="infB-v-array-vertices">
+          <input source="#infB-v-array" semantic="POSITION"/>
+        </vertices>
+        <triangles count="112" material="materialref">
+          <input source="#infB-v-array-vertices" semantic="VERTEX" offset="0"/>
+          <p>0 3 4 0 1 3 1 2 3 5 1 0 4 6 7 3 6 4 3 2 9 9 2 8 1 10 2 11 10 1 4 14 0 4 12 14 12 13 14 0 14 5 5 11 1 6 3 15 15 3 9 7 16 17 6 16 7 12 7 18 4 7 12 19 2 10 19 20 2 20 8 2 21 8 22 9 8 21 13 11 14 10 11 13 12 24 13 24 23 13 14 11 5 25 15 26 25 16 15 16 6 15 27 9 21 15 9 27 17 16 28 18 17 29 7 17 18 18 30 12 30 24 12 19 31 20 22 20 32 8 20 22 10 33 19 10 13 33 13 23 33 24 22 23 21 22 24 28 16 25 26 15 27 26 29 25 26 30 29 30 18 29 30 21 24 27 21 30 28 29 17 33 31 19 20 31 32 23 32 33 22 32 23 28 25 29 26 27 30 33 32 31 34 36 35 34 35 37 38 35 36 39 36 34 39 34 37 37 35 38 39 38 36 37 38 39 40 42 41 40 41 43 44 41 42 45 42 40 45 40 43 43 41 44 45 44 42 43 44 45 46 48 47 46 47 49 50 47 48 51 48 46 51 46 49 49 47 50 51 50 48 49 50 51 52 54 53 52 53 55 56 53 54 57 54 52 57 52 55 55 53 56 57 56 54 55 56 57 58 60 59 58 59 61 62 59 60 63 60 58 63 58 61 61 59 62 63 62 60 61 62 63 64 66 65 64 65 67 68 65 66 69 66 64 69 64 67 67 65 68 69 68 66 67 68 69</p>
+        </triangles>
+      </mesh>
+    </geometry>
+  </library_geometries>
+  <library_materials>
+    <material name="mymaterial" id="material0">
+      <instance_effect url="#effect0"/>
+    </material>
+  </library_materials>
+  <library_visual_scenes>
+    <visual_scene id="myscene">
+      <node name="infB" id="infB">
+        <instance_geometry url="#geometry0">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="materialref" target="#material0"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#myscene"/>
+  </scene>
+</COLLADA>

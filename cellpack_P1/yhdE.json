@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.875728828043, 0.489959677703, 0.169617421575],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 39.6378474627,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "yhdE_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "yhdE",
+    "positions": [
+        [[-8.82615154452524, 20.1809158389853, -0.6435574043880243], [-10.79672782324042, 3.188559361148793, 6.689402318937906], [-3.7133097957340637, 8.050995109854183, -15.397438917351765], [5.860680646106355, 2.6766555331979163, 0.731476847870173], [16.743025557922152, -14.295764142100097, -17.105168969337036], [3.257472033099842, -9.542412969634615, 15.160033192233294], [-20.59567381952659, 11.214237315735998, 13.93110889679941], [18.611722532169505, -12.533561364295927, 3.553117852984547], [5.435873579026473, -12.598790205885187, -9.567662382833037]]
+    ],
+    "meshName": "yhdE",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "4p0e-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "4p0e-A_clean",
+    "useRotAxis": 0
+}

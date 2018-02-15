@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.169709437505, 0.524173598238, 0.415601182869],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 39.0896633459,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "purA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "purA",
+    "positions": [
+        [[-5.249661872140937, -17.18430989376015, -7.265197120108393], [-4.4115058831506975, -0.33660168103126065, -18.571078793575126], [8.714075745602829, -0.20090016443738756, 22.12793544074062], [8.344431973942354, -11.640219165845297, 4.70677867936316], [-19.434224353335697, 17.25414977322071, 0.5657244544760017], [-8.853070534370357, 0.6934200694169795, -2.385990563165774], [10.185431148461051, -3.604175523745654, -10.622120660456263], [24.04560731773006, -3.6661076044889445, 6.329898941289065], [-3.9290604939336835, 6.300838454698055, 12.768211718607832], [12.575380524574992, 9.923420539230271, 6.489780007782354], [-22.851401367691405, 6.640646024033881, -12.844347840490496]]
+    ],
+    "meshName": "purA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1kjx-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1kjx-A_clean",
+    "useRotAxis": 0
+}

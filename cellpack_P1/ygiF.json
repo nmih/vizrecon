@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.53075383752, 0.154545804006, 0.520446114063],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 40.7920975942,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ygiF_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ygiF",
+    "positions": [
+        [[-14.731016335196975, -5.77152469030672, -1.2556029776745836], [-7.403976353751864, 10.199253593965985, 9.023229623352888], [10.244837327834865, -28.423159713435133, -4.383004218184829], [-5.984523732242752, 27.083353484782133, -8.136304037304074], [-20.71085714758939, 13.083486718214397, 0.4263775875481969], [-4.9084229353690745, 10.929477112076974, -14.899474296489698], [-2.2244126680894487, -9.559248470089015, 10.67178608826947], [17.816403757245848, -14.682953379879491, 2.764941779032006], [-2.033972317028484, -7.220172442919438, -7.790725413444541], [11.470369663687114, -6.281201589056386, 17.23688336052715], [8.84050092360355, 21.53163104565785, -7.4851311464487935]]
+    ],
+    "meshName": "ygiF",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "5a61-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "5a61-A_clean",
+    "useRotAxis": 0
+}

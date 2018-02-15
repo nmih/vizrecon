@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.569239582517, 0.240682430263, 0.97637782361],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 39.4230549976,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "fruK_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "fruK",
+    "positions": [
+        [[5.16697215545088, 14.706379245682971, 7.357250057406064], [-9.277993321850673, 12.708330030053741, 3.1871916598173757], [-8.94554259277112, -9.8829354022891, -5.661112366455946], [11.010585277217757, 0.4798755550337168, 11.189011088683646], [-4.40416032441578, -3.7153994416310234, 8.977076094848721], [13.293418571436916, -6.27924346391876, -8.861976345789383], [6.263568248559893, -17.59747777991826, -1.7133681665800014], [-18.162366081042464, 11.918980069167723, -14.867939181432204]]
+    ],
+    "meshName": "fruK",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2168_4_312_2jg5_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2168_4_312_2jg5_clean",
+    "useRotAxis": 0
+}

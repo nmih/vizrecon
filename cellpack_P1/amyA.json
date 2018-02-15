@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.246554136774, 0.0938375862788, 0.563729846812],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 48.6540006099,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "amyA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "amyA",
+    "positions": [
+        [[9.162183594311616, -14.705078200176946, 7.489593062596221], [-17.69608266445339, 21.542040562786312, 14.813869722651944], [-7.245903797152042, -11.106071503976922, 9.59829266792414], [5.171112484034135, 3.2983754589063334, 11.217359800127253], [-2.266838816173535, -14.445961485982437, -9.7343018320127], [27.28256664917586, -6.551506718551236, -16.25635762441869], [-27.479983989459967, 16.325883196414566, 6.334409203110703], [-4.883970343211204, 21.280746565961028, 3.517434584340488], [15.320087526661917, -19.76450091285028, -6.481015055930678], [12.400856941007973, -2.0728190772369453, -15.445042706234572], [-4.470605934432137, 5.096520224119895, -8.696912692035188], [-14.568378435189427, 5.394703559895703, 11.694841025883155]]
+    ],
+    "meshName": "amyA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1927_3_490_1ud3_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1927_3_490_1ud3_clean",
+    "useRotAxis": 0
+}

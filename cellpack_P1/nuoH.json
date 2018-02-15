@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.628896543006, 0.268335007436, 0.209884213022],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 33.8915622231,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "nuoH_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "nuoH",
+    "positions": [
+        [[15.396876952072551, 4.493722925054193, -8.505017194162525], [15.054794374845903, -12.336562268704347, 2.5305167211384854], [8.656577017846574, 4.162910348784391, 10.219248613420172], [-7.089772405706671, 8.381949233292069, 15.23931865972427], [-3.2078473627023687, 17.009639095738905, -1.4439534208531053], [-11.970957722814138, 3.6407082049446844, -10.957615795972506], [0.8099228246079716, -11.452849149606264, -7.26325643995367], [-13.577424861137207, -9.63751116811625, 6.4949095149194465]]
+    ],
+    "meshName": "nuoH",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E02163_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E02163_clean-X_clean",
+    "useRotAxis": 0
+}

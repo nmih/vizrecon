@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.274008908442, 0.370436020885, 0.126641133534],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 50.2569716111,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "zwf_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "zwf",
+    "positions": [
+        [[-6.693708612842037, 12.543646446580928, 1.6434825355977023], [14.009292286310126, 6.050954777506366, 12.521340532965471], [-9.109324606064447, -2.8266142050773544, -5.696215954821876], [-6.470683243244539, -6.084289521940178, 13.016519311163997], [-2.560434502944723, 12.967719382928669, 17.544843537923402], [-3.6947004955035347, -8.452993699416503, -26.11979835544374], [13.622469517847046, 10.58633834280888, -3.150048601446475], [18.95475327254322, -8.253654194853706, 0.6975431300672603], [2.069956407648796, 2.2932775631714284, 37.00882224388926], [-2.134563410500173, 7.715051111181156, -17.89512249155504], [-11.928457266542448, -20.214810088418325, -12.486645297329552], [-17.979098964581123, -3.167083901548584, -21.739126439644437]]
+    ],
+    "meshName": "zwf",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1852_8_488_5ukw_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1852_8_488_5ukw_clean",
+    "useRotAxis": 0
+}

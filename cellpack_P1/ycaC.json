@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.503934617997, 0.766092521177, 0.186022057196],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 40.7885805152,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ycaC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ycaC",
+    "positions": [
+        [[-13.761933258951384, 6.710482586939259, 22.61365679014195], [0.7034001056765499, 12.922911599884417, 12.706437698090618], [12.12375979872736, 2.2064575463681164, -11.479365372555336], [-9.343942338634236, 0.06527272804619191, -15.210131657833701], [4.044071217502264, 2.6941741118927447, -27.907403189650022], [-14.279899194735046, 7.140863898468153, 4.4318088833298654], [9.321102247419008, -13.796273165236668, -4.515609817719268], [2.0100475058150398, 3.802202911390006, 28.316194005660645], [1.430541566138724, -8.961224187146144, 14.974439837288195], [8.604960742824137, -12.634638700808514, -22.581560969467304]]
+    ],
+    "meshName": "ycaC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1yac-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1yac-A_clean",
+    "useRotAxis": 0
+}

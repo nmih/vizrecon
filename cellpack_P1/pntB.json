@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0376009143682, 0.634311971195, 0.469934303873],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 45.6691753252,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "pntB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "pntB",
+    "positions": [
+        [[-20.3404620684244, 24.467995086890163, 0.01790848057178092], [5.298467129049491, -13.464514626011136, 2.7782315772989796], [-10.21407234790476, 7.63894423185839, -14.006054519906812], [2.8934960020951674, 6.9247019774374525, 19.261906192464867], [-12.322241838655211, -3.1517429119023794, 4.7880394528841626], [-2.09854566864647, 10.704618627622102, 1.611246350224673], [21.977972452265185, -11.82645085222933, 0.2932417021453197], [11.019093392829008, -2.224728540099974, -14.89013411789134], [17.06000338749039, -27.10994048935509, 2.913542769779659], [-17.129427798704544, 15.070020270913455, 20.438694589128364], [15.761997217120754, -19.17216016928079, -15.890931055238001]]
+    ],
+    "meshName": "pntB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1602_4_462_4o9u_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1602_4_462_4o9u_clean",
+    "useRotAxis": 0
+}

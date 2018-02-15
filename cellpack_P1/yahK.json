@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.7714383664, 0.961421910864, 0.0944225841599],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.7504925681,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "yahK_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "yahK",
+    "positions": [
+        [[-5.530289691766339, -7.307485046764523, -12.730961917953113], [23.63968937852171, 2.2393198486547203, -10.400693754141361], [-5.9255971600668715, 8.486010639384824, 10.01454495942683], [-3.45639908967633, -9.077846384239304, 7.432649223778766], [-14.612150316764831, 10.103375635649394, -3.161447911818524], [11.504774082636256, -5.078108027602627, -0.7725507190204652], [-18.96498652940247, -10.435437459963673, -0.7074410745150651], [18.79944720453435, 6.401994027845153, 5.917576208456518]]
+    ],
+    "meshName": "yahK",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1uuf-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1uuf-A_clean",
+    "useRotAxis": 0
+}

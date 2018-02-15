@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.676730582204, 0.854315597345, 0.710942083089],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 39.90011734,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ihfA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ihfA",
+    "positions": [
+        [[-16.79891909952698, 14.83340603975153, 11.77046862966941], [10.437874337950936, -21.716008521580214, 14.917362380582462], [2.399530309713258, -3.9483277462849236, 17.071587694600773], [-11.10181048489405, 17.60057292015875, -8.020952174804428], [-10.77121699311358, -2.09623833401481, 14.823258665697384], [-7.0030640599285965, -5.167834999223673, -4.5794728262945394], [12.765007902972691, -15.7531158644549, -4.045848255234412], [4.888744875272901, 15.724803275761344, -15.220738307417758], [5.087402575466112, -8.462130380316493, -19.583227127731945], [6.281176615894539, 7.736152201945734, 2.563868392259012]]
+    ],
+    "meshName": "ihfA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1owf-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1owf-A_clean",
+    "useRotAxis": 0
+}

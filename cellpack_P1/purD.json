@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.328895784153, 0.762855588414, 0.831753317225],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 41.2427882088,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "purD_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "purD",
+    "positions": [
+        [[15.724989551807179, 9.106788381969873, -10.558111219826326], [-6.075956637083425, -10.066868094499068, 10.550397627490584], [4.621315248520226, -27.088207847837563, -10.029171007995753], [-9.108998589724724, -23.97086102000613, -10.923605794987415], [-4.790653897809374, 14.348360973524587, -8.169359866589305], [11.4573631895364, 2.555385334196303, 16.25119604793325], [8.889710630855907, 15.844207259695475, 8.33013374082049], [-7.290942502674512, 7.939870870620441, 13.80754413018669], [-15.7348041340407, -3.1465785502062387, -2.2237800952435793], [0.6320240908804923, 0.9805188150972454, -14.82168304875216]]
+    ],
+    "meshName": "purD",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1gso-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1gso-A_clean",
+    "useRotAxis": 0
+}

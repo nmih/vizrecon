@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.489741348332, 0.175550352412, 0.339373902564],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 71.4040998708,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "hemA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "hemA",
+    "positions": [
+        [[-11.220092920535038, 3.5874465876704678, -30.30073353953915], [-8.56228832730928, -11.938989337198324, 0.5505963623051114], [2.1545279996458575, 13.796307587332027, 7.845990448080222], [10.34077902263435, 2.286366578480674, -0.4481520837001836], [0.009850262290040093, -3.8574139950172857, 12.94812943650334], [31.71817614729632, 3.6437161783421836, 44.335406669030924], [-0.8836371078512422, -11.053866841055518, -25.380134820844194], [-5.083982970583901, 10.582813386936031, -7.200849098658786], [10.115292416873613, 1.7547189281502928, 33.99898050283581], [-17.41522002705022, -8.291577562106141, -19.002505517611176]]
+    ],
+    "meshName": "hemA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1210_1_418_5che_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1210_1_418_5che_clean",
+    "useRotAxis": 0
+}

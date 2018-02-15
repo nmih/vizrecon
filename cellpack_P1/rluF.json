@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.292703986449, 0.56885450323, 0.0399124736386],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 41.3251208398,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "rluF_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "rluF",
+    "positions": [
+        [[-13.136828685546828, 6.50214666224382, 4.326579867314416], [17.486855866667927, -14.581339439688719, -1.2158222137618302], [-25.805650180767614, 14.79492012831319, -2.3615208502384264], [24.774783007770576, -11.435560025313801, 8.947126525445723], [-1.2047714485613705, -10.721858203978986, 12.576890248645816], [5.936061035093452, 1.8259610164523126, 9.73469957910624], [2.5899162469339942, 1.2153134734382913, -4.929105031570133], [-4.8360033317207805, 6.349468664898372, -19.794821870798515]]
+    ],
+    "meshName": "rluF",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E03783_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E03783_clean-X_clean",
+    "useRotAxis": 0
+}

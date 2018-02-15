@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.511914535956, 0.751858194248, 0.400178525689],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 57.6954520054,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "guaB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "guaB",
+    "positions": [
+        [[12.392032113102221, 27.21239320636524, -12.226141586338523], [12.643244879213633, -1.364184588618221, 1.1935150660373914], [-4.629850169869805, -11.581937286842527, -10.307196767967929], [-1.961478794334816, 25.37659437685094, -3.009491647367497], [16.238835826005943, -21.167332837880178, -6.688046980374088], [7.564014926740697, -8.293533264189296, 16.760582518686228], [-21.380334835593608, -20.501820090451922, 0.6087906866366665], [-2.745423059288436, -23.807369525890657, 13.216167744486798], [7.780014225967382, 36.50990471056404, -26.60010340226995], [-17.944793634326352, -6.909068679485541, 13.056250427414493], [-3.6429629150516374, 4.965278372483324, 2.793409181405184]]
+    ],
+    "meshName": "guaB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2508_1_484_4fxs_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2508_1_484_4fxs_clean",
+    "useRotAxis": 0
+}

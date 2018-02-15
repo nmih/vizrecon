@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.668088479291, 0.752228790402, 0.00599358103249],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.7815320617,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "hemN_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "hemN",
+    "positions": [
+        [[-19.60238999045805, 3.7017107651291856, 0.3276400909367008], [6.017587137606178, 7.955129290839812, 12.689089392493203], [-12.290160311021895, 14.62225928865276, 9.874714327525467], [-11.121418717490863, -15.331404010044782, 6.257541750558459], [19.294875510597485, -11.979510048973998, 4.203343040241538], [9.252786213133508, -1.8344691551533865, -8.077835253916648], [-8.306943129306521, 12.167898626448476, -9.411874942492087], [23.99343602808358, 5.406752104954932, 7.081889687709117], [-10.796485052845341, -6.61483402734759, -14.200129520648254], [1.6575134673447667, -19.626303282322315, -4.525090854768557], [2.558317370848704, 20.232152359758757, 1.9325003871227464]]
+    ],
+    "meshName": "hemN",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1olt-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1olt-A_clean",
+    "useRotAxis": 0
+}

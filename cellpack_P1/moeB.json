@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.235526508815, 0.296440246116, 0.941739193717],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 38.5945687743,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "moeB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "moeB",
+    "positions": [
+        [[13.326992899263352, -12.296378659953273, -6.316437586479899], [13.452184097160151, 0.9910192474044781, 19.732755532903763], [14.148961412566685, -8.840017285689587, 8.632277779774473], [-17.524990234901004, 16.48416879905676, -9.98014446997587], [-2.23292698092873, -12.419589333689688, 5.008523332014757], [-11.730175640392437, 0.4310186663802738, 4.433682656969944], [2.8040822582680285, 5.256413797708584, -5.96529864149335], [-9.479592726901089, 8.979019355705779, -17.91662445774861]]
+    ],
+    "meshName": "moeB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1jw9-B_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1jw9-B_clean",
+    "useRotAxis": 0
+}

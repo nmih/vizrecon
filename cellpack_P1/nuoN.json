@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.542480198888, 0.714514491964, 0.510335334238],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 40.0602521282,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "nuoN_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "nuoN",
+    "positions": [
+        [[4.8619600981104885, -13.88015740074689, -1.136548960958234], [9.225092065037044, -2.0232624494628033, -13.154842716523484], [8.905973960458152, 10.260245855318319, 17.80711030393805], [-8.796160378883963, 4.602877715328761, -11.987633557310929], [-5.963352296874996, 17.27806401104004, 5.467565978315192], [10.13921152587097, -12.65029100474455, 13.925140117798827], [-8.961947667689843, -1.5575560091114493, 7.298786298688362], [-8.160079596595793, -13.75410017464549, -13.469194957418013], [9.590641674895, 13.741568256104525, 1.028479616516819], [-13.732913146325647, -19.224938648439736, 6.685952214174275], [4.803673581717115, 19.8434916921443, -15.26498607067603]]
+    ],
+    "meshName": "nuoN",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3rko-D_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3rko-D_clean",
+    "useRotAxis": 0
+}

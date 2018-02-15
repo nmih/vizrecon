@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.744947150717, 0.431573602031, 0.461893653607],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 42.002067046,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "otsA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "otsA",
+    "positions": [
+        [[11.601506439349972, 10.525440387914962, -17.747377123333397], [9.3684003215033, -9.341325813313667, -16.54282987712103], [-0.9286867901102096, -14.172976142792963, 5.658472996834502], [16.15473467013706, -3.754534320179229, 0.3389366040917492], [-14.081732266870546, -12.550278188107761, 20.80199981985328], [17.52506019572546, 14.029166608100628, -1.1140901304177655], [-21.29101117419654, -4.860221282903937, 2.269769692888376], [-3.6501709661179897, 3.2922126458817136, -19.86587270473971], [-16.233664689903165, 7.333491892234647, 13.053114049653592], [-3.0471456644588137, 10.750127121609596, -3.6310879421419404], [-1.9921286107141531, -0.2741200314726101, 14.698083597745102]]
+    ],
+    "meshName": "otsA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1uqt-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1uqt-A_clean",
+    "useRotAxis": 0
+}

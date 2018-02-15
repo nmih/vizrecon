@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.241662099531, 0.126250604315, 0.283242511791],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 34.9998763198,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ypeA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ypeA",
+    "positions": [
+        [[1.6167363382792825, 2.5933601317664627, -23.01043137135587], [4.557700935504991, 6.6916744976405935, -2.177207115799798], [-10.201877064318875, 0.05442005474371421, 3.979549981411982], [-2.4089671054302975, 2.9089134489245874, 21.13563443377293], [13.353111409362892, 5.499937220558121, 13.200773217336934], [8.22298942708858, -9.066397235307393, -9.207316102655742], [-10.677232613374647, -0.5771786032296767, -14.152027258959182], [-1.7131855300489938, -13.722052814129716, 7.657408684914667]]
+    ],
+    "meshName": "ypeA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "4qus-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "4qus-A_clean",
+    "useRotAxis": 0
+}

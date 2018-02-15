@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.444595309972, 0.800015080023, 0.706979671209],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.4128973607,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ppnN_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ppnN",
+    "positions": [
+        [[2.961139494610686, -3.582902862437127, -1.845426001207407], [-17.604241609560336, 1.810904457848159, 1.7602073350494492], [16.06032170452191, -8.938755009552137, -15.5370206111074], [21.90049892667127, -0.3282401627203265, -3.4689289089187856], [-4.602600488705367, 4.064772091913594, 17.774948364290317], [-7.048743055333303, -10.37387304908867, -15.5841284378919], [-11.187894992595416, -14.990558034276937, 4.559925077041249], [5.6270252763159725, 13.60247278313679, 5.6188254713656525], [-16.055222868945282, 17.866475471474857, 2.5913502556997168], [-2.8795077520942556, 17.02869581961135, -8.219412883647433], [3.586594352098575, -11.374137710193581, 15.16092312667519]]
+    ],
+    "meshName": "ppnN",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2795_2_454_3gh1_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2795_2_454_3gh1_clean",
+    "useRotAxis": 0
+}

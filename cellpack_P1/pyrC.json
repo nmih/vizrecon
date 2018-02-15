@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.102741317225, 0.0108781373145, 0.342712257607],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.1298046161,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "pyrC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "pyrC",
+    "positions": [
+        [[6.186773996952446, -6.257723732745419, -14.864994352844938], [-16.110354293371348, 1.7613318944417264, -4.889269209989796], [2.228013223715152, 3.2558726388897905, 12.262113495453022], [-6.54311752272732, 13.706971525974684, 2.957891784917567], [18.44524323283674, 1.5942579059412643, -5.917371704773491], [-10.66781794624385, -7.1401081161258855, 15.68267267383151], [-7.4913819903971, -13.217585482702871, -4.234595954810811], [7.491990143097487, -10.004216300971525, 3.7826275846362214], [8.293573799499809, 13.277698790679509, -7.66295545054213]]
+    ],
+    "meshName": "pyrC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2z26-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2z26-A_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.83396760408, 0.811601324061, 0.372860882],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 42.2992609888,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "rpsJ_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "rpsJ",
+    "positions": [
+        [[-8.757439895536725, 15.028537304824143, 12.740295678107493], [0.5538212178973894, 1.2012237960900214, 5.271814513898462], [13.58818097996993, 6.156914978558295, -22.155193797508403], [-1.4980192719638703, 10.644837551721732, -13.377316866458102], [-10.725874193762676, -17.22999148152297, 13.046709554119113], [10.130822128808223, -12.47397070048573, -13.89296963498913], [2.4292429764956625, 1.4805343552845893, 24.71171491434841], [-3.3432245037157933, -18.069616582081288, -1.0570740211252367]]
+    ],
+    "meshName": "rpsJ",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3w1y-C_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3w1y-C_clean",
+    "useRotAxis": 0
+}

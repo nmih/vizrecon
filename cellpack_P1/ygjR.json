@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.658576610052, 0.395781241857, 0.63960178301],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 39.3238245419,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ygjR_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ygjR",
+    "positions": [
+        [[-1.3709626903136876, 4.081779732952818, -19.003737216142245], [-5.812928769187535, 8.832701946691488, 13.500936668276605], [-5.313273972858416, 7.74189085148775, -4.082427287339409], [-12.16087765499895, -8.872280658069492, 16.772277963078416], [11.232451524340615, -5.929837586737595, -16.476471688328566], [-4.455038382593025, -9.732245289228995, -6.738237708558427], [14.51339061601937, 10.070526375370717, 1.7416153239421688], [7.4191116591367585, -0.7833421392653536, 11.579096548371643]]
+    ],
+    "meshName": "ygjR",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3087_1_321_4iq0_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3087_1_321_4iq0_clean",
+    "useRotAxis": 0
+}

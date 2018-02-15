@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0296881178316, 0.39565009715, 0.826098985748],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 40.6722479983,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ribD_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ribD",
+    "positions": [
+        [[7.072850280902247, 16.16680713713322, 16.094598189297596], [19.904337333543452, -1.3427331281725148, 6.386932022905434], [-11.688493615866241, -3.202460937502645, -8.320962238738979], [-8.314642416986382, -8.152177512558495, -23.663701363316157], [-19.37468262422947, 2.6163894118163675, -21.967999155951638], [7.36785301559929, 11.792909176777634, 0.2970473185854076], [-8.367383570623888, 1.952829208732518, 8.480020179905381], [8.595539249667056, -10.086400337243278, 16.525527207297642], [5.254556926402372, -5.1126549638896455, -4.179075916498068]]
+    ],
+    "meshName": "ribD",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2obc-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2obc-A_clean",
+    "useRotAxis": 0
+}

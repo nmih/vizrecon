@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.247187501666, 0.471497111482, 0.683604411247],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 46.6232924451,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "uxaB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "uxaB",
+    "positions": [
+        [[8.450110218202362, -1.5955642350133512, 9.6475114325929], [-1.8970903117512916, 15.08166092309726, 22.16024204352933], [-5.499163812409943, -16.438767206533278, -0.5457668740764111], [-11.823230310075678, 9.922903565788008, 9.048884793208265], [2.743802724397653, 6.360940868211677, -28.981508273731745], [0.9547477183246076, -10.396291121772828, -20.542610768124355], [-1.741449002894406, 5.683537220784714, -11.50125084863109], [15.88125707706375, 2.2353873295829056, -15.964564853083997], [-18.40278433125994, -9.398989736988927, 5.401358430834917], [12.80504078233119, -11.964419972740016, -3.5929212734153246], [-5.249189647734234, -6.087325806958027, 20.047483813362284], [6.563512724385929, 18.955855682784623, 7.605074930371521]]
+    ],
+    "meshName": "uxaB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1521_12_483_1m2w_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1521_12_483_1m2w_clean",
+    "useRotAxis": 0
+}
