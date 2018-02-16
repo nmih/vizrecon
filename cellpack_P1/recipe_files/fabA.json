@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.871440831599, 0.688973877098, 0.700201590103],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 40.3561696701,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "fabA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "fabA",
+    "positions": [
+        [[15.351120696553838, 10.679405342895, 4.896861520223848], [-12.155390488259501, 24.919399428650475, -9.133468051371864], [-11.533569757102697, -0.4565984620539949, 13.90627544282044], [-7.290609524013004, -18.83347138781986, 9.803810264606552], [0.46424242925683884, -12.339953612771628, -25.83452615287758], [0.7179640399182982, -17.513808489866218, -6.527488221160333], [12.49573642197984, -8.345271646461413, 9.771926100532244], [6.754802443288456, 10.074666236589215, 18.622774353854602], [13.45690822436124, -11.532378009506028, -22.219066797670713], [-0.8407734903012061, 22.45776295614377, -1.0728134186443115], [-15.164122165941167, -11.17846032292356, -2.8479453438633158], [0.05285317223992412, 1.2835711792370752, 0.6171016137464559]]
+    ],
+    "meshName": "fabA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "4keh-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "4keh-A_clean",
+    "useRotAxis": 0
+}

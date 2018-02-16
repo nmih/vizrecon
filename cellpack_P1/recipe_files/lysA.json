@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0935955336183, 0.677285655337, 0.4105386143],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 41.9870111402,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "lysA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "lysA",
+    "positions": [
+        [[-8.617781741247349, 12.311727355441729, 18.182234998264498], [5.00657971953324, -6.174976400347187, -12.92905891394404], [-16.690403002245365, -18.503888244334348, 1.274158648456229], [4.292074868826111, -18.04507002585074, 1.62527739475754], [8.590047340621705, 4.906952062028908, 2.5799597540861843], [-13.376455206637845, -0.822440415722437, -4.428303444553198], [16.864348179483425, 11.601411211805408, 15.156346989287474], [-0.37632867681721743, 16.668042389148674, -4.491768140372865], [-5.128979291368932, -20.724184586511868, -14.289265436957235], [14.363693655848921, 22.769765075702672, 3.3981810433199606]]
+    ],
+    "meshName": "lysA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1knw-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1knw-A_clean",
+    "useRotAxis": 0
+}

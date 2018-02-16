@@ -2,7 +2,7 @@
     <head>
         <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
         <script src="https://cdn.rawgit.com/arose/ngl/v2.0.0-dev.24/dist/ngl.js"></script>
-        <script src="https://rawgit.com/nmih/846581df3846900d6b451b41de2f1c38/raw/f3109e423bf41bd29067f41775e0c8f9468ba49c/glm.js"></script>
+        <script src="https://rawgit.com/nmih/vizrecon_rawgit/master/glm.js"></script>
         <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script> -->
         <style>
             html, body {
@@ -17,7 +17,7 @@
     <body>
         <div id="viewport" style="width:100%; height:100%;"></div>
         <script>
-            // // Setup to load data from rawgit
+            // // Setup to load data from rawgit, not needed unless loading data using NGL
             // NGL.DatasourceRegistry.add(
             //     "data", new NGL.StaticDatasource( "//cdn.rawgit.com/arose/ngl/v2.0.0-dev.24/data/" )
             // );
@@ -32,112 +32,151 @@
 
             $.ajax({
                 // Set path to cellPACK JSON recipe
-                url: "https://cdn.rawgit.com/RuoqingCheng/Protein-visualization-project/bc912d27/bp1425_grid50.json",
+                // url: "https://cdn.rawgit.com/RuoqingCheng/Protein-visualization-project/bc912d27/bp1425_grid50.json",
+                url: "https://rawgit.com/nmih/vizrecon_rawgit/master/cellpack_P1_for_ngl.json",
+                // url: "https://rawgit.com/nmih/vizrecon_rawgit/master/cellpack_blood_plasma.json",
                 type: "get",
                 success: function(result) {
 
-                    // Load data
-                    var temp = analyzeData(result);
-                    var position = temp[0];  // e.g. [ ["hemopexin", [-436.79495, -53.614623, 34.876288], "1qjs"], ... ]
-                    var quaternion = temp[1];  // e.g. [ ["hemopexin", [0.31634009, -0, -0.84849464, -0.42424732], "1qjs"], ...]
+                    // // BEGIN BLOOD PLASMA EXAMPLE //////////////////////////////////////////////////////////////////////////////////
+                    // // Load data
+                    // var temp = analyzeData(result);
+                    // var position = temp[0];  // e.g. [ ["hemopexin", [-436.79495, -53.614623, 34.876288], "1qjs"], ... ]
+                    // var quaternion = temp[1];  // e.g. [ ["hemopexin", [0.31634009, -0, -0.84849464, -0.42424732], "1qjs"], ...]
+                    // var copynum = temp[2];
 
-                    // Some basic numbers
-                    var totalnumprots = position.length;  // Total number of protein copies in json file
-                    console.log(`cellPACK recipe contains ${totalnumprots} total proteins`)
+                    // // Some basic numbers
+                    // var totalnumprots = position.length;  // Total number of protein copies in json file
+                    // console.log(`cellPACK recipe contains ${totalnumprots} total proteins`)
 
-                    // Color array
-                    var copynum = temp[2];
-                    // console.log("here is copynum")
-                    // console.log(copynum)
-                    var copynumArr=[];
-                    for(var i=0; i<copynum.length;i++)
-                    {
-                        copynumArr.push(copynum[i][1]);
-                    }
-                    // console.log("here is copynumArr")
-                    // console.log(copynumArr)
-                    var color=[]
-                    for(var i=0; i<copynum.length;i++)
-                    {
+                    // // Color array
+                    // // console.log("here is copynum")
+                    // // console.log(copynum)
+                    // var copynumArr=[];
+                    // for(var i=0; i<copynum.length;i++)
+                    // {
+                    //     copynumArr.push(copynum[i][1]);
+                    // }
+                    // // console.log("here is copynumArr")
+                    // // console.log(copynumArr)
+                    // var color=[]
+                    // for(var i=0; i<copynum.length;i++)
+                    // {
+                    //     var mult1 = Math.floor(Math.random() * 10)+1;
+                    //     var mult2 = Math.floor(Math.random() * 10)+1;
+                    //     var mult3 = Math.floor(Math.random() * 10)+1;
+                    //     j=1
+                    //     color.push([j/mult1,j/mult2,j/mult3])
+                    // }
+                    // var colorArray=[];
+                    // for(var i=0; i<color.length;i++)
+                    // {
+                    //     var colorsinglecontact=[]
+
+                    //         for(var k=0; k<copynumArr[i];k++)
+                    //         {
+                    //            // console.log("here is the copynum")
+                    //            // console.log(copynumArr[j])
+                    //             colorsinglecontact=colorsinglecontact.concat([],color[i]);
+                    //         }
+
+                    //     colorArray.push(colorsinglecontact);
+                    // }
+                    // console.log("Colors used per protein" )
+                    // console.log(color)
+                    // // console.log("here is the colorArray")
+                    // // console.log(colorArray)
+
+
+                    // // Position array
+                    // var proteinDict = {}
+                    // for (var i = 0; i<position.length; i++){
+                    //     if (position[i][2] in proteinDict)
+                    //         proteinDict[position[i][2]].push(position[i][1]);
+                    //     else
+                    //         proteinDict[position[i][2]] = [position[i][1]]
+
+                    // }
+                    // var list = []
+                    // for (var i = 0; i < position.length;i++){
+                    //     if (!list.includes(position[i][2]))
+                    //         list.push(position[i][2])
+                    // }
+                    // // console.log(list)
+                    // // console.log(Object.keys(proteinDict).length)
+                    // var stringDict = {}
+                    // for (var i = 0; i<Object.keys(proteinDict).length; i++){
+                    //    // console.log(proteinDict[list[i]])
+                    //     var temp = [];
+                    //     //console.log(proteinDict[list[i]].length)
+                    //     for (var j = 0; j<proteinDict[list[i]].length;j++){
+                    //         temp=temp.concat([],proteinDict[list[i]][j]);
+                    //         //temp += proteinDict[list[i]][j].toString
+                    //         //console.log(proteinDict[list[i]])
+                    //     }
+                    //     stringDict[list[i]] = temp
+                    // }
+                    // //console.log(proteinDict)
+                    // //console.log(stringDict)
+                    // var positionArray = []
+                    // for (var i = 0; i < Object.keys(stringDict).length;i++){
+                    //     positionArray.push(stringDict[list[i]])
+                    // }
+                    // console.log('Position arrays for each protein')
+                    // console.log(positionArray)
+
+
+                    // // Create shapes
+                    // var shape = new NGL.Shape("shape")
+                    // for(var i=0; i<copynum.length;i++)
+                    // {
+                    //     var sphereBuffer = new NGL.SphereBuffer({
+                    //         position: new Float32Array(positionArray[i]),
+                    //         color: new Float32Array(colorArray[i]),
+                    //         radius: new Float32Array(Array(positionArray[i].length/3).fill(8))
+                    //     })
+                    //     shape.addBuffer(sphereBuffer)
+                    // }
+                    // var shapeComp = stage.addComponentFromObject(shape)
+                    // shapeComp.addRepresentation("buffer")
+                    // shapeComp.autoView()
+
+                    // END BLOOD PLASMA EXAMPLE //////////////////////////////////////////////////////////////////////////////////
+
+                    // Create cell shape
+                    var shape = new NGL.Shape("shape")
+
+                    // Load data (E. coli only)
+                    var data = analyzeDataEcoli(result);
+
+                    for (var k in data) {
+                        var copynum = data[k].length;
+
+                        // Color array
+                        var color=[]
                         var mult1 = Math.floor(Math.random() * 10)+1;
                         var mult2 = Math.floor(Math.random() * 10)+1;
                         var mult3 = Math.floor(Math.random() * 10)+1;
                         j=1
-                        color.push([j/mult1,j/mult2,j/mult3])
-                    }
-                    var colorArray=[];
-                    for(var i=0; i<color.length;i++)
-                    {
-                        var colorsinglecontact=[]
+                        for(var i=0; i<copynum;i++){
+                            color.push([j/mult1,j/mult2,j/mult3])}
 
-                            for(var k=0; k<copynumArr[i];k++)
-                            {
-                               // console.log("here is the copynum")
-                               // console.log(copynumArr[j])
-                                colorsinglecontact=colorsinglecontact.concat([],color[i]);
-                            }
+                        // Radii array
+                        var radii = Array(data[k].length).fill(.2)
+                        // console.log("Radii")
+                        // console.log(radii)                        
 
-                        colorArray.push(colorsinglecontact);
-                    }
-                    console.log("Colors used per protein" )
-                    console.log(color)
-                    // console.log("here is the colorArray")
-                    // console.log(colorArray)
-
-
-                    // Position array
-                    var proteinDict = {}
-                    for (var i = 0; i<position.length; i++){
-                        if (position[i][2] in proteinDict)
-                            proteinDict[position[i][2]].push(position[i][1]);
-                        else
-                            proteinDict[position[i][2]] = [position[i][1]]
-
-                    }
-                    var list = []
-                    for (var i = 0; i < position.length;i++){
-                        if (!list.includes(position[i][2]))
-                            list.push(position[i][2])
-                    }
-                    // console.log(list)
-                    // console.log(Object.keys(proteinDict).length)
-                    var stringDict = {}
-                    for (var i = 0; i<Object.keys(proteinDict).length; i++){
-                       // console.log(proteinDict[list[i]])
-                        var temp = [];
-                        //console.log(proteinDict[list[i]].length)
-                        for (var j = 0; j<proteinDict[list[i]].length;j++){
-                            temp=temp.concat([],proteinDict[list[i]][j]);
-                            //temp += proteinDict[list[i]][j].toString
-                            //console.log(proteinDict[list[i]])
-                        }
-                        stringDict[list[i]] = temp
-                    }
-                    //console.log(proteinDict)
-                    //console.log(stringDict)
-                    var positionArray = []
-                    for (var i = 0; i < Object.keys(stringDict).length;i++){
-                        positionArray.push(stringDict[list[i]])
-                    }
-                    console.log('Position arrays for each protein')
-                    console.log(positionArray)
-
-
-                    // Create shapes
-                    var shape = new NGL.Shape("shape")
-                    for(var i=0; i<copynum.length;i++)
-                    {
+                        // Create shapes
                         var sphereBuffer = new NGL.SphereBuffer({
-                            position: new Float32Array(positionArray[i]),
-                            color: new Float32Array(colorArray[i]),
-                            radius: new Float32Array(Array(positionArray[i].length/3).fill(8))
+                            position: new Float32Array(flatten(data[k])),
+                            color: new Float32Array(flatten(color)),
+                            radius: new Float32Array(radii)
                         })
                         shape.addBuffer(sphereBuffer)
                     }
                     var shapeComp = stage.addComponentFromObject(shape)
                     shapeComp.addRepresentation("buffer")
                     shapeComp.autoView()
-
                 }
               });
 
@@ -161,6 +200,16 @@
                 }
                 return [position, quaternion, copynum];
             };
+
+            function analyzeDataEcoli(result) {
+                return result
+            };
+
+            function flatten(arr) {
+              return arr.reduce(function (flat, toFlatten) {
+                return flat.concat(Array.isArray(toFlatten) ? flatten(toFlatten) : toFlatten);
+              }, []);
+            }
 
         </script>
     </body>

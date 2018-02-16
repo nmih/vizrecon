@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.753013365866, 0.0224800174338, 0.490290783585],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 55.7703929183,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "cca_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "cca",
+    "positions": [
+        [[-0.5747278586731731, -13.299984863398825, -26.798418515899144], [10.737286517571683, -1.2966189532964874, -26.361765808818607], [6.854013747713867, 5.877983818326999, 14.45199570288287], [-2.5792368348467027, 18.5786363734295, -1.3039656890105737], [14.795060372639515, 4.928119935667581, -6.7344244148768695], [15.400745962825022, -13.889578207264274, -10.364142622283536], [-12.194802453566316, 7.0411902655742455, 14.748524845614805], [-10.32636259678843, -3.0930170764971034, 25.523779459485226], [-33.9972757129519, 4.010384541279798, 24.008277443257757], [-0.5978460821537062, -2.9179616657483507, 3.8579431176715557]]
+    ],
+    "meshName": "cca",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3056_1_403_3h38_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3056_1_403_3h38_clean",
+    "useRotAxis": 0
+}

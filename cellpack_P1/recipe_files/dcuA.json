@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.96610179515, 0.610146342606, 0.620817445919],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.8437705676,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "dcuA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "dcuA",
+    "positions": [
+        [[14.330079483088564, 4.450857123669162, -8.659659499937833], [7.649859671139038, -12.009786197778125, -7.274089678324263], [-13.521142540278296, 9.445437931008495, 5.55960067979205], [-8.47010550614779, 22.049677836622156, 9.77682154338041], [-9.547204805968923, -13.284382648195074, 9.796718438069059], [1.2677141670462182, -1.3314416122934851, 12.383573644957496], [8.636230037496924, -17.445846953808203, 9.899572455617257], [6.218800373032745, -0.278796486810237, -21.631348838332325], [-7.218946465580728, -3.0679662361131244, -13.570378969744908], [4.826394906873939, 13.733131788372926, 4.595548655580323]]
+    ],
+    "meshName": "dcuA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E03900_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E03900_clean-X_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.760356195233, 0.899745185838, 0.447709548671],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 265.555319776,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "hflK_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "hflK",
+    "positions": [
+        [[8.273254284159535, 31.086558718841243, 9.528482082944713], [17.97819411066911, 70.75098364746789, 31.304266981411402], [-120.28137676380756, 194.72051303545408, 89.5011872218786], [13.69325477626598, -57.735575716733614, -38.382651778348745], [20.284534931494616, -34.171046434360115, -14.936241244362057], [10.137826441621913, -8.662033942451105, -5.775430488401129], [12.225848691047247, -74.31731614890514, -38.90445962944784], [-45.826803700372494, 162.21337997954618, 81.65656051990477], [5.423465912539893, -55.671339369428814, -16.550574904552807], [8.23210761405822, 114.59419307224526, 59.336563980257104]]
+    ],
+    "meshName": "hflK",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E03936_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E03936_clean-X_clean",
+    "useRotAxis": 0
+}

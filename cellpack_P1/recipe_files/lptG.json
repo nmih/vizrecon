@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.761433903479, 0.855586599589, 0.796493472841],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 56.6874644758,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "lptG_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "lptG",
+    "positions": [
+        [[4.801090324452284, -12.61924851389951, -2.1377247358193006], [5.571097016771505, -33.028314108211724, 2.200674096273958], [-8.102413680357527, -25.716839970883402, 1.3850415545450405], [-6.658575413408344, 36.7907414300863, 11.21969388144039], [0.36872992233691815, 22.25283902161651, -7.648067003986088], [5.564380249941826, 4.040960095534131, -16.7663499616392], [-11.033022895107397, -4.991902442378895, 5.638182153735109], [7.22108328359641, 31.21531419854727, 2.85879345966177], [1.2389202309683975, 7.024339655487312, 5.142586975794899]]
+    ],
+    "meshName": "lptG",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "5l75-G_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "5l75-G_clean",
+    "useRotAxis": 0
+}

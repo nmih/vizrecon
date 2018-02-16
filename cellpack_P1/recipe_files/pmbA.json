@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0429636718473, 0.721216463123, 0.420978178353],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 40.348598114,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "pmbA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "pmbA",
+    "positions": [
+        [[-7.793036532371991, -17.207023627946008, 7.774296396442794], [-18.78002369543358, 7.029935547327872, -7.736133066927873], [4.396700998444239, -8.221364955001174, -5.9285999334918245], [20.095574914842892, -2.2213018019099873, 3.4635876930298957], [17.79448252214359, 2.5414798245228556, -13.523615573467184], [-2.440519923098408, 8.004324196504248, -16.843532029539347], [13.353928381510345, 19.60849032844719, -14.651861870502549], [26.339586173008446, 16.975542006684254, -4.01756578017629], [8.483861481971688, -11.494889454887387, 11.675857144180272], [-11.853818166697891, -8.692798270933064, 20.342434705444138], [-24.835475694883755, 1.679807928407163, 8.035083008982639]]
+    ],
+    "meshName": "pmbA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "5nj9-B_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "5nj9-B_clean",
+    "useRotAxis": 0
+}

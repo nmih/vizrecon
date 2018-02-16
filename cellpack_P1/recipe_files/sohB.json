@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.577537385034, 0.561559843947, 0.63778176009],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 66.0668593217,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "sohB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "sohB",
+    "positions": [
+        [[12.379353845504603, 26.303267809607526, 12.492539886932617], [-0.01686311911938666, 8.825263907592008, 5.59600873595461], [7.336000487940402, 26.69735812910617, -6.233352025904387], [-5.172719124486299, 4.746516878290581, -14.359011315364553], [4.583462465230113, -1.2887684101686665, 21.14116998297728], [-9.598816063283824, -2.6394444530465027, 3.665868639625559], [16.95602424291085, -33.94738239077567, -31.642661500307746], [13.660729324718526, -17.074187925591236, 5.83320054643746], [-17.98129022132583, -13.970260182758622, -15.499940635943267]]
+    ],
+    "meshName": "sohB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E01195_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E01195_clean-X_clean",
+    "useRotAxis": 0
+}

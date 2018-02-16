@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.57210415244, 0.716916493605, 0.88960802279],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 31.0794264687,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ybhK_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ybhK",
+    "positions": [
+        [[14.809560711477765, 6.617331870929882, -2.2263807992651636], [-0.03076188363212671, -2.000312835458995, -11.053800800024508], [-2.204660411451247, 8.58203832667083, 13.742682275070228], [-1.6273004863844547, 16.06845890979737, -1.2029800867517213], [8.156458677497952, -17.145963701180634, 0.01618136493997049], [-6.615725927800485, -13.314303048634521, 2.52885129277945], [-14.999527460903408, 3.155030209161762, -0.3493988762451569]]
+    ],
+    "meshName": "ybhK",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b0780_8_300_2ppv_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b0780_8_300_2ppv_clean",
+    "useRotAxis": 0
+}

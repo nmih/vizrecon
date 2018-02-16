@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.175470723945, 0.800553316181, 0.192727133577],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.181039794,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "curA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "curA",
+    "positions": [
+        [[10.360016121190805, -16.365111359715925, -8.8510257202694], [5.92132388823468, -7.496493344863722, 7.688972730145396], [15.035630598958772, 1.3689577890104336, -9.346900245133755], [-15.05965739239291, 16.05963453728478, 7.198312726500132], [-11.193991382222771, 6.522238770228677, -7.093253620221377], [2.3701430234179703, -7.422693290060761, -17.953111750048365], [-13.38217782332593, 2.8453704359121548, 18.870789222252625], [1.5311538436272485, 8.003931041636426, 9.446277502152164]]
+    ],
+    "meshName": "curA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1449_6_341_4b7c_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1449_6_341_4b7c_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.823386335692, 0.608552765164, 0.548578498574],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.229824199,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "folC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "folC",
+    "positions": [
+        [[10.73050869964558, 5.661326438406772, -15.302728387745459], [4.137532342972123, 14.519522586369623, 0.409172368716249], [18.64040780951216, 2.101682987634826, 2.341697684996743], [-16.16680425236656, 13.862562087393082, 1.969394343855853], [-12.101024064034858, -17.660122495514667, 6.496433736728998], [-5.155403525216007, -3.6890534359424767, 13.349494358469737], [-12.58643860198469, 11.148885296469318, -11.386399896227438], [2.740899543903032, -18.20301628797554, 17.817358027486748], [2.310887731195312, -15.478830005902076, 2.1405769507497032], [1.3856947649694817, -4.942418108388176, -12.834783400346724]]
+    ],
+    "meshName": "folC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1w78-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1w78-A_clean",
+    "useRotAxis": 0
+}

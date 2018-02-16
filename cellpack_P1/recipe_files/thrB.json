@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.34954709461, 0.470887759989, 0.0198776463819],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 38.9601548717,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "thrB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "thrB",
+    "positions": [
+        [[6.273371320031629, -5.537600997226584, -10.45265984589803], [-9.532569720236445, 0.8461550674931131, -2.140098809501808], [1.4949102506364333, 17.667614200020605, -4.292894041478574], [0.6897671554784944, 3.4714637381879827, 11.525738853479202], [-3.4223141358732505, -15.099129048454314, 3.3642197502356317], [0.07191589691600146, 6.281215018884853, -18.657967527365656], [-10.593608443839406, -11.333417344405168, 16.661607396410215], [17.06884772105855, 7.058239170218307, -1.57147483328856]]
+    ],
+    "meshName": "thrB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b0003_1_308_4rpf_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b0003_1_308_4rpf_clean",
+    "useRotAxis": 0
+}

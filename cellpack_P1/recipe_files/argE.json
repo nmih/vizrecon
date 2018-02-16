@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.792913745232, 0.72509073209, 0.578686063225],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 60.27068805,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "argE_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "argE",
+    "positions": [
+        [[-13.052565464963754, -7.834258193608298, 0.4052366633441133], [25.84228496502511, 3.952188760123748, 34.616379395153366], [10.847105766159032, 2.409497871360252, 20.141493880734036], [-10.2496875930655, -10.329251116880988, -18.738878005883322], [3.7700218275773247, -12.20764899835423, -3.619442760616613], [6.597053920312666, 6.621791274290283, 1.0561670332127242], [2.580880115846515, 1.6807974159132346, -17.594052381356803], [-13.062081466406548, 11.155266746404205, -6.970766270692261], [-18.40973151942789, 3.150935933550249, -20.31427416076266]]
+    ],
+    "meshName": "argE",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3957_6_382_2qyv_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3957_6_382_2qyv_clean",
+    "useRotAxis": 0
+}

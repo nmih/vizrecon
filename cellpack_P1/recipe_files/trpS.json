@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0700736220838, 0.666484069194, 0.423846934006],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 42.0393497281,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "trpS_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "trpS",
+    "positions": [
+        [[14.021026065177384, -22.53734948739821, -13.011700716480089], [-10.225074649235925, -0.6549516956597936, 16.176177165552183], [4.631017034798012, 9.93212496841514, 9.27557314689773], [12.368705426110276, -12.515759849431364, 0.6439305734374547], [-19.16087235848068, 12.630337127076775, 8.471603500312256], [4.267506808049584, 14.473476066221856, -5.565300650302283], [13.200576798794257, -3.632515322547994, -9.306864016357357], [-8.396738609049539, 1.022203565445745, -6.391463994604247]]
+    ],
+    "meshName": "trpS",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "5v0i-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "5v0i-A_clean",
+    "useRotAxis": 0
+}

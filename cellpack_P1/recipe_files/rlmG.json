@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0735954070323, 0.740771389912, 0.794189451161],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.530724705,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "rlmG_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "rlmG",
+    "positions": [
+        [[1.1281848753678188, -12.793233491938233, -16.98716540800099], [-1.01790993987366, -4.742284130343828, 21.874371758059475], [-12.35586039800867, 11.825310561358872, 0.1940084905916839], [-6.208431714337401, 12.57519179075776, 17.91601614097576], [2.415425874542934, 2.9555592990690522, -20.55820236883959], [3.4069311351327096, 0.9463733045076091, 4.150246322556699], [-16.89968208467974, -0.9258049814200112, 13.85949465874053], [14.35785065447162, -10.61593779306358, -0.7343160110762806], [17.347780469879034, -1.4657744660910712, -13.215228122035956]]
+    ],
+    "meshName": "rlmG",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "4dcm-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "4dcm-A_clean",
+    "useRotAxis": 0
+}

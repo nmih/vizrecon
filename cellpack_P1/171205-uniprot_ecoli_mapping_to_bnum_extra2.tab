@@ -1,0 +1,49 @@
+Entry	Protein names	Gene names	Gene names  (ordered locus )	Gene names  (primary )	Status
+P0CF89	Transposase InsI for insertion sequence element IS30C	insI3 b1404 JW1401	b1404 JW1401	insI3	reviewed
+P0CF79	Transposase InsF for insertion sequence IS3A	insF1 b0299 JW0293	b0299 JW0293	insF1	reviewed
+P0CF83	Transposase InsF for insertion sequence IS3E	insF5 b2089 JW2073	b2089 JW2073	insF5	reviewed
+P0CF81	Transposase InsF for insertion sequence IS3C	insF3 b0541 JW0529	b0541 JW0529	insF3	reviewed
+P0CF82	Transposase InsF for insertion sequence IS3D	insF4 b1026 JW1012	b1026 JW1012	insF4	reviewed
+P0CF53	Transposase InsD for insertion element IS2A	insD1 b0361 JW0352	b0361 JW0352	insD1	reviewed
+P0CF80	Transposase InsF for insertion sequence IS3B	insF2 b0372 JW0363	b0372 JW0363	insF2	reviewed
+Q6BF86	Small toxic polypeptide LdrA/LdrC	ldrA b4419 JW5957; ldrC b4423 JW5959	b4419 JW5957; b4423 JW5959	ldrA; ldrC	reviewed
+P0CF56	Transposase InsD for insertion element IS2H	insD4 b2860 JW2826	b2860 JW2826	insD4	reviewed
+P0CF55	Transposase InsD for insertion element IS2F	insD3 b1996 JW1975	b1996 JW1975	insD3	reviewed
+P0CF57	Transposase InsD for insertion element IS2I	insD5 b3045 JW3013	b3045 JW3013	insD5	reviewed
+P0CF58	Transposase InsD for insertion element IS2K	insD6 b4273 JW4230	b4273 JW4230	insD6	reviewed
+P0CF54	Transposase InsD for insertion element IS2D	insD2 b1402 JW1397	b1402 JW1397	insD2	reviewed
+P0CE58	Transposase InsH for insertion sequence element IS5T	insH11 b3505 JW3472	b3505 JW3472	insH11	reviewed
+P0CF66	Transposase InsE for insertion sequence IS3A	insE1 b0298 JW5036	b0298 JW5036	insE1	reviewed
+P0CF25	Insertion element IS1 1 protein InsB (IS1a)	insB1 b0021 JW0020	b0021 JW0020	insB1	reviewed
+P0CE49	Transposase InsH for insertion sequence element IS5A	insH1 b0259 JW0250	b0259 JW0250	insH1	reviewed
+P0CF28	Insertion element IS1 5 protein InsB (IS1h)	insB5 b1893	b1893	insB5	reviewed
+P0CF26	Insertion element IS1 2 protein InsB (IS1b)	insB2 b0264 JW0256	b0264 JW0256	insB2	reviewed
+P0CE56	Transposase InsH for insertion sequence element IS5LO	insH9 b2982 JW2949	b2982 JW2949	insH9	reviewed
+P0CF44	Transposase InsC for insertion element IS2I	insC5 b3044 JW3012	b3044 JW3012	insC5	reviewed
+P0CF43	Transposase InsC for insertion element IS2H	insC4 b2861 JW2829	b2861 JW2829	insC4	reviewed
+P0CF42	Transposase InsC for insertion element IS2F	insC3 b1997 JW1978	b1997 JW1978	insC3	reviewed
+P0CF41	Transposase InsC for insertion element IS2D	insC2 b1403 JW1400	b1403 JW1400	insC2	reviewed
+P0CE55	Transposase InsH for insertion sequence element IS5K	insH8 b2192 JW2179	b2192 JW2179	insH8	reviewed
+P0CF45	Transposase InsC for insertion element IS2K	insC6 b4272 JW4229	b4272 JW4229	insC6	reviewed
+P0CF69	Transposase InsE for insertion sequence IS3D	insE4 b1027 JW5144	b1027 JW5144	insE4	reviewed
+P0CE51	Transposase InsH for insertion sequence element IS5D	insH3 b0656 JW0652	b0656 JW0652	insH3	reviewed
+P0CF93	Putative transposase InsL for insertion sequence element IS186C	insL3 b2394 JW5390	b2394 JW5390	insL3	reviewed
+P0CF68	Transposase InsE for insertion sequence IS3C	insE3 b0540 JW5074	b0540 JW5074	insE3	reviewed
+P0CF90	Transposase InsI for insertion sequence element IS30D	insI4 b4284 JW4244	b4284 JW4244	insI4	reviewed
+P0CF91	Putative transposase InsL for insertion sequence element IS186A	insL1 b0016 JW0015	b0016 JW0015	insL1	reviewed
+P0CF92	Putative transposase InsL for insertion sequence element IS186B	insL2 b0582 JW0572	b0582 JW0572	insL2	reviewed
+P0CE57	Transposase InsH for insertion sequence element IS5R	insH10 b3218 JW3185	b3218 JW3185	insH10	reviewed
+P0CF08	Insertion element IS1 2 protein InsA (IS1b)	insA2 b0265 JW0257	b0265 JW0257	insA2	reviewed
+P0CF07	Insertion element IS1 1 protein InsA (IS1a)	insA1 b0022 JW0021	b0022 JW0021	insA1	reviewed
+P0CF10	Insertion element IS1 4 protein InsA (IS1d)	insA4 b4516 JW0971	b4516 JW0971	insA4	reviewed
+P0CF29	Insertion element IS1 6 protein InsB (IS1e)	insB6 b3445 JW3409	b3445 JW3409	insB6	reviewed
+P0CF27	Insertion element IS1 3 protein InsB (IS1c)	insB3 b0274 JW0268	b0274 JW0268	insB3	reviewed
+P0CF70	Transposase InsE for insertion sequence IS3E	insE5 b2088 JW5341	b2088 JW5341	insE5	reviewed
+P0CF67	Transposase InsE for insertion sequence IS3B	insE2 b0373 JW5050	b0373 JW5050	insE2	reviewed
+P0CF40	Transposase InsC for insertion element IS2A	insC1 b0360 JW0351	b0360 JW0351	insC1	reviewed
+P0CF09	Insertion element IS1 3 protein InsA (IS1c)	insA3 b0275 JW0269	b0275 JW0269	insA3	reviewed
+P0CF11	Insertion element IS1 5 protein InsA (IS1h)	insA5 b1894	b1894	insA5	reviewed
+P0CF12	Insertion element IS1 6 protein InsA (IS1e)	insA6 b3444 JW3408	b3444 JW3408	insA6	reviewed
+P0CE50	Transposase InsH for insertion sequence element IS5B	insH2 b0552 JW0540	b0552 JW0540	insH2	reviewed
+P0CE52	Transposase InsH for insertion sequence element IS5F	insH4 b1331 JW1324	b1331 JW1324	insH4	reviewed
+P0CE54	Transposase InsH for insertion sequence element IS5I	insH7 b2030 JW2014	b2030 JW2014	insH7	reviewed

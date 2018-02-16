@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.48978712762, 0.427250307568, 0.897944555202],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.0066404425,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "diaA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "diaA",
+    "positions": [
+        [[-12.296034588203186, 8.298623915513735, 7.212330645549264], [1.408726703014433, -12.19344209525653, 16.43219587795014], [-15.484136496467148, -6.234392301497994, 14.574213641741471], [8.91157376240153, -7.249211785429933, -12.081339192256227], [1.2276305792128852, 9.732871321698212, -10.125911813636295], [-14.52480946579152, -0.3440675530802743, -8.465822868436792], [-6.907007392325087, -11.923603965838305, 0.12387824474482535], [19.07256515922768, 6.388710677034298, -8.605162722215363], [13.645477213240675, 11.81227358697016, 6.678537162956311]]
+    ],
+    "meshName": "diaA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2yva-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2yva-A_clean",
+    "useRotAxis": 0
+}

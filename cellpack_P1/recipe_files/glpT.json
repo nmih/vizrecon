@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.332782039294, 0.908771293034, 0.277756516265],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 51.482401479,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "glpT_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "glpT",
+    "positions": [
+        [[10.924876017282662, -12.466616305190023, -8.70215619022389], [6.219122607459862, -12.158093402438764, 12.520569092146669], [-8.086190025423061, -15.736239147523717, -10.370765605226207], [-4.392236072966263, 1.745781210566224, 21.703908983764425], [-10.9931095125661, 1.0999818483511332, 3.7272576129108224], [0.11263623380642301, -30.152197418271683, -21.275643758865012], [-11.907453372084772, 15.009412639253258, -5.906397677020647], [5.539511410007103, 4.11899909081782, -3.6800096501179116], [-8.594903348762983, 16.154835494176794, -22.638023800847147], [17.208949058827336, -1.0203016554369233, 13.120360969577128], [2.4944511722007947, 13.81474323942977, 15.089893129633044]]
+    ],
+    "meshName": "glpT",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1pw4-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1pw4-A_clean",
+    "useRotAxis": 0
+}

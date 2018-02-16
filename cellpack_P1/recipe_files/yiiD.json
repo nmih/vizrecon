@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.377990431827, 0.0788590926629, 0.676076995673],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 307.38756476,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "yiiD_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "yiiD",
+    "positions": [
+        [[-68.87437190799892, -22.432515689981532, -70.32357668627431], [256.779170630605, 1.9308877043932904, 137.2357185191049], [33.037071107352894, 32.19311589801428, 63.821561377687836], [147.55062605852115, 43.89241633328343, 117.76976280939094], [87.33165134831343, 46.97277463775888, 97.44434132549777], [-93.12714035768084, -23.92186303432037, -68.63793415801037], [-74.62561211778332, 9.496613598552143, -13.76121603184384], [207.26153900736554, 30.11996960203241, 127.27800568674074], [-26.13970381026972, 27.13023411429679, 26.553207328720482]]
+    ],
+    "meshName": "yiiD",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E03663_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E03663_clean-X_clean",
+    "useRotAxis": 0
+}

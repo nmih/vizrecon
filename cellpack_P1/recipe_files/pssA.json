@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.496411498135, 0.932165740545, 0.338610917537],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.0265029177,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "pssA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "pssA",
+    "positions": [
+        [[4.438202912446214, 17.614264129544285, -4.099708117799836], [2.9725893805888357, 11.742913186753896, 11.136030271731007], [-12.282375517496321, -3.572101121067611, 16.309437939249996], [-9.449739690224138, 1.7137883712937643, 0.43915791077753197], [-6.664344011254506, -2.348263111107162, -24.20150428251888], [-3.0098749195158545, -19.724027601237037, -12.901933673621452], [6.006323701819444, -2.008258827493866, -12.084353110528893], [-11.37321777673597, 12.929422313525178, -12.53292704987916], [2.1761053156876895, -13.05638637769042, 15.894335265997258], [12.964025993725363, -4.984605909256061, 1.9398676321380062], [13.959813140182899, -0.2035507569308775, 20.325964050825945]]
+    ],
+    "meshName": "pssA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2585_6_431_3hsi_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2585_6_431_3hsi_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.516440216503, 0.668861815405, 0.679408778227],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.4867876567,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "chrR_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "chrR",
+    "positions": [
+        [[-9.463687785484751, 6.223276345952642, 9.248531209567293], [6.715608683689365, 5.442575275161546, -7.449148994806963], [14.074517726323652, 20.50321144948333, -2.745724824676372], [8.326855478912213, -12.360997169842694, 4.850646052540611], [-6.966088018789155, -4.289724343791637, -5.450467364997862], [10.667426985572456, 2.1080821918042774, 9.465389623087772], [0.6203817519185092, -23.7060404722332, -4.028443263371996], [-3.646981964650797, 21.584794899870264, -4.151141958088638], [-14.971541413655324, -18.35162971202347, 1.9278656877983145]]
+    ],
+    "meshName": "chrR",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3svl-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3svl-A_clean",
+    "useRotAxis": 0
+}

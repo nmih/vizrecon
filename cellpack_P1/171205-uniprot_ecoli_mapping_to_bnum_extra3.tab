@@ -1,0 +1,57 @@
+Entry	Protein names	Gene names	Gene names  (ordered locus )	Gene names  (primary )	Status
+P0DP70	Putative cryptic phosphonate transport system permease protein PhnE2	phnE phnE2 b4103 JW4065	b4103 JW4065	phnE	reviewed
+P0CG19	Inactive ribonuclease PH (RNase PH) (EC 2.7.7.56) (tRNA nucleotidyltransferase)	rph b3643 JW3618	b3643 JW3618	rph	reviewed
+P0DP69	Putative cryptic phosphonate transport system permease protein PhnE1	phnE1 b4104 JW4065	b4104 JW4065	phnE1	reviewed
+P36667	Rhamnosyltransferase WbbL (EC 2.4.1.-)	wbbL b4571 JW2016 b2031	b4571 JW2016	wbbL	reviewed
+P21420	Putative outer membrane porin protein NmpC	nmpC phmA b0553	b0553	nmpC	reviewed
+P75901	Putative inactive ferrous iron permease EfeU (Putative Fe(2+) ion permease EfeU)	efeU ycdN b4490 JW5141/JW1002 b1016/b1017	b4490 JW5141/JW1002	efeU	reviewed
+Q46833	Putative type II secretion system L-type protein YghE (Putative general secretion pathway L-type protein YghE)	yghE b2969	b2969	yghE	reviewed
+Q47718	Putative transposase InsO for insertion sequence element IS911B	insO2 b4285	b4285	insO2	reviewed
+P37655	Putative cellulose biosynthesis protein BcsQ	bcsQ yhjQ b3534	b3534	bcsQ	reviewed
+P76335	Putative outer membrane protein YedS	yedS b4496 JW5319/JW1948/JW1949 b1964/b1965/b1966	b4496 JW5319/JW1948/JW1949	yedS	reviewed
+Q47153	Putative truncated flagellar export/assembly protein LfhA	lfhA fhiA b0229 JW5811	b0229 JW5811	lfhA	reviewed
+P36930	Putative galactitol utilization operon repressor	gatR b4498 JW5340/JW2074 b2087/b2090	b4498 JW5340/JW2074	gatR	reviewed
+P75741	Putative protein YbfL (H repeat-associated protein in rhsC-phrB intergenic region) (ORF-H2)	ybfL b0705 JW0695	b0705 JW0695	ybfL	reviewed
+P42905	Putative N-acetylgalactosamine permease IIC component 2 (EIIC-Aga') (PTS system N-acetylgalactosamine-specific EIIC component 2)	agaW b3134	b3134	agaW	reviewed
+P31450	Putative inactive 6-phospho-alpha-glucosidase	glvG b4556 b3681	b4556	glvG	reviewed
+P39349	Putative phosphoethanolamine transferase YjgX (EC 2.7.-.-)	yjgX b4575 b4275/b4276/b4560	b4575	yjgX	reviewed
+P33666	Putative exported protein YdbA	ydbA b4492 JW5802/JW1402 b1401/b1405	b4492 JW5802/JW1402	ydbA	reviewed
+Q46790	Putative peptidoglycan-binding-like protein	pbl b2854	b2854	pbl	reviewed
+P76464	Putative UPF0192 protein YfaS	yfaS yfaR b4500 JW2221/JW2222 b2227/b2228	b4500 JW2221/JW2222	yfaS	reviewed
+Q47154	Putative truncated flagellar export/assembly protein LafU	lafU mbhA b0230 JW5812	b0230 JW5812	lafU	reviewed
+P76611	Putative protein PinH (Putative DNA-invertase from prophage CP4-44)	pinH b2648 JW5423	b2648 JW5423	pinH	reviewed
+P33345	Putative molybdate metabolism regulator	yehH molR b4499 b2115/b2116/b2117	b4499	yehH	reviewed
+P0DP90	Acetolactate synthase isozyme 2 large subunit (AHAS-II) (EC 2.2.1.6) (ALS-II) (Acetohydroxy-acid synthase II large subunit)	ilvG		ilvG	reviewed
+P0DP89	Putative acetolactate synthase isozyme 2 large subunit (AHAS-II) (ALS-II) (Acetohydroxy-acid synthase II large subunit)	ilvG b4488 b3767	b4488	ilvG	reviewed
+P30192	Putative uncharacterized protein YchG	ychG b4573 JW1227/JW5883 b1239/b1240	b4573 JW1227/JW5883	ychG	reviewed
+P39901	Putative uncharacterized protein YbfI	ybfI b4636 b0691.1	b4636	ybfI	reviewed
+P76205	Putative ankyrin repeat protein B	arpB b4494 JW5278/JW1710 b1720/b1721	b4494 JW5278/JW1710	arpB	reviewed
+P0DP92	Cellulose biosynthesis protein BcsQ	bcsQ yhjQ		bcsQ	reviewed
+P0ACL5	Glc operon transcriptional activator	glcC yghN b2980 JW2947	b2980 JW2947	glcC	reviewed
+P76323	Putative protein IntG (Putative lambdoid prophage defective integrase)	intG b1936	b1936	intG	reviewed
+P0ADF0	Putative fruR/shl operon leader peptide	fruL b0079	b0079	fruL	reviewed
+P77184	Putative protein LomR	lomR b4570 JW5884/JW5904 b1369/b1371	b4570 JW5884/JW5904	lomR	reviewed
+P77528	Putative uncharacterized protein PeaD	peaD ybcD b4508	b4508	peaD	reviewed
+P33227	Putative uncharacterized protein StfE (Side tail fiber protein homolog from lambdoid prophage e14)	stfE b1157 JW5172	b1157 JW5172	stfE	reviewed
+P77699	Putative protein TfaD (Putative tail fiber assembly protein homolog from lambdoid prophage DLP12)	tfaD b0561	b0561	tfaD	reviewed
+P77326	Putative protein TfaS (Putative tail fiber assembly protein homolog from prophage CPS-53)	tfaS b2353 JW5383	b2353 JW5383	tfaS	reviewed
+P75688	Putative uncharacterized protein b0309	b0309	b0309		reviewed
+P76349	Putative uncharacterized protein YeeL	yeeL b4497 b1979/b1980	b4497	yeeL	reviewed
+P39354	Putative uncharacterized protein YjhD	yjhD b4281	b4281	yjhD	reviewed
+P76359	Putative uncharacterized protein YeeP	yeeP b1999 JW5327	b1999 JW5327	yeeP	reviewed
+Q7DFV4	Putative uncharacterized protein YmdE	ymdE b1028	b1028	ymdE	reviewed
+P77286	Uncharacterized protein YdeU	ydeU b1509 JW1502	b1509 JW1502	ydeU	reviewed
+P0CF86	Putative arsenate reductase-like protein	yfjU b2638	b2638	yfjU	reviewed
+A5A625	Putative uncharacterized protein YibV	yibV b4615	b4615	yibV	reviewed
+P39355	Putative uncharacterized protein YjhE	yjhE b4282	b4282	yjhE	reviewed
+P0DP21	Putative inactive recombination-promoting nuclease-like protein YjiP	yjiP rpnD b4338 JW5953	b4338 JW5953	yjiP	reviewed
+P39393	Putative uncharacterized protein YjiV	yjiV mcrD b4486	b4486	yjiV	reviewed
+P0DN74	Uncharacterized protein YtiA	ytiA b4715	b4715	ytiA	reviewed
+Q7DFU6	Putative hydrolase YghX	yghX yghY b4658 JW5926/JW5496 b2999 b3000	b4658 JW5926/JW5496	yghX	reviewed
+A5A619	Uncharacterized protein YojO	yojO b4604	b4604	yojO	reviewed
+V9HVX0	Uncharacterized protein YpaA	ypaA b4543	b4543	ypaA	reviewed
+P58095	Putative UPF0401 protein YpjI	ypjI b4644 JW2623.1 b2641.1	b4644 JW2623.1	ypjI	reviewed
+P45421	Putative uncharacterized protein YhcE	yhcE b4569 b3217	b4569	yhcE	reviewed
+P0CD93	Putative uncharacterized protein YmjD	ymjD b4673 JW5960.1	b4673 JW5960.1	ymjD	reviewed
+P58037	Uncharacterized protein YrhD	yrhD b4612 b3445.1	b4612	yrhD	reviewed
+G7ZF49	Putative glycosyl transferase	AZOLI_p30192	AZOLI_p30192		unreviewed

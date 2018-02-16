@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.56454321352, 0.193396790978, 0.588193950239],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 68.8894637963,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "zapB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "zapB",
+    "positions": [
+        [[9.171113204089105, -10.726266114955108, -0.2028441779944509], [-19.51065780875234, 26.790541326172765, 41.23926926649412], [7.195163249683991, -20.016277873340112, 20.369804001890774], [9.420487648462625, -0.9132967128965219, -21.706520614158524], [-5.24571860608954, -7.948036458546008, -38.60919352016899], [-12.149528347469685, 16.80338847780013, 16.366659198075], [16.78150604716751, 9.429941340291343, -42.50069923286023], [8.116829048102812, -28.44659107824819, 41.14453911883195], [-7.31177431675841, 4.6610165134178985, -9.115509795272482]]
+    ],
+    "meshName": "zapB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2jee-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2jee-A_clean",
+    "useRotAxis": 0
+}

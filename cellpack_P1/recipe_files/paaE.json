@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.110975360782, 0.997298869712, 0.606515746605],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.5804036729,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "paaE_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "paaE",
+    "positions": [
+        [[-13.697854813711572, -3.0602206797842433, -1.900716116459582], [-10.500803501221833, -2.5767004020373174, 13.843379125041455], [16.85434583500153, 12.902309235977842, 1.1397678656468357], [2.5172470929507886, 16.668382817959678, -13.399457515692083], [0.4090926458356063, -25.444712891590342, -6.7751420781824025], [6.342302440779921, -9.64650782678054, -5.394311216713963], [-3.3999440936134477, 16.430513392706242, 4.063693613236729], [9.007436876532951, 10.137930402314835, 14.581931841615475], [-3.9683245950617727, -13.461264726881977, -17.91707454488362]]
+    ],
+    "meshName": "paaE",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1392_3_350_2pia_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1392_3_350_2pia_clean",
+    "useRotAxis": 0
+}

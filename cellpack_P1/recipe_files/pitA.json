@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0802841959974, 0.620923646127, 0.364673855005],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 110.023490997,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "pitA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "pitA",
+    "positions": [
+        [[-10.055949914371146, -5.0625290540144, -12.625728932469846], [-0.09313016044679757, -12.633544294924983, 2.551305770910791], [9.292629415599901, 13.865942691621935, -20.424074755290576], [-0.278178532303963, 28.982184979741906, -11.217055176789387], [0.03171256105722875, -48.84801375776133, 26.85560854591178], [29.74633050260469, -52.15827743630173, 48.00336186258412], [2.3886030713677227, -88.4172605365679, 42.51290787724632], [7.140696557616117, 22.58159948455493, 6.238157668588902], [4.447691685715215, 5.119794169742812, -1.4761270308893017], [-17.212465979176404, 5.202010658327454, 4.74587482084045], [30.9804545961821, -20.45618929570544, 19.299742952010664], [-11.90408365253264, 16.793514940866423, -12.357474899094788]]
+    ],
+    "meshName": "pitA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E03290_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E03290_clean-X_clean",
+    "useRotAxis": 0
+}

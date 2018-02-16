@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.201721816725, 0.753492217389, 0.268360288723],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.2814077981,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "gabT_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "gabT",
+    "positions": [
+        [[-5.99854766371091, -3.829134346649851, -9.557972569906887], [-8.59928462054429, -10.353626531244915, 10.460490149406308], [-15.778427387048428, 8.51076486742402, 5.047529588038269], [7.248090106793616, 0.6995993315031419, -15.770528621194698], [-11.824908397901527, -0.2815111697564041, 21.381368097456072], [3.960264373328649, 4.650652059745108, 12.187674825251177], [10.261106228523778, -14.769933057942238, 4.489682180752682], [14.552477135925276, -15.289400752235055, -9.246163834017754], [22.19583530836528, 8.620839996071659, -5.74679245951476], [-7.132600478239382, 18.148991087731165, -8.687133277490114]]
+    ],
+    "meshName": "gabT",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1sff-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1sff-A_clean",
+    "useRotAxis": 0
+}

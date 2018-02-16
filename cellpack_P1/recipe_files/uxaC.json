@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.750654393943, 0.872331358685, 0.888387835762],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 39.0166432155,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "uxaC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "uxaC",
+    "positions": [
+        [[-11.09871370757106, -1.7714268363150787, 8.805066438957637], [2.651075398119887, -13.290487911226837, -21.553121376221185], [-3.279932844927744, 1.4958853727644403, -20.025571616627], [4.888387405259646, 11.858865637923607, -2.658138274178212], [7.4069625011626234, -8.700421219614707, 21.03237041685036], [-6.896102875951593, -17.317471429660074, -5.860387001041931], [-3.777286782537309, 21.103559798114542, -14.959332488440511], [-0.9750534472503753, 10.834334306706069, 16.39791099445185], [-6.462864677797511, -9.027926786788594, 26.254219169482294], [13.239767958026748, -2.0362409377265016, 6.011266187977403], [-11.143309552460163, 10.022396317622439, -0.7024747379469143], [14.574246188578888, -3.6270464843110872, -10.831390825328576]]
+    ],
+    "meshName": "uxaC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3092_2_468_3iac_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3092_2_468_3iac_clean",
+    "useRotAxis": 0
+}

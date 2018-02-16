@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.345867542207, 0.319739641548, 0.0381417826015],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 46.5589006118,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ybeZ_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ybeZ",
+    "positions": [
+        [[-10.057304021946532, 12.45697370979715, 15.84761488997246], [-5.23708976146449, -14.858729768568633, 0.44455342287530814], [-15.978051733719635, -2.9000252642520192, 6.557833778507564], [-6.849289642134951, 8.766831924441496, -9.699519031731027], [7.988695510615231, 2.010098240439322, -18.138272617078357], [30.615984364475374, 4.843234112914751, 8.399430605121289], [13.444542754031376, -5.687369010773117, -4.874044779211234], [1.2935972049149838, 1.4717068748960154, 6.63689532212462], [-2.7247532703717137, -10.887958942713423, -15.04602251152786]]
+    ],
+    "meshName": "ybeZ",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E00615_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E00615_clean-X_clean",
+    "useRotAxis": 0
+}

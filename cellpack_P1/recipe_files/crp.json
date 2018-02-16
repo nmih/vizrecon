@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.666056228529, 0.16100925533, 0.183289816862],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 38.3119852118,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "crp_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "crp",
+    "positions": [
+        [[-1.6418742210004347, 7.835858292597356, 12.455031618265714], [4.024727001218583, -17.806506702414158, 17.5938219503899], [6.928246172952423, 1.4788283900542283, -9.925686965510554], [13.381381737468203, -3.9438601935133426, 10.367825817922428], [-16.08099115501981, 11.282001329382918, -2.5577414628623165], [3.258296480254312, 25.057476587643773, 8.541572116987766], [-14.939358771992568, 1.3033375028723753, -17.237727023286087], [-11.216379989828216, -4.1838267439751915, -1.0319643019156846], [12.998694981654292, -13.450736434797586, -7.219562814887962], [1.1338332182897946, -11.501018519145298, -19.793043131910927]]
+    ],
+    "meshName": "crp",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "4r8h-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "4r8h-A_clean",
+    "useRotAxis": 0
+}

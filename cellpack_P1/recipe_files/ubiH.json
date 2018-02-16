@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.756226776355, 0.289573040544, 0.488330231048],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 43.5314384986,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ubiH_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ubiH",
+    "positions": [
+        [[1.449591002339077, 9.696002930154227, -20.36101162652637], [-12.866670717933156, 3.5166893413276052, -3.918370640468185], [0.28059751339917427, 8.306258243919203, 3.8865330125954536], [16.8495721560109, 7.2486206964841005, 10.054559975300737], [-5.5109950381301, -7.261980765219792, -17.557517515892123], [-4.637452991851075, -12.44123697240125, 10.663344336991967], [-17.83779220435716, 6.757639738577932, -18.433534072613348], [7.8976888508428225, -8.691951018975773, -5.7846687463144075], [-4.5426994402886125, -1.078080805055863, 28.191705034579396], [13.903129669571745, -6.193642482796971, 13.454630174543501]]
+    ],
+    "meshName": "ubiH",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2907_1_390_4n9x_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2907_1_390_4n9x_clean",
+    "useRotAxis": 0
+}

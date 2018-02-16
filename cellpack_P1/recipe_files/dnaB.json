@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.859889359886, 0.596846314518, 0.744506090749],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 59.8250094165,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "dnaB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "dnaB",
+    "positions": [
+        [[18.54463671925427, 9.510360504821508, 19.678253356978928], [8.166980300654203, -8.812273902451121, -12.805008538279388], [24.513235723662724, -8.948189539621513, 28.58037500016317], [30.091827937606773, 27.872108692597013, 22.025997122931265], [-14.918533297756284, 6.972726307987919, 1.4452461824378329], [-4.019774598777371, 8.067310570885786, -10.778799151251619], [-15.060948765734924, -8.773400084400476, 0.8170253472907796], [-17.278154254694496, -12.39455482437669, -13.498387101939002], [-28.34093979396777, -2.8618597427810117, -25.110400935848418], [-9.68252501191171, 1.9044356363663948, -27.452499419646934], [13.284629537969058, -5.406080094404233, 20.667085137645856]]
+    ],
+    "meshName": "dnaB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b4052_26_462_2vye_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b4052_26_462_2vye_clean",
+    "useRotAxis": 0
+}

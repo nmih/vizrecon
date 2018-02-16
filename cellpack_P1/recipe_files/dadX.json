@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.976706510901, 0.572463456749, 0.0137372774188],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 49.0759604691,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "dadX_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "dadX",
+    "positions": [
+        [[-4.162764513862829, -21.131077524495392, 7.936152253121942], [2.5729721740138247, -6.419327260675059, 14.629997338989062], [4.490082548762189, 8.618546586230472, 4.310316504292311], [-14.774851797248232, 24.38516114603911, -19.420756522832008], [-10.850825020304901, 0.4727544083559726, 9.037791143368842], [-5.161022991511452, 26.344118995286248, -8.858583503885436], [-2.9570172912721717, 11.304332619291186, -10.52664270515703], [11.737961086079206, -23.426680190768348, 0.8781318338472635], [13.136188377014179, -5.7765000783863325, 0.9374614452744939]]
+    ],
+    "meshName": "dadX",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1190_3_354_1rcq_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1190_3_354_1rcq_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.990507859133, 0.734439959865, 0.502476314111],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 206.718539318,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "thiI_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "thiI",
+    "positions": [
+        [[10.118077357616249, 40.455358263277354, 4.08998628090533], [-30.394338998655673, -27.714843093770963, 14.579300081319277], [-1.056222027107171, 32.710987077401946, -8.171237643092745], [-38.641025603129656, -169.5330040905327, -69.47620820872406], [18.220908893153833, 18.96650084928036, 7.261368658795261], [-36.32115957639303, -141.05453224694062, -35.27788564628974], [-51.3207251344222, -62.36062856626035, 4.9752915353884175], [-36.76620728313131, -101.90295963217562, -10.579888662079258], [2.0991758603090918, -8.526542758902071, 12.460962400778346], [4.6718671493388255, 15.382661960032197, 18.226355477629202], [18.095310210466277, -4.318388386980523, 18.659344228758304], [7.79639732424243, 53.6999732123484, -9.406874911922584]]
+    ],
+    "meshName": "thiI",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E00389_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E00389_clean-X_clean",
+    "useRotAxis": 0
+}

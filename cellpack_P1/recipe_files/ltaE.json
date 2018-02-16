@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.352745132391, 0.353679229657, 0.894915520515],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 38.2329473921,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ltaE_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ltaE",
+    "positions": [
+        [[-5.061324864137012, 0.06913073862895253, -10.369672638052428], [-13.752250445913509, 20.160174567962788, 5.527206155086594], [13.066735158430623, -4.71830412027259, -5.78414036097629], [4.596080050850182, 0.12087508009835908, 14.362115331132728], [-3.2056258670621527, -12.357188022803706, -0.8252385785973918], [18.82065942178025, -5.611099836744025, 10.020483100976202], [3.1476222077235345, -7.678973423112592, -21.801045189803787], [-10.99912688544174, 7.3280275653265265, 10.0934481126054]]
+    ],
+    "meshName": "ltaE",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3wlx-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3wlx-A_clean",
+    "useRotAxis": 0
+}

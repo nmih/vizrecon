@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.888517127856, 0.076683979477, 0.056125429412],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 33.9826037908,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "murB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "murB",
+    "positions": [
+        [[15.116605519898542, -3.6574497934803354, -4.305759112145945], [-17.45818888610814, 8.63532958662043, -10.76765947244423], [-13.283598298032746, -16.646907807894124, 4.374806553693146], [-10.631734123814375, 1.807005322430192, 6.154822496090536], [4.034096278144825, -16.074712665187516, 3.75107309034563], [12.568114416097888, 16.569191666871358, 9.222337872357757], [14.886256217146348, 0.24350984359965375, 9.432942236866563], [-5.6211464804165074e-05, 14.03732954995332, -12.63833733422656], [-8.378336107590593, -3.2696836201006385, -8.741299264894543]]
+    ],
+    "meshName": "murB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1mbb-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1mbb-A_clean",
+    "useRotAxis": 0
+}

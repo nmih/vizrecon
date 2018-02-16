@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.973990949734, 0.971209595091, 0.555059556288],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 34.8736784692,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "tnaA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "tnaA",
+    "positions": [
+        [[20.642554159659635, -5.023020128029403, -9.056297922756315], [-11.789100355239984, -3.0393567051514347, 18.72470774200128], [-16.573406930851576, 2.89409651808182, -6.559729614891741], [10.44864130385225, -10.221438270234106, 9.548007344647539], [1.8338039303967149, 8.420411450157928, -13.750188861300803], [4.828859877714788, -9.182667689127205, -17.035196835332844], [0.7654354579162199, 10.904200477929212, 12.856769092952181], [12.195940151030554, -19.193802823049825, -4.4281519423560525], [1.0208197478820515, 22.512955642187368, 0.6305318009442319], [-12.303693058462498, 12.153699342038859, 8.00954262539118], [-7.235428173231228, -9.424425565181178, -0.9437832342778602]]
+    ],
+    "meshName": "tnaA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2c44-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2c44-A_clean",
+    "useRotAxis": 0
+}

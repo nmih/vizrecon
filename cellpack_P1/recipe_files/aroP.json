@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.916827632102, 0.367461281473, 0.906568568217],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 43.5548937183,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "aroP_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "aroP",
+    "positions": [
+        [[-3.262561575018338, 21.28097623112525, 18.80676236549722], [0.1018703928416299, 20.086367537886325, -8.594479240786299], [10.100586932349243, -16.82753625307242, -15.545556736931879], [-17.15166925801133, 12.835193673367609, -0.07693525871497549], [6.902870478448834, 12.229523294194314, 5.3871108059251585], [-3.85863451170913, -16.611887161090785, 6.819867793734195], [14.985634994267517, -18.800322940729014, 1.441396664474817], [3.2531034260090457, 3.4866921428440056, -11.82013115596949], [-8.98157770372703, 1.2553136323554783, 12.717332879682738], [8.612305707328689, -3.9871988864729078, 8.946924509611831], [-10.653680273550096, -7.954179552304638, -9.254139275412728]]
+    ],
+    "meshName": "aroP",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E00107_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E00107_clean-X_clean",
+    "useRotAxis": 0
+}

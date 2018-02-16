@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.172598931046, 0.201615352067, 0.798962134985],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 38.0533336596,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "dsdA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "dsdA",
+    "positions": [
+        [[0.5728609091549398, 16.43094667943026, -1.8679490438152582], [-1.3057334368938873, 3.8290612313332533, -12.741077265270237], [-15.072772538564918, 13.97240593874885, -7.0643417192024796], [0.7937942046361035, -7.2752831944488845, -20.24483704564249], [19.04510966355334, -5.691043454246444, 0.6751156069643007], [-3.8787330607122708, -13.06927083834787, 1.1453614383225956], [-12.760663622762252, 1.4093495670745133, 7.285371983848962], [4.456824664461495, 1.2590454801389686, 14.969132856628473], [-20.421611814833362, -4.355160563141427, -6.44031080144716], [15.575826201471404, -6.6692462331883595, 20.760561959481837], [17.92140082606955, 8.577223787814068, 0.02985942089776559]]
+    ],
+    "meshName": "dsdA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3ss7-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3ss7-X_clean",
+    "useRotAxis": 0
+}

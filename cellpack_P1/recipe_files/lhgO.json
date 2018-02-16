@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0572948991849, 0.998611265272, 0.976263398551],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 41.0416370457,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "lhgO_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "lhgO",
+    "positions": [
+        [[21.116686749945444, -11.538596757400725, 13.435756799561519], [-6.503828212306739, -9.781734622322134, -1.4414914537932557], [2.86943613617356, -3.2241223573229645, -12.907031420686252], [-13.220176517223708, 12.165502986226562, 12.594935099495054], [1.2030844624943846, 10.479746659124622, 4.4637538451682985], [6.2507776946943245, -3.7386260968386673, 15.832088820733558], [17.111315779445412, -1.2530023874692209, 0.814443293194252], [7.749110647563618, -18.989261428611904, 6.015555506969485], [-17.65516838569125, 9.429089815057754, -5.018212980557513], [-8.999101079692792, 8.462614344548646, -20.31681461426995]]
+    ],
+    "meshName": "lhgO",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2660_2_393_4x9m_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2660_2_393_4x9m_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.576499736274, 0.726846986347, 0.43132433087],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.3733836233,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "cmoA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "cmoA",
+    "positions": [
+        [[-11.878134905196049, 14.526310095816848, 13.716055507124612], [9.890914420139893, -5.761232762881852, -23.91574707155192], [-8.800421397526202, -1.382169750764553, 15.312763525696305], [-3.7487544262500525, -12.212341447067656, -2.3134569571621815], [8.717555381388854, -9.542120775584172, 14.920435885490996], [6.52444515053069, 10.858901553143095, -15.080070005827162], [6.702024915510626, 6.738762000477305, 25.024146198974915], [-9.671068898659021, -6.048547154582587, -18.109059462156637], [4.956461243780724, -19.1789971766333, -15.217695353742617], [4.935935540238708, 18.444985841524403, 13.587977351313075], [-4.432935160961047, 7.509948266676254, -2.0395122681075373]]
+    ],
+    "meshName": "cmoA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "4iwn-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "4iwn-A_clean",
+    "useRotAxis": 0
+}

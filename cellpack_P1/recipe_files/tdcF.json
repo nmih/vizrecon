@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.503740473605, 0.495715939424, 0.75375756648],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 31.4158651488,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "tdcF_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "tdcF",
+    "positions": [
+        [[-8.277814315708437, 10.94971998669054, -10.730660709433174], [9.159203275330633, 5.971266035496165, -11.642929305186556], [-16.65816014180293, 3.070074408969356, -0.36768463345593216], [-0.8595648745786426, -10.050354865411792, -13.853849674076208], [-1.387424301725787, -13.095483488534612, 10.561129099583136], [12.829274465867963, -9.162460766066166, -6.1553284141841615], [-2.8322771479535955, 14.95992624878275, 5.0440537911282775], [12.828865941394413, -1.0803386277520313, 10.029882439893997], [-2.5881443700565154, 1.2144484035470258, 17.174509248857444]]
+    ],
+    "meshName": "tdcF",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2uyk-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2uyk-A_clean",
+    "useRotAxis": 0
+}

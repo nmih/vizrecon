@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.291753509487, 0.0436393510131, 0.885225688427],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 38.317469164,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "mak_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "mak",
+    "positions": [
+        [[11.693814548468492, -6.560250512983838, -18.29248602361672], [-17.347300752653222, -9.783511782993898, 6.915851121120344], [7.0069500016074695, 3.57903972475221, 4.902462537931711], [13.500786055021724, 11.996268895507917, -7.917612627537897], [-0.6704412266078856, -5.79061811343715, 16.101573160996654], [-12.912628542008232, 5.179432029320316, 5.847120026105067], [0.20561587106151, 5.668459921966234, -17.272752243560312], [-12.763273976840527, -6.453745278059313, 22.49049478971419]]
+    ],
+    "meshName": "mak",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b0394_1_301_4db3_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b0394_1_301_4db3_clean",
+    "useRotAxis": 0
+}

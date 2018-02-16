@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.487618208477, 0.0807939523281, 0.571298747743],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 44.1789242125,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "potG_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "potG",
+    "positions": [
+        [[-23.752850524698992, 8.316486241999465, 10.975197978537027], [15.494059073169659, -0.32503196065768014, 11.242286526059036], [15.704754137793397, 0.49276167775922775, -25.118867076671606], [-3.3320783548470696, -1.4739287029295325, 6.176700983672742], [-24.315413810723047, 15.942591204539866, -0.9513099322052477], [17.009143670615046, -12.212444342490992, 1.540177316470542], [-20.820002366591723, -0.22920003444784162, 23.13353047799108], [5.678646491111987, -0.40985592484284894, -10.58358006012874], [21.778600740774976, -11.038370450585601, -18.96953596362779]]
+    ],
+    "meshName": "potG",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b0855_18_376_2d62_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b0855_18_376_2d62_clean",
+    "useRotAxis": 0
+}

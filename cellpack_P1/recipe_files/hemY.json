@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.0690994408705, 0.512884006755, 0.419951780658],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 64.4075408099,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "hemY_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "hemY",
+    "positions": [
+        [[7.580254159115821, 21.7670759294527, 23.57215031168502], [-28.593295940713578, -19.348886374343085, -22.11173859377799], [-20.70072299838803, -30.755031929695384, -16.976395262895718], [-1.068465924543115, -10.20154285150378, -9.343550964211236], [-1.8201925481536751, 4.968635972672693, -10.104954523377234], [-12.863661159641904, -19.771496016310433, -6.290356508221773], [-26.005951272560125, -16.773012003783602, -42.526917737354644], [23.54516872406124, 15.724269468464364, 31.13740571238609], [39.849894340499766, 18.456780767407295, 24.735084016862633], [3.6302182960386338, 25.236628839897875, 5.452932946465875]]
+    ],
+    "meshName": "hemY",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E03585_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E03585_clean-X_clean",
+    "useRotAxis": 0
+}

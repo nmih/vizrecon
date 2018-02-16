@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.483008137054, 0.235485777714, 0.512302912637],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 31.2482566732,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "yfbR_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "yfbR",
+    "positions": [
+        [[3.2716851446296027, -6.525900364605057, -16.778155643809935], [2.1338836892537594, 16.192940233309333, 3.3509181494188818], [10.391196847416051, 5.515671772344777, -11.103670168265152], [-7.357468198477227, 0.709727470565406, -0.10380264960158792], [-0.7020467027407704, -16.9659706622867, -3.500822445779914], [8.893276610629103, -7.0018235973915735, 11.380174810822984], [4.582277613978303, 6.098990517671456, 16.82687301241127], [-12.404169780311204, -7.599356386031935, 14.773128417241843], [-10.545042901563233, 10.260708960708701, -14.614442322426182]]
+    ],
+    "meshName": "yfbR",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2paq-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2paq-A_clean",
+    "useRotAxis": 0
+}

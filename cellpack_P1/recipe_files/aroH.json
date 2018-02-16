@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.342407257343, 0.775592897624, 0.593605904076],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.4465540268,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "aroH_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "aroH",
+    "positions": [
+        [[0.7923375669407179, -15.376164392757905, -5.677409282429606], [19.644101008975483, 1.6953019807946712, 1.5871002606689635], [6.5433007525570455, 1.1086151218246607, -10.896997380922233], [-2.15528086779446, 11.927791940760516, -4.680216857905312], [-14.46543048989183, 1.7623812473514804, -11.171580695149641], [6.166878630371326, 9.942184342754498, 11.923063199526942], [13.039593220365994, -11.340208747220961, 9.719166419050431], [-12.933618998982976, -5.418117930010475, 4.378290260215021], [-12.458103318659699, 10.036248488979748, 9.386527214128414]]
+    ],
+    "meshName": "aroH",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1704_7_347_1n8f_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1704_7_347_1n8f_clean",
+    "useRotAxis": 0
+}

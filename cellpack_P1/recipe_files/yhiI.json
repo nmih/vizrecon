@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.513038782954, 0.169297393515, 0.838684503758],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 95.3500009099,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "yhiI_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "yhiI",
+    "positions": [
+        [[41.32506352923886, 4.803268630800961, -32.219773708143876], [-15.910280834303506, -0.816251616798639, 5.030836295909894], [-41.03792305885805, -25.77746171777778, 25.054313629089275], [15.332223416173385, -4.251073447346571, -14.124715200304736], [13.54019255313687, 4.9328914417722896, 17.303756566045287], [49.71710242518709, 31.648804396914013, -30.98882839664472], [60.59636569647016, 57.37569278065735, -20.59996513092011], [-40.94885064009604, -10.008722573351227, 11.109204727604116]]
+    ],
+    "meshName": "yhiI",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b3487_35_340_4tko_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b3487_35_340_4tko_clean",
+    "useRotAxis": 0
+}

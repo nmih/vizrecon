@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.808728740981, 0.284240515204, 0.662645370638],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 37.119084345,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "cysD_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "cysD",
+    "positions": [
+        [[0.8702304614014675, 6.7746255279701595, 4.808403199145784], [-16.95506435278373, 2.606623534934487, 4.346516952182596], [14.644089560843339, -1.0808674049098186, -9.6666970066355], [3.2224717857104572, 15.30004459259099, -10.882296652881125], [-3.4878817090858956, -10.112445201901789, -3.102281248484459], [-4.874154954326549, -5.684841801064604, 17.805665705812345], [12.654599806493112, -7.692201357268746, 7.101077736919345], [-8.788820059791805, 3.4767149214617707, -12.333290683798996]]
+    ],
+    "meshName": "cysD",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E02597_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E02597_clean-X_clean",
+    "useRotAxis": 0
+}

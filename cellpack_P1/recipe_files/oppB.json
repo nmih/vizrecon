@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.888166672306, 0.649838087812, 0.465855493335],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 42.2374498492,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "oppB_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "oppB",
+    "positions": [
+        [[0.12110831082922205, -3.7764944767098614, 10.770727393162208], [-19.952018289381375, 12.018481388820527, 0.0837972500889424], [-16.032496143440653, -13.41233842295648, 3.008224469486793], [11.133494339599439, 15.973766956226346, -3.5131233047180674], [20.339117424721483, 3.9865715311564474, -15.093527102397069], [-7.556668473791974, 6.776655501730845, -3.4139116006541586], [-10.448492423353795, -19.564150594602225, 19.694929176098963], [14.905937716714076, -20.903147258757436, -14.186716695658035]]
+    ],
+    "meshName": "oppB",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E01166_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E01166_clean-X_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.171879453314, 0.656506544551, 0.481274152724],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 41.4144901394,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "deoA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "deoA",
+    "positions": [
+        [[-9.166418173364866, 19.393245202212523, -12.11740681086899], [2.9255648435779142, 17.420614010478307, 9.562042289127808], [15.049511935794428, -22.89527888937396, -10.87053942052062], [1.7229003988604097, 8.963407696248632, -8.289972219269089], [-6.464331386324221, -1.3004864095694222, 17.738121696629296], [3.796786172219889, -13.469512003146292, 3.963749796615372], [-23.559971784641004, 8.280786307540714, -10.044992959677339], [-10.494243671365554, 9.264545958987629, 5.251151426863706], [-9.39332438347457, -7.505872125477647, -3.2016321999978774], [12.111899850399796, 1.1740877710587005, 13.345915788706371], [15.945746196101503, -9.496600138411013, -8.39668654664575]]
+    ],
+    "meshName": "deoA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2tpt-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2tpt-A_clean",
+    "useRotAxis": 0
+}

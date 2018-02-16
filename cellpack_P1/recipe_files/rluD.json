@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.844603592255, 0.868096897974, 0.229114349416],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 53.5343941402,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "rluD_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "rluD",
+    "positions": [
+        [[15.828648825165496, -1.4832076115180979, 6.79097018810412], [-4.576635207174799, -15.42000363642459, 12.249401678984421], [5.505607624204595, 17.532219890214947, -26.691875157309298], [5.635430274810098, 12.654345160613834, 2.241904862659472], [-6.341476620469387, -9.102234470469886, -2.9708819313178187], [-3.6015288048991367, -0.09718297442223686, 13.822017469329815], [2.1736944411691645, 10.845104751367883, -38.41383729151071], [-17.713491465342603, -11.573509698475979, 24.63570259927704]]
+    ],
+    "meshName": "rluD",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2ist-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2ist-A_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.324157540309, 0.842012723739, 0.417969596164],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 43.5726699357,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "glgC_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "glgC",
+    "positions": [
+        [[12.607505810824504, -1.3447138412026873, -2.084082880739137], [1.3518884532857756, 5.5252517071071425, 12.55442879414217], [-1.7202686106090344, 19.740765267367266, -4.4125039876176295], [2.5111484792999095, -15.118658390444201, 6.501096283497352], [13.184913482553847, 18.027482002962415, -0.42741264160976794], [7.28141076472171, 11.580284531819267, -18.773486838049315], [-13.7731705686268, 14.187524840086061, -13.373821447147089], [-13.611609609141695, -18.622214232784966, 10.19005245549788], [0.4869824424469808, -19.40350311938814, 22.53997058127351], [-8.452814466784524, -0.5807849083102161, 2.13108592273991], [0.9765898312192752, -3.7288621937625663, -19.875487596168227]]
+    ],
+    "meshName": "glgC",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "5l6v-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "5l6v-A_clean",
+    "useRotAxis": 0
+}

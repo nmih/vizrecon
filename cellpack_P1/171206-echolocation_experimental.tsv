@@ -1,0 +1,507 @@
+Gene Name	Function	Subcellular Location	Predicted Molecular weight (Da)	Number of TMH (HMMTOP / TMHMM)	Signal Peptide Cleavage Prob
+fimA	 The cellular location of this protein was experimentally confirmed - Fimbrin type 1; major structural subunit; phase va ... ...	Cell surface appendage	18111.24	1 / 1	98.6%
+fimF	 The cellular location of this protein was experimentally confirmed - Fimbrin type 1 minor component; fimbrial morpholog ... ...	Cell surface appendage	18715.39	1 / 0	91.9%
+fimG	 The cellular location of this protein was experimentally confirmed - Fimbrin type 1 minor component; pilus length; perh ... ...	Cell surface appendage	17317.41	1 / 1	98.8%
+fimH	 The cellular location of this protein was experimentally confirmed - Membrane-specific adhesin (lectin); major fimbrial ... ...	Cell surface appendage	31473.57	1 / 0	71.7%
+fliC	 The cellular location of this protein was experimentally confirmed - Flagellin; structural gene; flagellar regulon	Cell surface appendage	51295.09	0 / 0	None
+fliD	 The cellular location of this protein was experimentally confirmed - Hook-associated protein 2; axial family; flagellar ... ...	Cell surface appendage	48456.56	0 / 0	None
+csgA	 The cellular location of this protein was experimentally confirmed - Curlin; RpoS (stationary phase) dependent; cryptic	Cell surface appendage	15049.19	1 / 0	100%
+flgL	 The cellular location of this protein was experimentally confirmed - Flagellar synthesis; flagellar regulon; hook-assoc ... ...	Cell surface appendage	34281.16	0 / 0	None
+flgK	 The cellular location of this protein was experimentally confirmed - Flagellar synthesis; flagellar regulon; hook-assoc ... ...	Cell surface appendage	57930.02	0 / 0	None
+csgB	 The cellular location of this protein was experimentally confirmed - Curlin nucleator protein; homology with major curl ... ...	Cell surface appendage	15881.92	1 / 0	95.8%
+flgD	 The cellular location of this protein was experimentally confirmed - Flagellar basal body rod modification; flagellar r ... ...	Cell surface appendage	23575.06	0 / 0	67.4%
+flgE	 The cellular location of this protein was experimentally confirmed - Flagellar hook subunit protein; flagellar regulon	Cell surface appendage	42045.31	0 / 0	None
+fruB	 The cellular location of this protein was experimentally confirmed - fructose-specific enzyme IIA and HPr component of ... ...	Cytoplasmic	39647.94	0 / 0	None
+adk	 The cellular location of this protein was experimentally confirmed - Adenylate kinase; weak nucleoside diphosphate kina ... ...	Cytoplasmic	23586.09	0 / 0	None
+ansA	 The cellular location of this protein was experimentally confirmed - L-Asparaginase I	Cytoplasmic	37127.37	0 / 0	None
+aroK	 The cellular location of this protein was experimentally confirmed - Shikimate kinase I; alkali-inducible	Cytoplasmic	26973.69	0 / 0	None
+aspC	 The cellular location of this protein was experimentally confirmed - Aspartate aminotransferase; kynurenine aminotransf ... ...	Cytoplasmic	43573.5	0 / 0	None
+atpC	 The cellular location of this protein was experimentally confirmed - Membrane-bound ATP synthase; F1 sector; epsilon-su ... ...	Cytoplasmic	15068.32	0 / 0	None
+atpG	 The cellular location of this protein was experimentally confirmed - Membrane-bound ATP synthase; F1 sector; gamma-subu ... ...	Cytoplasmic	31577.55	0 / 0	None
+crr	 The cellular location of this protein was experimentally confirmed - glucose-specific enzyme IIA component of PTS; memb ... ...	Cytoplasmic	18251.11	0 / 0	None
+cysI	 The cellular location of this protein was experimentally confirmed - Sulfite reductase; alpha-subunit; FAD and FMN-cont ... ...	Cytoplasmic	63998.33	0 / 0	None
+dnaK	 The cellular location of this protein was experimentally confirmed - HSP-70-type molecular chaperone; heat-inducible;Dn ... ...	Cytoplasmic	69115.14	1 / 0	None
+eno	 The cellular location of this protein was experimentally confirmed - Enolase; phosphoprotein; component of RNA degrados ... ...	Cytoplasmic	45655.08	1 / 0	None
+fbaA	 The cellular location of this protein was experimentally confirmed - Fructose-bisphosphate aldolase; class II; binds Zn ... ...	Cytoplasmic	39147.38	0 / 0	None
+frdB	 The cellular location of this protein was experimentally confirmed - Fumarate reductase iron-sulfur protein subunit	Cytoplasmic	27123.22	0 / 0	None
+fusA	 The cellular location of this protein was experimentally confirmed - Fusidic acid resistance; protein chain elongation ... ...	Cytoplasmic	77581.55	1 / 0	None
+glnQ	 The cellular location of this protein was experimentally confirmed - glutamine transporter subunit; ATP-binding compone ... ...	Cytoplasmic	26731.08	1 / 0	None
+glpB	 The cellular location of this protein was experimentally confirmed - sn-Glycerol-3-phosphate dehydrogenase (anaerobic) ... ...	Cytoplasmic	45357.41	1 / 0	None
+glpD	 The cellular location of this protein was experimentally confirmed - Glycerol-3-phosphate dehydrogenase (aerobic)	Cytoplasmic	56750.7	0 / 0	None
+hmpA	 The cellular location of this protein was experimentally confirmed - Flavohemoglobin; nitric oxide dioxygenase; dihydro ... ...	Cytoplasmic	43867.78	0 / 0	None
+lpd	 The cellular location of this protein was experimentally confirmed - Lipoamide dehydrogenase (NADH); glycine cleavage s ... ...	Cytoplasmic	50688.64	0 / 0	None
+malZ	 The cellular location of this protein was experimentally confirmed - Maltodextrin glucosidase	Cytoplasmic	69172.44	0 / 0	None
+manX	 The cellular location of this protein was experimentally confirmed - mannose-specific enzyme IIAB component of PTS; mem ... ...	Cytoplasmic	35047.66	0 / 0	None
+mdh	 The cellular location of this protein was experimentally confirmed - Malate dehydrogenase; NAD-dependent	Cytoplasmic	32337.38	1 / 0	52.2%
+mreB	 The cellular location of this protein was experimentally confirmed - Mecillinam resistance; cell shape; affects divisio ... ...	Cytoplasmic	38972.93	0 / 0	None
+narH	 The cellular location of this protein was experimentally confirmed - Nitrate reductase beta-subunit	Cytoplasmic	58066.67	0 / 0	None
+narW	 The cellular location of this protein was experimentally confirmed - Cryptic nitrate reductase II; delta-subunit	Cytoplasmic	26160.68	0 / 0	None
+oppD	 The cellular location of this protein was experimentally confirmed - oligopeptide transporter subunit; ATP-binding comp ... ...	Cytoplasmic	37188.65	0 / 0	None
+pckA	 The cellular location of this protein was experimentally confirmed - Phosphoenolpyruvate carboxykinase (ATP)	Cytoplasmic	59643.65	0 / 0	None
+pepN	 The cellular location of this protein was experimentally confirmed - Aminopeptidase N	Cytoplasmic	98919.25	0 / 0	None
+potA	 The cellular location of this protein was experimentally confirmed - polyamine transporter subunit; ATP-binding compone ... ...	Cytoplasmic	43028.38	0 / 0	None
+ppiB	 The cellular location of this protein was experimentally confirmed - Rotamase; peptidylprolyl-cis-trans-isomerase B	Cytoplasmic	18153.54	0 / 0	None
+psd	 The cellular location of this protein was experimentally confirmed - Phosphatidylserine decarboxylase	Cytoplasmic	35934.52	1 / 0	None
+pyrI	 The cellular location of this protein was experimentally confirmed - Aspartate transcarbamylase; regulatory subunit	Cytoplasmic	17120.69	0 / 0	None
+rfaD	 The cellular location of this protein was experimentally confirmed - ADP-L-glycero-D-manno-heptose-6-epimerase; heat-in ... ...	Cytoplasmic	34893.27	0 / 0	None
+rne	 The cellular location of this protein was experimentally confirmed - RNase E; component of RNA degradosome; mRNA turnov ... ...	Cytoplasmic	118196.94	0 / 0	None
+rpsA	 The cellular location of this protein was experimentally confirmed - 30S ribosomal subunit protein S1; subunit 1 of RNA ... ...	Cytoplasmic	61158.18	0 / 0	None
+sdhA	 The cellular location of this protein was experimentally confirmed - Succinate dehydrogenase (SQR) flavoprotein subunit ... ...	Cytoplasmic	64422.09	0 / 0	None
+sdhB	 The cellular location of this protein was experimentally confirmed - Succinate dehydrogenase (SQR) iron-sulfur protein; ... ...	Cytoplasmic	26770.03	0 / 0	None
+srlD	 The cellular location of this protein was experimentally confirmed - Sorbitol-6-phosphate dehydrogenase	Cytoplasmic	27857.99	0 / 0	None
+gutM	 The cellular location of this protein was experimentally confirmed - Part of srl operon	Cytoplasmic	12953.3	1 / 1	82.8%
+sucB	 The cellular location of this protein was experimentally confirmed - Dihydrolipoamide succinyltransferase component of ... ...	Cytoplasmic	44011.53	0 / 0	None
+thrA	 The cellular location of this protein was experimentally confirmed - Aspartokinase I-homoserine dehydrogenase I	Cytoplasmic	89120.58	0 / 0	None
+trpD	 The cellular location of this protein was experimentally confirmed - Bifunctional enzyme: anthranilate synthase compone ... ...	Cytoplasmic	56870.14	1 / 0	None
+tufA	 The cellular location of this protein was experimentally confirmed - Duplicate gene for EF-Tu subunit; elongation facto ... ...	Cytoplasmic	43283.69	0 / 0	None
+uspE	 The cellular location of this protein was experimentally confirmed - Stress-induced protein; UV-resistance; tandem Usp ... ...	Cytoplasmic	35706.99	0 / 0	None
+nfsA	 The cellular location of this protein was experimentally confirmed - Nitrofuran reductase I activity B; overexpression ... ...	Cytoplasmic	26800.78	0 / 0	None
+fabZ	 The cellular location of this protein was experimentally confirmed - 3R-hydroxymyristoyl acyl carrier protein (ACP) deh ... ...	Cytoplasmic	17033.02	1 / 0	None
+acnA	 The cellular location of this protein was experimentally confirmed - Aconitase A; stationary phase induced; iron-sulfur ... ...	Cytoplasmic	97677.54	0 / 0	None
+uspA	 The cellular location of this protein was experimentally confirmed - Global regulatory gene for stress response	Cytoplasmic	16066.44	0 / 0	None
+dps	 The cellular location of this protein was experimentally confirmed - Stress response DNA-binding protein; starvation-in ... ...	Cytoplasmic	18695.36	0 / 0	None
+tatD	 The cellular location of this protein was experimentally confirmed - Mg-dependent cytoplasmic DNase; last gene in tatA ... ...	Cytoplasmic	28974.06	0 / 0	None
+sdaB	 The cellular location of this protein was experimentally confirmed - L-Serine deaminase; L-SD2	Cytoplasmic	48753.17	0 / 0	None
+artP	 The cellular location of this protein was experimentally confirmed - arginine transporter subunit; ATP-binding componen ... ...	Cytoplasmic	27022.16	0 / 0	None
+lptB	 The cellular location of this protein was experimentally confirmed - Participate in LPS biogenesis. sigma_E-dependent. ... ...	Cytoplasmic	26800.73	0 / 0	None
+rpoE	 The cellular location of this protein was experimentally confirmed - RNA polymerase sigma E subunit; extracytoplasmic s ... ...	Cytoplasmic	21695.8	0 / 0	None
+napF	 The cellular location of this protein was experimentally confirmed - Ferredoxin homolog	Cytoplasmic	18047.59	0 / 0	None
+nuoB	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit B; complex I; ... ...	Cytoplasmic	25055.95	0 / 0	None
+nuoC	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit C; complex I; ... ...	Cytoplasmic	68694.9	0 / 0	None
+nuoE	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit E; complex I; ... ...	Cytoplasmic	18590.13	1 / 0	None
+nuoG	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit G; complex I; ... ...	Cytoplasmic	100543.92	0 / 0	None
+nuoI	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit I; complex I; ... ...	Cytoplasmic	20537.87	0 / 0	None
+sgrR	 The cellular location of this protein was experimentally confirmed - Transcriptional activator of small RNA sgrS	Cytoplasmic	63975.36	0 / 0	None
+napD	 The cellular location of this protein was experimentally confirmed - Unknown function; nap operon	Cytoplasmic	9468.54	0 / 0	None
+glnK	 The cellular location of this protein was experimentally confirmed - Regulated through NRI/NRII two-component regulator ... ...	Cytoplasmic	12259.24	0 / 0	None
+treF	 The cellular location of this protein was experimentally confirmed - Cytoplasmic trehalase	Cytoplasmic	63696.91	0 / 0	None
+acnB	 The cellular location of this protein was experimentally confirmed - Aconitase B; apo-enzyme binds mRNA for negative tr ... ...	Cytoplasmic	93498.44	0 / 0	None
+uspF	 The cellular location of this protein was experimentally confirmed - Stress-induced protein; binds ATP; dimer	Cytoplasmic	18503.41	0 / 0	None
+yeaD	 The cellular location of this protein was experimentally confirmed - Function unknown; low abundance protein	Cytoplasmic	33484.25	0 / 0	None
+uspG	 The cellular location of this protein was experimentally confirmed - Stress protein; induced in stationary phase; nativ ... ...	Cytoplasmic	15935.23	0 / 0	None
+ygfZ	 The cellular location of this protein was experimentally confirmed - Function unknown; expressed protein	Cytoplasmic	36094.24	0 / 0	None
+kdsC	 The cellular location of this protein was experimentally confirmed - 3-Deoxy-D-manno-octulosonate 8-phosphate (KDO 8-P) ... ...	Cytoplasmic	19997.19	0 / 0	84.3%
+panE	 The cellular location of this protein was experimentally confirmed - Ketopantoate reductase; NADPH-dependent; also indi ... ...	Cytoplasmic	33870.89	0 / 0	None
+dcyD	 The cellular location of this protein was experimentally confirmed - D-cysteine desulfhydrase; needed for protection fr ... ...	Cytoplasmic	38705.57	0 / 0	None
+nfnB	 The cellular location of this protein was experimentally confirmed - Resistance to nitrofurantoin; a nitroreductase	Cytoplasmic	23905.25	1 / 0	None
+acpP	 The cellular location of this protein was experimentally confirmed - ACP (acyl carrier protein)	Cytoplasmic	8639.54	0 / 0	None
+metQ	 The cellular location of this protein was experimentally confirmed - DL-methionine transporter subunit; periplasmic-bin ... ...	Inner membrane lipoprotein	29431.7	1 / 0	71.9%
+acrA	 The cellular location of this protein was experimentally confirmed - multidrug efflux system; member of membrane fusion ... ...	Inner membrane lipoprotein	42196.8	1 / 0	71.6%
+envC	 The cellular location of this protein was experimentally confirmed - Membrane-bound cytoplasmic protease; needed for Ft ... ...	Inner Membrane Lipoprotein	47466.82	1 / 1	100%
+cysZ	 The cellular location of this protein was experimentally confirmed - ORF upstream of cysK	Integral Membrane Protein	29305.14	5 / 4	None
+dcuB	 The cellular location of this protein was experimentally confirmed - C4-dicarboxylate antiporter; member of C4-dicarbox ... ...	Integral Membrane Protein	47935.48	11 / 11	None
+ampE	 The cellular location of this protein was experimentally confirmed - Ampicillin resistance; membrane protein	Integral Membrane Protein	32122.09	5 / 4	None
+atpB	 The cellular location of this protein was experimentally confirmed - Membrane-bound ATP synthase; F0 sector; subunit a	Integral Membrane Protein	30303.38	6 / 5	None
+atpE	 The cellular location of this protein was experimentally confirmed - Membrane-bound ATP synthase; F0 sector; subunit c; ... ...	Integral Membrane Protein	8256.18	2 / 2	54.8%
+cdsA	 The cellular location of this protein was experimentally confirmed - CDP-diglyceride synthase; integral membrane protei ... ...	Integral Membrane Protein	27570.9	9 / 8	76.3%
+cvpA	 The cellular location of this protein was experimentally confirmed - Affects Col V production; member of purF operon	Integral Membrane Protein	17907.06	5 / 4	None
+cyoC	 The cellular location of this protein was experimentally confirmed - Cytochrome o oxidase subunit III; cytochrome bo(3) ... ...	Integral Membrane Protein	22622.74	5 / 5	None
+cyoE	 The cellular location of this protein was experimentally confirmed - Cytochrome o oxidase subunit; protoheme IX farnesy ... ...	Integral Membrane Protein	32248.64	9 / 9	None
+dgkA	 The cellular location of this protein was experimentally confirmed - Diglyceride kinase	Integral Membrane Protein	13244.74	2 / 2	None
+dmsC	 The cellular location of this protein was experimentally confirmed - DMSO reductase subunit C; membrane bound	Integral Membrane Protein	30826.4	8 / 8	None
+dsdX	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of the gluconate:pro ... ...	Integral Membrane Protein	47163.39	12 / 12	None
+gcd	 The cellular location of this protein was experimentally confirmed - Glucose dehydrogenase (pyrroloquinoline-quinone) q ... ...	Integral Membrane Protein	86747.65	5 / 5	39.5%
+gltS	 The cellular location of this protein was experimentally confirmed - glutamate transporter; member of glutamate:sodium ... ...	Integral Membrane Protein	42425.34	10 / 9	None
+hyaA	 The cellular location of this protein was experimentally confirmed - Hydrogenase 1 small subunit [NiFe]	Integral Membrane Protein	40681.56	3 / 2	63.1%
+hycD	 The cellular location of this protein was experimentally confirmed - Hydrogenase 3 subunit	Integral Membrane Protein	33029.5	8 / 8	None
+livH	 The cellular location of this protein was experimentally confirmed - leucine/isoleucine/valine transporter subunit; mem ... ...	Integral Membrane Protein	32982.46	9 / 8	None
+mtr	 The cellular location of this protein was experimentally confirmed - tryptophan transporter of high affinity; member of ... ...	Integral Membrane Protein	44332.75	11 / 11	None
+emrE	 The cellular location of this protein was experimentally confirmed - Multidrug resistance pump family; methylviologen s ... ...	Integral Membrane Protein	11958.43	4 / 4	None
+nagE	 The cellular location of this protein was experimentally confirmed - N-acetyl glucosamine specific enzyme IIABC compone ... ...	Integral Membrane Protein	68347.15	11 / 10	None
+narI	 The cellular location of this protein was experimentally confirmed - Cytochrome bNR; structural gene; gamma-subunit	Integral Membrane Protein	25497.5	5 / 5	None
+pntA	 The cellular location of this protein was experimentally confirmed - Pyridine nucleotide transhydrogenase alpha-subunit	Integral Membrane Protein	54623.64	5 / 5	None
+secY	 The cellular location of this protein was experimentally confirmed - preprotein translocase membrane subunit; member of ... ...	Integral Membrane Protein	48511.89	10 / 10	None
+putP	 The cellular location of this protein was experimentally confirmed - proline:sodium symporter; member of solute:sodium ... ...	Integral Membrane Protein	54344.41	13 / 12	None
+tar	 The cellular location of this protein was experimentally confirmed - Chemotactic signal transducer protein II; methyl a ... ...	Integral Membrane Protein	59943.89	2 / 2	44.6%
+tnaB	 The cellular location of this protein was experimentally confirmed - tryptophan transporter of low affinity; member of ... ...	Integral Membrane Protein	45210.86	11 / 11	None
+tolQ	 The cellular location of this protein was experimentally confirmed - Tolerance to group A colicins; single-stranded DNA ... ...	Integral Membrane Protein	25597.81	3 / 3	44.5%
+tyrP	 The cellular location of this protein was experimentally confirmed - tyrosine transporter; member of hydroxy/aromatic a ... ...	Integral Membrane Protein	42819.31	11 / 11	66.4%
+yfcA	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	28643.52	9 / 7	74%
+yggA	 The cellular location of this protein was experimentally confirmed - predicted amino acid transporter; member of L-lysi ... ...	Integral Membrane Protein	23175.82	6 / 6	70.7%
+mscS	 The cellular location of this protein was experimentally confirmed - mechanosensitive channel; member of small conducta ... ...	Integral Membrane Protein	30896.12	4 / 3	None
+mscL	 The cellular location of this protein was experimentally confirmed - mechanosensitive channel; member of large conducta ... ...	Integral Membrane Protein	14956.82	2 / 2	None
+dcuA	 The cellular location of this protein was experimentally confirmed - C4-dicarboxylate antiporter; member of C4-dicarbox ... ...	Integral Membrane Protein	45750.91	11 / 11	None
+fdnI	 The cellular location of this protein was experimentally confirmed - Formate dehydrogenase-N cytochrome subunit	Integral Membrane Protein	25368.62	4 / 4	35.7%
+adrA	 The cellular location of this protein was experimentally confirmed - Probable cellulose production regulator; Salmonell ... ...	Integral Membrane Protein	41537.67	5 / 5	None
+hyfB	 The cellular location of this protein was experimentally confirmed - Putative hydrogenase 4 component B; membrane prote ... ...	Integral Membrane Protein	72583.38	16 / 16	None
+wzzE	 The cellular location of this protein was experimentally confirmed - Entobacterial Common Antigen (ECA) biosynthesis; E ... ...	Integral Membrane Protein	39620.46	2 / 2	None
+rhaT	 The cellular location of this protein was experimentally confirmed - L-rhamnose:proton symporter; member of drug/metabo ... ...	Integral Membrane Protein	37320.0	10 / 10	None
+yceE	 The cellular location of this protein was experimentally confirmed - predicted drug efflux system; member of major faci ... ...	Integral Membrane Protein	43867.47	12 / 10	None
+gspO	 The cellular location of this protein was experimentally confirmed - Type IV prepilin peptidase in cryptic gsp operon	Integral Membrane Protein	24956.93	8 / 7	None
+ubiA	 The cellular location of this protein was experimentally confirmed - 4-Hydroxybenzoate polyprenyltransferase	Integral Membrane Protein	32511.89	9 / 7	None
+emrB	 The cellular location of this protein was experimentally confirmed - multidrug efflux system; member of major facilitat ... ...	Integral Membrane Protein	55624.65	14 / 13	None
+wzyE	 The cellular location of this protein was experimentally confirmed - Probable Wzy protein involved in ECA polysaccharid ... ...	Integral Membrane Protein	51517.49	13 / 11	None
+rhtB	 The cellular location of this protein was experimentally confirmed - neutral amino-acid efflux system; member of resist ... ...	Integral Membrane Protein	22426.86	6 / 5	47.1%
+ftsH	 The cellular location of this protein was experimentally confirmed - Essential inner membrane ATP-dependent protease; d ... ...	Integral Membrane Protein	70708.34	2 / 2	38%
+yabI	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	28244.26	5 / 5	None
+sugE	 The cellular location of this protein was experimentally confirmed - multidrug efflux system; member of 4 TMS small mul ... ...	Integral Membrane Protein	16186.4	4 / 4	None
+marC	 The cellular location of this protein was experimentally confirmed - function unknown; membrane protein	Integral Membrane Protein	23617.36	6 / 5	None
+uidB	 The cellular location of this protein was experimentally confirmed - glucuronide transporter; member of glycoside-pento ... ...	Integral Membrane Protein	49908.26	11 / 12	None
+atoE	 The cellular location of this protein was experimentally confirmed - short chain fatty acid transporter; member of puta ... ...	Integral Membrane Protein	47527.98	11 / 9	60%
+yicO	 The cellular location of this protein was experimentally confirmed - Function unknown; baeSR regulon; nucleobase:cation ... ...	Integral Membrane Protein	49871.52	12 / 13	None
+glvC	 The cellular location of this protein was experimentally confirmed - arbutin specific enzyme IIC component of PTS; memb ... ...	Integral Membrane Protein	50004.26	10 / 9	None
+yieG	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	46865.98	13 / 13	None
+chaA	 The cellular location of this protein was experimentally confirmed - calcium/sodium:proton antiporter; member of calciu ... ...	Integral Membrane Protein	39168.62	11 / 11	None
+nuoM	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit M; complex I; ... ...	Integral Membrane Protein	56524.82	14 / 14	None
+amtB	 The cellular location of this protein was experimentally confirmed - ammonium transporter; member of ammonium transport ... ...	Integral Membrane Protein	44514.89	12 / 12	55.3%
+etk	 The cellular location of this protein was experimentally confirmed - Cryptic autophosphorylating protein tyrosine kinas ... ...	Integral Membrane Protein	81241.9	2 / 2	None
+menA	 The cellular location of this protein was experimentally confirmed - 1; 4-dihydroxy-2-naphthoic acid (DHNA)-octaprenylt ... ...	Integral Membrane Protein	33594.12	9 / 9	94.5%
+yjcD	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	45711.69	13 / 13	None
+nupC	 The cellular location of this protein was experimentally confirmed - nucleoside (except guanosine) transporter; member ... ...	Integral Membrane Protein	43475.95	9 / 8	43.2%
+yohC	 The cellular location of this protein was experimentally confirmed - function unknown	Integral Membrane Protein	22450.62	5 / 5	None
+yohJ	 The cellular location of this protein was experimentally confirmed - Function unknown; suggested to be a holin-like mur ... ...	Integral Membrane Protein	14578.79	4 / 4	None
+yohK	 The cellular location of this protein was experimentally confirmed - Function unknown; S. aureus ortholog missing a mur ... ...	Integral Membrane Protein	24469.67	5 / 6	None
+yeiH	 The cellular location of this protein was experimentally confirmed - Function unknown; probable integral membrane prote ... ...	Integral Membrane Protein	36882.27	10 / 8	86.3%
+nupX	 The cellular location of this protein was experimentally confirmed - predicted nucleoside transporter; member of concen ... ...	Integral Membrane Protein	43409.78	12 / 8	None
+yeiM	 The cellular location of this protein was experimentally confirmed - predicted nucleoside transporter; member of concen ... ...	Integral Membrane Protein	43431.9	12 / 8	53.4%
+yejM	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	67296.22	5 / 5	None
+nikC	 The cellular location of this protein was experimentally confirmed - nickel transporter subunit; membrane component; me ... ...	Integral Membrane Protein	30362.11	5 / 6	90.5%
+nuoH	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit H; complex I; ... ...	Integral Membrane Protein	36219.33	8 / 8	None
+nuoL	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit L; complex I; ... ...	Integral Membrane Protein	66438.39	18 / 16	54.9%
+nuoN	 The cellular location of this protein was experimentally confirmed - NADH:quinone oxidoreductase subunit N; complex I; ... ...	Integral Membrane Protein	45650.51	12 / 12	None
+sdaC	 The cellular location of this protein was experimentally confirmed - predicted serine transporter; member of hydroxy/ar ... ...	Integral Membrane Protein	46906.57	11 / 11	None
+dipZ	 The cellular location of this protein was experimentally confirmed - Required for disulfide bond formation in some peri ... ...	Integral Membrane Protein	61795.34	9 / 8	99.7%
+crcB	 The cellular location of this protein was experimentally confirmed - High-copy crc-csp restores normal chromosome conde ... ...	Integral Membrane Protein	13777.36	4 / 4	53.7%
+pitA	 The cellular location of this protein was experimentally confirmed - phosphate transporter; member of inorganic phospha ... ...	Integral Membrane Protein	53389.27	10 / 10	None
+arsB	 The cellular location of this protein was experimentally confirmed - arsenite/antimonite transporter; member of arsenit ... ...	Integral Membrane Protein	46263.54	13 / 11	None
+yhjV	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of hydroxy/aromatic ... ...	Integral Membrane Protein	47257.74	11 / 11	None
+eptB	 The cellular location of this protein was experimentally confirmed - A phosphoethanolamine transferase specific for the ... ...	Integral Membrane Protein	64939.09	5 / 5	50%
+yiaH	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	37570.03	10 / 10	None
+ygjE	 The cellular location of this protein was experimentally confirmed - Tartrate:succinate antiporter; member of the dival ... ...	Integral Membrane Protein	52906.67	11 / 12	None
+yfiK	 The cellular location of this protein was experimentally confirmed - neutral amino-acid efflux system; member of RhtB f ... ...	Integral Membrane Protein	21248.39	6 / 6	None
+yjfL	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	14223.9	4 / 4	None
+idnT	 The cellular location of this protein was experimentally confirmed - predicted L-idonate and D-gluconate transporter; m ... ...	Integral Membrane Protein	46041.49	10 / 12	87.6%
+gntP	 The cellular location of this protein was experimentally confirmed - gluconate transporter; member of the gluconate:pro ... ...	Integral Membrane Protein	47138.17	13 / 13	None
+gntU	 The cellular location of this protein was experimentally confirmed - gluconate transporter; low affinity GNT I system; ... ...	Integral Membrane Protein	46416.18	13 / 13	50.6%
+yhaO	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of hydroxy/aromatic ... ...	Integral Membrane Protein	48314.94	11 / 11	None
+yhbX	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	61559.81	4 / 5	81.6%
+yrbE	 The cellular location of this protein was experimentally confirmed - predicted toluene transporter subunit; membrane co ... ...	Integral Membrane Protein	27863.38	5 / 5	None
+yrbG	 The cellular location of this protein was experimentally confirmed - predicted calcium/sodium:proton antiporter; member ... ...	Integral Membrane Protein	34740.75	10 / 9	62.1%
+dcuD	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of C4-dicarboxylate ... ...	Integral Membrane Protein	48831.02	14 / 13	None
+abgT	 The cellular location of this protein was experimentally confirmed - predicted aminobenzoyl-glutamate transporter; memb ... ...	Integral Membrane Protein	55114.43	13 / 13	None
+yhgN	 The cellular location of this protein was experimentally confirmed - Function unknown; putative membrane protein; marC ... ...	Integral Membrane Protein	21490.5	6 / 6	None
+pqiA	 The cellular location of this protein was experimentally confirmed - Induced by paraquat; regulated by SoxRS	Integral Membrane Protein	46463.79	8 / 8	None
+pppA	 The cellular location of this protein was experimentally confirmed - Prepilin protein peptidase; type IV pilin-specific	Integral Membrane Protein	34273.73	8 / 7	None
+glcA	 The cellular location of this protein was experimentally confirmed - glycolate transporter; member of lactate permease ... ...	Integral Membrane Protein	58920.39	18 / 13	94.1%
+yghQ	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	38533.26	7 / 6	None
+yqhA	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	18641.28	4 / 3	None
+yqfA	 The cellular location of this protein was experimentally confirmed - Function unknown; similarity to hemolysin III; pro ... ...	Integral Membrane Protein	23846.84	7 / 7	None
+yqeG	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of hydroxy/aromatic ... ...	Integral Membrane Protein	45099.47	10 / 10	None
+ygbN	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of the gluconate:pro ... ...	Integral Membrane Protein	46769.82	14 / 11	70.8%
+ydgC	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	12323.16	4 / 4	93.6%
+yccM	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	40097.24	7 / 5	None
+copA	 The cellular location of this protein was experimentally confirmed - copper transporter; member of P-type ATPase superf ... ...	Integral Membrane Protein	87873.46	8 / 8	None
+ybiP	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	59706.39	4 / 4	None
+ybiR	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of the divalent anio ... ...	Integral Membrane Protein	41168.9	10 / 9	None
+lolC	 The cellular location of this protein was experimentally confirmed - outer membrane lipoprotein transporter subunit; me ... ...	Integral Membrane Protein	43263.96	4 / 4	None
+lolE	 The cellular location of this protein was experimentally confirmed - outer membrane lipoprotein transporter subunit; me ... ...	Integral Membrane Protein	45344.39	4 / 4	None
+yphA	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	17855.69	4 / 4	None
+yeaS	 The cellular location of this protein was experimentally confirmed - neutral amino-acid efflux system; member of RhtB f ... ...	Integral Membrane Protein	23200.74	6 / 6	None
+yqaA	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	15589.77	4 / 4	85.9%
+citT	 The cellular location of this protein was experimentally confirmed - citrate:succinate antiporter; member of the divale ... ...	Integral Membrane Protein	53092.8	12 / 13	None
+yajR	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of major facilitator ... ...	Integral Membrane Protein	49040.49	12 / 12	None
+ybhI	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of the divalent anio ... ...	Integral Membrane Protein	51350.92	15 / 15	59.8%
+ynfA	 The cellular location of this protein was experimentally confirmed - Inner membrane protein; function unknown	Integral Membrane Protein	11919.58	4 / 4	None
+mdtI	 The cellular location of this protein was experimentally confirmed - multidrug efflux system transporter; member of sma ... ...	Integral Membrane Protein	11720.2	4 / 4	None
+ydgI	 The cellular location of this protein was experimentally confirmed - predicted arginine/ornithine antiporter transporte ... ...	Integral Membrane Protein	49501.7	13 / 13	40.1%
+ydgL	 The cellular location of this protein was experimentally confirmed - Function unknown; membrane protein; similar to Rnf ... ...	Integral Membrane Protein	20897.62	6 / 6	None
+ydjN	 The cellular location of this protein was experimentally confirmed - predicted transporter	Integral Membrane Protein	48661.87	10 / 9	74.8%
+yebN	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	22050.21	6 / 5	99.8%
+yebZ	 The cellular location of this protein was experimentally confirmed - predicted membrane protein	Integral Membrane Protein	32526.5	8 / 8	48.4%
+yohM	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	30419.53	6 / 6	None
+yfdV	 The cellular location of this protein was experimentally confirmed - predicted transporter; member of auxin efflux carr ... ...	Integral Membrane Protein	33616.12	10 / 10	None
+mntH	 The cellular location of this protein was experimentally confirmed - manganese/divalent cation transporter; member of m ... ...	Integral Membrane Protein	44193.85	11 / 11	None
+hyfC	 The cellular location of this protein was experimentally confirmed - Putative hydrogenase 4 component C; membrane prote ... ...	Integral Membrane Protein	35146.37	8 / 8	None
+ypjD	 The cellular location of this protein was experimentally confirmed - Function unknown; eight predicted transmembrane he ... ...	Integral Membrane Protein	32129.67	8 / 8	None
+ychQ	 The cellular location of this protein was experimentally confirmed - Function unknown	Integral Membrane Protein	14638.85	4 / 4	None
+srlE	 The cellular location of this protein was experimentally confirmed - glucitol/sorbitol-specific enzyme IIB component of ... ...	Integral Membrane Protein	33332.15	6 / 4	None
+atpF	 The cellular location of this protein was experimentally confirmed - Membrane-bound ATP synthase; F0 sector; subunit b	Membrane anchored	17264.0	1 / 1	None
+dacA	 The cellular location of this protein was experimentally confirmed - D-alanine carboxypeptidase; penicillin-binding pro ... ...	Membrane anchored	44444.13	1 / 0	99.9%
+dacB	 The cellular location of this protein was experimentally confirmed - D-Alanine carboxypeptidase IB; penicillin-binding ... ...	Membrane anchored	51798.52	1 / 0	98.8%
+dacC	 The cellular location of this protein was experimentally confirmed - Penicillin-binding protein 6; PBP6	Membrane anchored	43609.04	1 / 0	100%
+hflC	 The cellular location of this protein was experimentally confirmed - HflKC membrane-associated complex associates with ... ...	Membrane anchored	37650.0	1 / 1	45.6%
+motB	 The cellular location of this protein was experimentally confirmed - Flagellar-regulon member; flagellar rotation	Membrane anchored	34186.2	1 / 1	None
+mrcA	 The cellular location of this protein was experimentally confirmed - Penicillin-binding protein 1A	Membrane anchored	94520.54	1 / 1	69.7%
+tolA	 The cellular location of this protein was experimentally confirmed - Tolerance to group A colicins; single-stranded fil ... ...	Membrane anchored	43156.69	2 / 1	None
+tolR	 The cellular location of this protein was experimentally confirmed - membrane spanning protein in TolA-TolQ-TolR comple ... ...	Membrane anchored	15382.98	1 / 1	None
+ftsL	 The cellular location of this protein was experimentally confirmed - Cell division and growth; essential gene; cytoplas ... ...	Membrane anchored	13626.88	1 / 1	None
+fdnH	 The cellular location of this protein was experimentally confirmed - Formate dehydrogenase-N Fe-S subunit	Membrane anchored	32238.89	0 / 1	None
+plsC	 The cellular location of this protein was experimentally confirmed - 1-Acyl-n-glycerol-3-phosphate acyltransferase; aff ... ...	Membrane anchored	27453.26	2 / 1	None
+tatA	 The cellular location of this protein was experimentally confirmed - TatABCE protein translocation system subunit; memb ... ...	Membrane anchored	11338.14	1 / 1	None
+dacD	 The cellular location of this protein was experimentally confirmed - Penicillin-binding protein 6b	Membrane anchored	43572.51	1 / 0	98.1%
+kdpF	 The cellular location of this protein was experimentally confirmed - potassium ion transporter subunit; accessory prote ... ...	Membrane Anchored	3071.76	1 / 1	None
+hybO	 The cellular location of this protein was experimentally confirmed - Hydrogenase 2 [Ni; Fe]; small subunit	Membrane anchored	39652.17	1 / 1	85.3%
+ppiD	 The cellular location of this protein was experimentally confirmed - Peptidylprolyl-cis-trans-isomerase D	Membrane anchored	68150.05	1 / 1	None
+yedY	 The cellular location of this protein was experimentally confirmed - Periplasmic reductase of unknown function	Membrane anchored	37369.04	1 / 0	99.7%
+pbpC	 The cellular location of this protein was experimentally confirmed - Penicillin-binding protein PBP 1C; bifunctional mu ... ...	Membrane anchored	85067.21	3 / 1	99.4%
+tatB	 The cellular location of this protein was experimentally confirmed - TatABCE protein translocation system subunit; memb ... ...	Membrane anchored	18420.9	1 / 1	None
+cysQ	 The cellular location of this protein was experimentally confirmed - PAPS (adenosine 3-phosphate 5-phosphosulfate) 3(2) ... ...	Membrane associated	27175.95	0 / 0	None
+chbB	 The cellular location of this protein was experimentally confirmed - N;N-diacetylchitobiose-specific enzyme IIB compone ... ...	Membrane associated	11426.59	0 / 0	53.8%
+glpC	 The cellular location of this protein was experimentally confirmed - sn-Glycerol-3-phosphate dehydrogenase (anaerobic) ... ...	Membrane associated	44108.24	0 / 0	None
+iap	 The cellular location of this protein was experimentally confirmed - Aminopeptidase; presumably; that generates alkalin ... ...	Membrane associated	37920.32	1 / 0	100%
+murG	 The cellular location of this protein was experimentally confirmed - N-acetylglucosaminyl transferase; UDP-NAc-glucosam ... ...	Membrane associated	37814.85	2 / 0	45.8%
+fdnG	 The cellular location of this protein was experimentally confirmed - Formate dehydrogenase-N major subunit	Membrane associated	112796.27	2 / 0	89.5%
+fliG	 The cellular location of this protein was experimentally confirmed - Motor switching and energizing	Membrane associated	36776.1	0 / 0	None
+cpxP	 The cellular location of this protein was experimentally confirmed - Periplasmic protein; CpxA/R activated; induced in ... ...	Membrane associated	18965.33	0 / 0	100%
+lldD	 The cellular location of this protein was experimentally confirmed - L-lactate dehydrogenase; FMN dependent; Arc regulo ... ...	Membrane associated	42728.37	0 / 0	None
+mqo	 The cellular location of this protein was experimentally confirmed - Malate oxidoreductase; possibly previously describ ... ...	Membrane associated	60229.8	0 / 0	53.9%
+yifL	 The cellular location of this protein was experimentally confirmed - Function unknown	Membrane Lipoprotein	7177.24	1 / 1	41.3%
+btuB	 The cellular location of this protein was experimentally confirmed - vitamin B12/cobalamin outer membrane transporter; ... ...	Outer Membrane ß-barrel protein	68407.26	0 / 0	100%
+cirA	 The cellular location of this protein was experimentally confirmed - Colicin I receptor production	Outer Membrane ß-barrel protein	73895.88	0 / 0	99%
+fadL	 The cellular location of this protein was experimentally confirmed - Fatty acid transport protein; outer membrane	Outer Membrane ß-barrel protein	48772.03	1 / 0	99.8%
+fecA	 The cellular location of this protein was experimentally confirmed - Ferric citrate uptake; TonB-dependent outer membra ... ...	Outer Membrane ß-barrel protein	85321.82	1 / 0	99.8%
+fepA	 The cellular location of this protein was experimentally confirmed - iron-enterobactin outer membrane transporter; memb ... ...	Outer Membrane ß-barrel protein	82107.08	0 / 0	100%
+fhuA	 The cellular location of this protein was experimentally confirmed - OMP receptor for ferrichrome; colicin M; and phage ... ...	Outer Membrane ß-barrel protein	82182.47	1 / 0	97.1%
+fhuE	 The cellular location of this protein was experimentally confirmed - Outer membrane receptor for ferric-rhodotorulic ac ... ...	Outer Membrane ß-barrel protein	81232.88	1 / 0	100%
+fimD	 The cellular location of this protein was experimentally confirmed - Outer membrane usher protein involved in export an ... ...	Outer Membrane ß-barrel protein	96482.66	1 / 1	80.5%
+lamB	 The cellular location of this protein was experimentally confirmed - maltose outer membrane porin (maltoporin); member ... ...	Outer Membrane ß-barrel protein	49912.4	1 / 0	97.2%
+nmpC	 The cellular location of this protein was experimentally confirmed - Outer membrane porin; in cryptic prophage DLP12; i ... ...	Outer Membrane ß-barrel protein	41526.87	1 / 1	99.9%
+ompA	 The cellular location of this protein was experimentally confirmed - Outer membrane protein A (II*); alkali-inducible	Outer Membrane ß-barrel protein	37200.86	1 / 0	99.7%
+ompC	 The cellular location of this protein was experimentally confirmed - Outer membrane protein 1b (Ib; c)	Outer Membrane ß-barrel protein	40368.2	1 / 0	100%
+ompF	 The cellular location of this protein was experimentally confirmed - Outer membrane porin protein 1a (Ia;b;F)	Outer Membrane ß-barrel protein	39333.39	1 / 0	100%
+ompT	 The cellular location of this protein was experimentally confirmed - Outer membrane protease VII; OM protein 2b; omptin	Outer Membrane ß-barrel protein	35562.38	1 / 0	77.9%
+phoE	 The cellular location of this protein was experimentally confirmed - Outer membrane phosphoporin protein E; trimeric	Outer Membrane ß-barrel protein	38922.11	1 / 0	99.9%
+pldA	 The cellular location of this protein was experimentally confirmed - Outer-membrane phospholipase A	Outer Membrane ß-barrel protein	33163.22	0 / 0	99.1%
+tolC	 The cellular location of this protein was experimentally confirmed - Specific tolerance to ColE1; affects chromosome se ... ...	Outer Membrane ß-barrel protein	54000.17	0 / 0	98.5%
+tsx	 The cellular location of this protein was experimentally confirmed - T6; colicin K resistance; nucleoside channel	Outer Membrane ß-barrel protein	33589.1	1 / 0	100%
+ompW	 The cellular location of this protein was experimentally confirmed - Outer membrane protein; colicin S4 receprtor	Outer Membrane ß-barrel protein	22927.9	0 / 0	99.9%
+bglH	 The cellular location of this protein was experimentally confirmed - carbohydrate-specific outer membrane porin; member ... ...	Outer Membrane ß-barrel protein	60657.33	1 / 0	98.7%
+rffD	 The cellular location of this protein was experimentally confirmed - UDP-ManNAcA dehydrogenase; needed for ECA synthesi ... ...	Outer Membrane ß-barrel protein	45838.9	1 / 0	78.3%
+imp	 The cellular location of this protein was experimentally confirmed - Permeability of outer membrane to large maltodextr ... ...	Outer Membrane ß-barrel protein	89671.4	1 / 0	99.6%
+ompX	 The cellular location of this protein was experimentally confirmed - Outer membrane protein; with role in inducing RNAP ... ...	Outer Membrane ß-barrel protein	18602.67	1 / 1	99.1%
+crcA	 The cellular location of this protein was experimentally confirmed - Lipid A biosynthesis; transfers a palmitate residu ... ...	Outer Membrane ß-barrel protein	21769.63	1 / 0	67.7%
+uidC	 The cellular location of this protein was experimentally confirmed - Probable outer membrane porin protein in uid opero ... ...	Outer Membrane ß-barrel protein	46151.16	2 / 1	98.1%
+ecfK	 The cellular location of this protein was experimentally confirmed - Probable outer membrane protein assembly factor; r ... ...	Outer Membrane ß-barrel protein	90552.99	1 / 0	98%
+flu	 The cellular location of this protein was experimentally confirmed - Antigen 43; phase-variable bipartite outer membran ... ...	Outer Membrane ß-barrel protein	106825.68	1 / 1	99.1%
+fiu	 The cellular location of this protein was experimentally confirmed - Iron-regulated outer membrane protein; binds colic ... ...	Outer Membrane ß-barrel protein	81960.24	1 / 1	94.9%
+ompL	 The cellular location of this protein was experimentally confirmed - Outer membrane porin L	Outer Membrane ß-barrel protein	27200.35	1 / 0	94.2%
+ompN	 The cellular location of this protein was experimentally confirmed - outer membrane pore protein N; non-specific	Outer Membrane ß-barrel protein	41219.96	1 / 0	100%
+ompG	 The cellular location of this protein was experimentally confirmed - Novel monomeric OM porin; induced by AI-2 pheromon ... ...	Outer Membrane ß-barrel protein	34913.36	0 / 0	84.8%
+mipA	 The cellular location of this protein was experimentally confirmed - Scaffolding protein binding bifunctional murein po ... ...	Outer Membrane ß-barrel protein	27831.06	1 / 0	99.6%
+osmE	 The cellular location of this protein was experimentally confirmed - Promoter overlaps nadE promoter; regulated by grow ... ...	Outer membrane Lipoprotein	12020.73	1 / 1	98.3%
+mltD	 The cellular location of this protein was experimentally confirmed - Reduced amounts of hexaheme nitrite reductase; mem ... ...	Outer membrane Lipoprotein	49417.65	0 / 0	53.8%
+lpp	 The cellular location of this protein was experimentally confirmed - Murein lipoprotein structural gene	Outer membrane Lipoprotein	8323.52	0 / 0	96.9%
+nlpB	 The cellular location of this protein was experimentally confirmed - Nonessential lipoprotein in outer membrane vesicle ... ...	Outer membrane Lipoprotein	36973.74	0 / 0	22.5%
+osmB	 The cellular location of this protein was experimentally confirmed - OsmB lipoprotein	Outer membrane Lipoprotein	6948.1	2 / 0	67.2%
+pal	 The cellular location of this protein was experimentally confirmed - Lipoprotein associated with peptidoglycan	Outer membrane Lipoprotein	18824.27	1 / 0	45.1%
+rlpA	 The cellular location of this protein was experimentally confirmed - Minor lipoprotein; suppressor of prc	Outer membrane Lipoprotein	37528.11	0 / 0	53.7%
+rlpB	 The cellular location of this protein was experimentally confirmed - Minor lipoprotein	Outer membrane Lipoprotein	21356.62	2 / 0	27%
+yceB	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	20499.82	1 / 0	51.9%
+nlpC	 The cellular location of this protein was experimentally confirmed - Lipoprotein	Outer membrane Lipoprotein	17282.81	0 / 0	None
+yfiB	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	17244.62	0 / 0	53.5%
+lolB	 The cellular location of this protein was experimentally confirmed - outer membrane lipoprotein required for sorting an ... ...	Outer membrane Lipoprotein	23550.85	1 / 0	44.8%
+rcsF	 The cellular location of this protein was experimentally confirmed - Overexpression confers mucoid phenotype; increases ... ...	Outer membrane Lipoprotein	14163.55	0 / 0	62.3%
+yedD	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	14983.32	0 / 0	88.7%
+ecfL	 The cellular location of this protein was experimentally confirmed - Function unknown; rpoE regulon	Outer membrane Lipoprotein	14785.03	2 / 0	97.3%
+slp	 The cellular location of this protein was experimentally confirmed - Outer membrane lipoprotein; C starvation and stati ... ...	Outer membrane Lipoprotein	22226.46	1 / 0	41.8%
+yjbF	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	24987.49	0 / 0	82.3%
+yehR	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	17164.85	1 / 0	46.1%
+nlpD	 The cellular location of this protein was experimentally confirmed - New lipoprotein may function in cell wall formatio ... ...	Outer membrane Lipoprotein	40149.09	0 / 0	52.7%
+cutF	 The cellular location of this protein was experimentally confirmed - Copper sensitivity	Outer membrane Lipoprotein	25844.41	0 / 0	61.3%
+yajG	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	24958.66	1 / 0	99.6%
+yiaD	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	22197.29	3 / 3	79%
+nlpI	 The cellular location of this protein was experimentally confirmed - Minor lipoprotein; mutation causes osmotic sensiti ... ...	Outer membrane Lipoprotein	33620.87	0 / 0	87.5%
+yfiL	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	14823.74	0 / 0	None
+yjeI	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	13064.78	0 / 0	38.1%
+blc	 The cellular location of this protein was experimentally confirmed - Outer membrane lipoprotein (a lipocalin) induced i ... ...	Outer membrane Lipoprotein	19851.66	0 / 0	64.5%
+yceK	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	8442.84	2 / 0	32.2%
+mltB	 The cellular location of this protein was experimentally confirmed - Murein hydrolase lipoprotein; Slt35; soluble lytic ... ...	Outer membrane Lipoprotein	40255.88	1 / 0	84%
+ecfH	 The cellular location of this protein was experimentally confirmed - Function unknown; rpoE regulon	Outer membrane Lipoprotein	20028.0	1 / 1	52.7%
+yhdV	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	7451.74	2 / 1	95.7%
+ybhC	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	46082.32	0 / 0	84.3%
+yhfL	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	5818.86	2 / 0	59.5%
+mltC	 The cellular location of this protein was experimentally confirmed - Peptidoglycan hydrolase activity; lytic transglyco ... ...	Outer membrane Lipoprotein	40243.83	0 / 0	38.3%
+yghG	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	14669.99	1 / 0	46.3%
+yqhH	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	9513.1	0 / 1	75.3%
+ygeR	 The cellular location of this protein was experimentally confirmed - Function unknown; has M37 metalloprotease domain	Outer membrane Lipoprotein	27554.9	1 / 0	80.9%
+ygdR	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	7876.94	1 / 1	67.3%
+ygdI	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	8305.46	1 / 1	62.3%
+mltA	 The cellular location of this protein was experimentally confirmed - Lipoprotein lytic transglycosylase; membrane-bound ... ...	Outer membrane Lipoprotein	40410.74	0 / 0	58.4%
+ycaL	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	27764.49	1 / 0	77.2%
+hslJ	 The cellular location of this protein was experimentally confirmed - Heat-inducible gene required for novobiocin resist ... ...	Outer membrane Lipoprotein	15165.72	1 / 0	59.2%
+ybaY	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	19431.24	0 / 0	96.3%
+yafT	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	29605.79	0 / 0	52.2%
+slyB	 The cellular location of this protein was experimentally confirmed - Putative lipoprotein adjacent to slyA	Outer membrane Lipoprotein	15601.72	1 / 0	68.2%
+csgG	 The cellular location of this protein was experimentally confirmed - outer membrane lipoprotein; involved in curli asse ... ...	Outer membrane Lipoprotein	30557.25	0 / 0	50.8%
+ycfM	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	22515.73	0 / 0	48.3%
+yeaY	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	20921.19	1 / 0	None
+wza	 The cellular location of this protein was experimentally confirmed - lipoprotein required for capsular polysaccharide t ... ...	Outer membrane Lipoprotein	41910.1	1 / 0	83.9%
+borD	 The cellular location of this protein was experimentally confirmed - Homolog of bacteriophage lambda bor lipoprotein ge ... ...	Outer membrane Lipoprotein	10447.32	1 / 0	44.8%
+ybfN	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	11998.7	1 / 0	85.1%
+ybjP	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	18991.38	1 / 0	79.2%
+yccZ	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	41740.9	1 / 0	37.2%
+ymcC	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	24267.67	0 / 0	45.8%
+ydcL	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	24427.05	1 / 0	58.6%
+yddW	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	49574.47	1 / 0	46.5%
+ycdR	 The cellular location of this protein was experimentally confirmed - Function unknown; homolgous to Y. pestis hemin sto ... ...	Outer membrane Lipoprotein	77412.99	1 / 0	40.3%
+emtA	 The cellular location of this protein was experimentally confirmed - Membrane-bound transglycosylase; lipoprotein invol ... ...	Outer membrane Lipoprotein	26574.71	1 / 0	72.4%
+ycjN	 The cellular location of this protein was experimentally confirmed - predicted sugar transporter subunit; periplasmic-b ... ...	Outer membrane Lipoprotein	46808.56	0 / 0	61%
+yecR	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	11741.49	0 / 0	52.9%
+spr	 The cellular location of this protein was experimentally confirmed - Suppresses thermosensitivity of prc mutants at low ... ...	Outer membrane Lipoprotein	21039.94	1 / 0	33.7%
+ybfP	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	18282.04	1 / 1	95.5%
+yfeY	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	20897.72	1 / 0	68.1%
+yfgH	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	17705.13	0 / 0	77.9%
+yfgL	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	41887.32	1 / 0	72%
+ecfD	 The cellular location of this protein was experimentally confirmed - Function unknown; rpoE regulon; putative lipoprote ... ...	Outer membrane Lipoprotein	27829.5	1 / 0	47.6%
+cusC	 The cellular location of this protein was experimentally confirmed - predicted component of copper/silver efflux system ... ...	Outer membrane Lipoprotein	50269.73	0 / 0	None
+vacJ	 The cellular location of this protein was experimentally confirmed - Shigella vacJ homolog	Outer membrane Lipoprotein	28041.71	2 / 0	36.7%
+ynbE	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	6840.16	0 / 0	75.5%
+yoaF	 The cellular location of this protein was experimentally confirmed - Function unknown	Outer membrane Lipoprotein	8942.42	0 / 0	None
+ecnB	 The cellular location of this protein was experimentally confirmed - Bacteriolytic lipoprotein entericidin B	Outer membrane Lipoprotein	4809.55	1 / 1	99.2%
+ecnA	 The cellular location of this protein was experimentally confirmed - Lipoprotein antidote to bacteriolytic lipoprotein ... ...	Outer membrane Lipoprotein	4359.22	1 / 0	77%
+flgH	 The cellular location of this protein was experimentally confirmed - Flagellar synthesis; basal body L-ring protein	Outer membrane Lipoprotein	24615.54	1 / 0	75.8%
+agp	 The cellular location of this protein was experimentally confirmed - Periplasmic glucose-1-phosphatase; acidic; has ino ... ...	Periplasmic	45683.07	1 / 0	99.9%
+ampC	 The cellular location of this protein was experimentally confirmed - Beta-lactamase; penicillin resistance; affects mor ... ...	Periplasmic	41555.7	0 / 0	100%
+ansB	 The cellular location of this protein was experimentally confirmed - L-Asparaginase II	Periplasmic	36850.8	1 / 1	99.9%
+appA	 The cellular location of this protein was experimentally confirmed - Acid phosphatase; pH 2.5; exopolyphosphatase; phyt ... ...	Periplasmic	47056.99	0 / 0	99.9%
+araF	 The cellular location of this protein was experimentally confirmed - L-arabinose transporter subunit; periplasmic-bindi ... ...	Periplasmic	35541.02	1 / 0	100%
+argT	 The cellular location of this protein was experimentally confirmed - lysine/arginine/ornithine transporter subunit; per ... ...	Periplasmic	27991.73	1 / 0	97.9%
+cpdB	 The cellular location of this protein was experimentally confirmed - 2;3-cyclic nucleotide 2-phosphodiesterase	Periplasmic	70832.39	1 / 0	99.6%
+cysP	 The cellular location of this protein was experimentally confirmed - thiosulfate transporter subunit; periplasmic-bindi ... ...	Periplasmic	37614.65	0 / 0	99.9%
+dmsA	 The cellular location of this protein was experimentally confirmed - DMSO reductase subunit A; anaerobic	Periplasmic	87449.41	1 / 0	97.1%
+dppA	 The cellular location of this protein was experimentally confirmed - dipeptide transporter subunit; periplasmic-binding ... ...	Periplasmic	60293.87	1 / 0	99.7%
+eco	 The cellular location of this protein was experimentally confirmed - Ecotin; serine protease inhibitor	Periplasmic	18192.11	0 / 0	100%
+fecB	 The cellular location of this protein was experimentally confirmed - iron-dicitrate transporter subunit; periplasmic-bi ... ...	Periplasmic	33390.8	1 / 0	98.5%
+fepB	 The cellular location of this protein was experimentally confirmed - iron-enterobactin transporter subunit; periplasmic ... ...	Periplasmic	34283.15	1 / 0	99%
+fhuD	 The cellular location of this protein was experimentally confirmed - iron-hydroxamate transporter subunit; periplasmic- ... ...	Periplasmic	32998.48	1 / 0	99.8%
+fimC	 The cellular location of this protein was experimentally confirmed - Biosynthesis of fimbriae; periplasmic chaperone fo ... ...	Periplasmic	26689.01	1 / 1	83.4%
+ggt	 The cellular location of this protein was experimentally confirmed - Gamma-Glutamyltranspeptidase	Periplasmic	61768.14	1 / 0	97.6%
+glnH	 The cellular location of this protein was experimentally confirmed - glutamine transporter subunit; periplasmic-binding ... ...	Periplasmic	27190.18	0 / 0	100%
+glpQ	 The cellular location of this protein was experimentally confirmed - Glycerol-3-phosphate diesterase; periplasmic	Periplasmic	40843.5	1 / 0	100%
+skp	 The cellular location of this protein was experimentally confirmed - Periplasmic molecular chaperone for outer membrane ... ...	Periplasmic	17688.29	0 / 0	100%
+degP	 The cellular location of this protein was experimentally confirmed - DegP periplasmic; membrane-associated serine endop ... ...	Periplasmic	49354.41	0 / 0	99.6%
+hyaB	 The cellular location of this protein was experimentally confirmed - Hydrogenase 1 large subunit [NiFe]	Periplasmic	66253.64	0 / 0	None
+livJ	 The cellular location of this protein was experimentally confirmed - leucine/isoleucine/valine transporter subunit; per ... ...	Periplasmic	39076.51	1 / 0	99.8%
+livK	 The cellular location of this protein was experimentally confirmed - leucine transporter subunit; periplasmic-binding p ... ...	Periplasmic	39378.82	1 / 0	100%
+malE	 The cellular location of this protein was experimentally confirmed - maltose transporter subunit; periplasmic-binding p ... ...	Periplasmic	43387.74	1 / 0	97.4%
+malM	 The cellular location of this protein was experimentally confirmed - Periplasmic protein	Periplasmic	31943.58	1 / 0	99.5%
+mepA	 The cellular location of this protein was experimentally confirmed - Murein DD-endopeptidase	Periplasmic	30136.8	1 / 0	99.5%
+mglB	 The cellular location of this protein was experimentally confirmed - methyl-galactoside transporter subunit; periplasmi ... ...	Periplasmic	35712.67	1 / 1	99.9%
+oppA	 The cellular location of this protein was experimentally confirmed - oligopeptide transporter subunit; periplasmic-bind ... ...	Periplasmic	60899.07	1 / 1	99.6%
+phnD	 The cellular location of this protein was experimentally confirmed - phosphonate/organophosphate ester transporter subu ... ...	Periplasmic	37370.67	1 / 0	100%
+phnP	 The cellular location of this protein was experimentally confirmed - Carbon-phosphorus lyase complex membrane-bound sub ... ...	Periplasmic	27847.91	0 / 0	53.9%
+phoA	 The cellular location of this protein was experimentally confirmed - Alkaline phosphatase; binds Zn(II)	Periplasmic	49438.72	0 / 0	89.6%
+pstS	 The cellular location of this protein was experimentally confirmed - phosphate transporter subunit; periplasmic-binding ... ...	Periplasmic	37023.98	1 / 1	94.6%
+potD	 The cellular location of this protein was experimentally confirmed - polyamine transporter subunit; periplasmic-binding ... ...	Periplasmic	38867.19	1 / 0	100%
+ppiA	 The cellular location of this protein was experimentally confirmed - Rotamase; peptidylprolyl-cis-trans-isomerase A	Periplasmic	20431.39	1 / 0	99.9%
+prc	 The cellular location of this protein was experimentally confirmed - Periplasmic carboxy-terminal protease with specifi ... ...	Periplasmic	76663.28	0 / 0	99.9%
+proX	 The cellular location of this protein was experimentally confirmed - glycine betaine transporter subunit; periplasmic-b ... ...	Periplasmic	36022.64	0 / 0	100%
+pspE	 The cellular location of this protein was experimentally confirmed - Rhodanase; thiosulfate:cyanide sulfurtransferase; ... ...	Periplasmic	11475.35	1 / 0	100%
+ptrA	 The cellular location of this protein was experimentally confirmed - Protease III; protease Pi; pitrilysin; zinc metall ... ...	Periplasmic	107708.81	0 / 0	99.8%
+rbsB	 The cellular location of this protein was experimentally confirmed - D-ribose transporter subunit; periplasmic-binding ... ...	Periplasmic	30950.57	1 / 0	94.9%
+rna	 The cellular location of this protein was experimentally confirmed - RNase I; endoribonuclease; RNase M	Periplasmic	29617.7	1 / 0	62.7%
+sbp	 The cellular location of this protein was experimentally confirmed - sulfate transporter subunit; periplasmic-binding p ... ...	Periplasmic	36659.37	0 / 0	100%
+slt	 The cellular location of this protein was experimentally confirmed - Lytic transglycosylase; major autolysin FK-506-BP- ... ...	Periplasmic	74407.62	0 / 0	99.4%
+surA	 The cellular location of this protein was experimentally confirmed - Affects stationary-phase survival	Periplasmic	47283.89	1 / 0	100%
+tolB	 The cellular location of this protein was experimentally confirmed - periplasmic protein that interacts with the TolA-T ... ...	Periplasmic	45955.65	1 / 0	99.5%
+treA	 The cellular location of this protein was experimentally confirmed - Trehalase; periplasmic	Periplasmic	63636.91	1 / 0	99.8%
+ugpB	 The cellular location of this protein was experimentally confirmed - glycerol-3-phosphate transporter subunit; periplas ... ...	Periplasmic	48448.88	1 / 0	99.7%
+ushA	 The cellular location of this protein was experimentally confirmed - UDP-glucose hydrolase and 5-nucleotidase; bifuncti ... ...	Periplasmic	60824.15	1 / 0	99.5%
+dsbC	 The cellular location of this protein was experimentally confirmed - Periplasmic disulfide oxidoreductase; protein disu ... ...	Periplasmic	25621.79	0 / 0	99.9%
+secM	 The cellular location of this protein was experimentally confirmed - Translation and secretion of SecM regulates downst ... ...	Periplasmic	21738.74	1 / 1	99%
+chiA	 The cellular location of this protein was experimentally confirmed - Periplasmic endochitinase/lysozyme; Hns-repressibl ... ...	Periplasmic	97057.93	1 / 0	97.6%
+dsbA	 The cellular location of this protein was experimentally confirmed - Disulfide oxidoreductase; periplasmic protein disu ... ...	Periplasmic	23104.62	1 / 0	94.8%
+malS	 The cellular location of this protein was experimentally confirmed - Alpha-Amylase; periplasmic; MalT dependent	Periplasmic	75712.89	1 / 0	72.3%
+endA	 The cellular location of this protein was experimentally confirmed - Periplasmic DNA-specific endonuclease I; extensive ... ...	Periplasmic	26709.2	1 / 0	100%
+amiB	 The cellular location of this protein was experimentally confirmed - Cell wall amidase; overexpression causes lysis; os ... ...	Periplasmic	47985.35	1 / 0	98.4%
+sufI	 The cellular location of this protein was experimentally confirmed - Suppressor of ftsI; periplasmic protein translocat ... ...	Periplasmic	51858.34	1 / 0	99%
+osmY	 The cellular location of this protein was experimentally confirmed - Periplasmic; RpoS dependent protein (stationary ph ... ...	Periplasmic	21073.76	0 / 0	99.9%
+hdeA	 The cellular location of this protein was experimentally confirmed - Periplasmic chaperone of acid-denatured proteins; ... ...	Periplasmic	11857.67	0 / 1	98.6%
+hdeB	 The cellular location of this protein was experimentally confirmed - Periplasmic protein; repressed by H-NS	Periplasmic	12522.48	1 / 0	95.4%
+gltF	 The cellular location of this protein was experimentally confirmed - Function unknown; periplasmic protein; mutant has ... ...	Periplasmic	26351.76	1 / 0	99.4%
+tesA	 The cellular location of this protein was experimentally confirmed - Acyl-CoA thioesterase I; also protease I; also lys ... ...	Periplasmic	23622.25	1 / 1	78.8%
+artI	 The cellular location of this protein was experimentally confirmed - arginine transporter subunit; periplasmic-binding ... ...	Periplasmic	26929.63	1 / 0	99.9%
+artJ	 The cellular location of this protein was experimentally confirmed - arginine transporter subunit; periplasmic-binding ... ...	Periplasmic	26829.55	1 / 0	99.4%
+potF	 The cellular location of this protein was experimentally confirmed - putrescine transporter subunit; periplasmic-bindin ... ...	Periplasmic	40839.78	1 / 0	94.6%
+nrfA	 The cellular location of this protein was experimentally confirmed - Formate-dependent nitrite reduction; tetraheme cyt ... ...	Periplasmic	53703.13	1 / 0	100%
+hybA	 The cellular location of this protein was experimentally confirmed - Hydrogenase 2 complex component; possibly electron ... ...	Periplasmic	36003.18	1 / 0	99.6%
+hybC	 The cellular location of this protein was experimentally confirmed - Hydrogenase 2 [Ni Fe] large subunit; probably	Periplasmic	62491.35	0 / 0	None
+torA	 The cellular location of this protein was experimentally confirmed - Molybdoprotein trimethylamine N-oxide reductase	Periplasmic	94456.23	0 / 0	88.5%
+yceI	 The cellular location of this protein was experimentally confirmed - Function unknown; periplasmic protein; alkali-indu ... ...	Periplasmic	20912.51	1 / 0	99.8%
+amiA	 The cellular location of this protein was experimentally confirmed - N-Acetylmuramyl-L-alanine amidase activity	Periplasmic	31412.19	0 / 0	97.5%
+fdoG	 The cellular location of this protein was experimentally confirmed - Formate dehydrogenase-O subunit; major	Periplasmic	112382.3	1 / 0	97%
+mdoG	 The cellular location of this protein was experimentally confirmed - Periplasmic oligosaccharide synthesis	Periplasmic	57912.64	1 / 0	99.7%
+zraP	 The cellular location of this protein was experimentally confirmed - Zn-binding periplasmic protein; responsive to Zn(2 ... ...	Periplasmic	20367.39	1 / 1	99.7%
+aphA	 The cellular location of this protein was experimentally confirmed - Acid phosphatase/phosphotransferase; class B	Periplasmic	26103.61	1 / 0	87.4%
+nrfB	 The cellular location of this protein was experimentally confirmed - Formate-dependent nitrite reduction; pentaheme cyt ... ...	Periplasmic	20959.9	1 / 0	88.2%
+nrfC	 The cellular location of this protein was experimentally confirmed - Formate-dependent nitrite reduction; nonheme FE-S ... ...	Periplasmic	24567.6	1 / 0	99.5%
+yehZ	 The cellular location of this protein was experimentally confirmed - predicted transporter subunit; periplasmic-binding ... ...	Periplasmic	32609.37	1 / 0	100%
+bglX	 The cellular location of this protein was experimentally confirmed - Periplasmic beta-glucosidase	Periplasmic	83460.32	0 / 0	100%
+pbpG	 The cellular location of this protein was experimentally confirmed - Penicillin-binding protein PBP 7	Periplasmic	34245.07	1 / 0	95.9%
+napB	 The cellular location of this protein was experimentally confirmed - Diheme c type cytochrome component of periplasmic ... ...	Periplasmic	17090.5	1 / 0	99.8%
+napG	 The cellular location of this protein was experimentally confirmed - Ferredoxin homolog	Periplasmic	24924.84	1 / 0	35.8%
+napA	 The cellular location of this protein was experimentally confirmed - Periplasmic nitrate reductase	Periplasmic	93042.34	1 / 0	97.7%
+nikA	 The cellular location of this protein was experimentally confirmed - nickel transporter subunit; periplasmic-binding pr ... ...	Periplasmic	58719.17	1 / 0	100%
+hisJ	 The cellular location of this protein was experimentally confirmed - histidine/lysine/arginine/ornithine transporter su ... ...	Periplasmic	28483.45	1 / 1	99.4%
+asr	 The cellular location of this protein was experimentally confirmed - Acid shock RNA; expression controlled by phoBR	Periplasmic	11638.58	1 / 0	100%
+yhjJ	 The cellular location of this protein was experimentally confirmed - Function unknown	Periplasmic	55527.55	1 / 0	99.7%
+bcsZ	 The cellular location of this protein was experimentally confirmed - Endo-1;4-D-glucanase; breaks down carboxymethylcel ... ...	Periplasmic	41700.41	1 / 0	95.9%
+cueO	 The cellular location of this protein was experimentally confirmed - Multicopper oxidase (laccase)	Periplasmic	56556.43	1 / 0	100%
+btuF	 The cellular location of this protein was experimentally confirmed - vitamin B12 transporter subunit; periplasmic-bindi ... ...	Periplasmic	29366.91	1 / 0	96.3%
+modA	 The cellular location of this protein was experimentally confirmed - molybdate transporter subunit; periplasmic-binding ... ...	Periplasmic	27364.28	1 / 0	99.9%
+alsB	 The cellular location of this protein was experimentally confirmed - D-allose transporter subunit; periplasmic-binding ... ...	Periplasmic	32910.01	1 / 1	98.8%
+ecfJ	 The cellular location of this protein was experimentally confirmed - Function unknown; rpoE regulon; periplasmic protei ... ...	Periplasmic	20420.6	0 / 0	77%
+ytfQ	 The cellular location of this protein was experimentally confirmed - predicted sugar transporter subunit; periplasmic-b ... ...	Periplasmic	34344.77	1 / 1	99.9%
+degQ	 The cellular location of this protein was experimentally confirmed - Periplasmic serine endoprotease; multicopy suppres ... ...	Periplasmic	47205.18	2 / 1	99.2%
+torT	 The cellular location of this protein was experimentally confirmed - TorRT system	Periplasmic	37864.81	1 / 0	100%
+lptA	 The cellular location of this protein was experimentally confirmed - Participate in LPS biogenesis. sigma_E-dependent. ... ...	Periplasmic	20126.94	1 / 0	98.1%
+tpx	 The cellular location of this protein was experimentally confirmed - Thioredoxin-linked thiol peroxidase; induced by ac ... ...	Periplasmic	17835.37	0 / 0	None
+znuA	 The cellular location of this protein was experimentally confirmed - zinc transporter subunit; periplasmic-binding prot ... ...	Periplasmic	35885.17	1 / 0	94%
+fliY	 The cellular location of this protein was experimentally confirmed - cystine transporter subunit; periplasmic-binding p ... ...	Periplasmic	29039.26	1 / 0	100%
+erfK	 The cellular location of this protein was experimentally confirmed - Function unknown; downstream of cobT	Periplasmic	34411.18	1 / 0	99.6%
+lolA	 The cellular location of this protein was experimentally confirmed - Periplasmic protein responsible for sorting and tr ... ...	Periplasmic	22628.31	1 / 0	99.5%
+gltI	 The cellular location of this protein was experimentally confirmed - glutamate and aspartate transporter subunit; perip ... ...	Periplasmic	33420.27	0 / 0	99.9%
+ecfF	 The cellular location of this protein was experimentally confirmed - Function unknown; rpoE regulon; putative periplasm ... ...	Periplasmic	26429.32	0 / 0	98.6%
+yrbC	 The cellular location of this protein was experimentally confirmed - Function unknown	Periplasmic	23962.69	1 / 0	91%
+aaeA	 The cellular location of this protein was experimentally confirmed - AaeAB p-hydroxybenzoic acid efflux pump;membrane f ... ...	Periplasmic	34774.66	1 / 1	81.6%
+ybgF	 The cellular location of this protein was experimentally confirmed - Binds TolA; last gene in tolB-pal operon; localize ... ...	Periplasmic	28231.48	1 / 0	99.1%
+mdoD	 The cellular location of this protein was experimentally confirmed - Periplasmic protein involved in osmoregulated peri ... ...	Periplasmic	62758.2	1 / 0	100%
+gspD	 The cellular location of this protein was experimentally confirmed - general secretory pathway component; cryptic	Periplasmic	71146.88	0 / 0	99.6%
+gspI	 The cellular location of this protein was experimentally confirmed - general secretory pathway component; cryptic	Periplasmic	15328.12	1 / 1	32.6%
+gspJ	 The cellular location of this protein was experimentally confirmed - general secretory pathway component; cryptic	Periplasmic	22231.26	1 / 1	97.9%
+gspK	 The cellular location of this protein was experimentally confirmed - general secretory pathway component; cryptic	Periplasmic	37646.71	1 / 1	98.7%
+fkpA	 The cellular location of this protein was experimentally confirmed - Periplasmic peptidylprolyl cis;trans isomerase; PP ... ...	Periplasmic	28881.98	1 / 0	97.7%
+ygiW	 The cellular location of this protein was experimentally confirmed - Function unknown	Periplasmic	14010.8	1 / 0	100%
+amiC	 The cellular location of this protein was experimentally confirmed - Putative cell wall amidase	Periplasmic	48958.54	0 / 0	98.8%
+tynA	 The cellular location of this protein was experimentally confirmed - Tyramine oxidase	Periplasmic	84378.9	1 / 0	91.6%
+rseB	 The cellular location of this protein was experimentally confirmed - Binds periplasmic domain of anti-RpoE sigma factor ... ...	Periplasmic	35749.86	1 / 0	87.6%
+torZ	 The cellular location of this protein was experimentally confirmed - Periplasmic trimethylamine oxide (TMAO) reductase; ... ...	Periplasmic	89722.18	1 / 0	100%
+emrK	 The cellular location of this protein was experimentally confirmed - EmrKY-TolC multidrug resistance efflux pump; membr ... ...	Periplasmic	42585.57	1 / 1	99%
+tauA	 The cellular location of this protein was experimentally confirmed - taurine transporter subunit; periplasmic-binding p ... ...	Periplasmic	36459.66	0 / 0	99.8%
+ybiS	 The cellular location of this protein was experimentally confirmed - Function unknown; Rob regulon; low abundance prote ... ...	Periplasmic	33325.39	1 / 1	98.9%
+mppA	 The cellular location of this protein was experimentally confirmed - murein tripeptide (L-ala-gamma-D-glutamyl-meso-DAP ... ...	Periplasmic	60672.32	0 / 0	97.9%
+csgE	 The cellular location of this protein was experimentally confirmed - predicted periplasmic protein; involved in curli a ... ...	Periplasmic	14878.83	0 / 0	87.3%
+csgF	 The cellular location of this protein was experimentally confirmed - predicted periplasmic protein; involved in curli a ... ...	Periplasmic	15055.85	1 / 1	99.7%
+sodC	 The cellular location of this protein was experimentally confirmed - Superoxide dismutase; Cu; Zn	Periplasmic	17681.03	0 / 0	98.6%
+yphF	 The cellular location of this protein was experimentally confirmed - predicted sugar transporter subunit; periplasmic-b ... ...	Periplasmic	35058.25	1 / 0	99.6%
+gsiB	 The cellular location of this protein was experimentally confirmed - glutathione transporter subunit, periplasmic bindi ... ...	Periplasmic	56470.36	1 / 0	99.9%
+spy	 The cellular location of this protein was experimentally confirmed - Periplasmic protein induced by zinc; psrt of cpx r ... ...	Periplasmic	18199.17	0 / 0	100%
+dsbG	 The cellular location of this protein was experimentally confirmed - Thiol-disulphide oxidase; molecular chaperone; mul ... ...	Periplasmic	29775.77	0 / 0	100%
+ivy	 The cellular location of this protein was experimentally confirmed - Inhibitor of C-lysozyme	Periplasmic	16872.38	1 / 0	100%
+yagZ	 The cellular location of this protein was experimentally confirmed - Function unknown	Periplasmic	20111.51	1 / 0	99.8%
+ybcL	 The cellular location of this protein was experimentally confirmed - Function unknown; periplasmic protein; homologous ... ...	Periplasmic	19476.01	1 / 0	84.7%
+ssuA	 The cellular location of this protein was experimentally confirmed - alkanesulfonate transporter subunit; periplasmic-b ... ...	Periplasmic	36277.02	1 / 0	91.4%
+ydcS	 The cellular location of this protein was experimentally confirmed - predicted spermidine/putrescine transporter subuni ... ...	Periplasmic	42295.33	0 / 0	100%
+ddpA	 The cellular location of this protein was experimentally confirmed - D-Ala-D-Ala transporter subunit; periplasmic-bindi ... ...	Periplasmic	57641.38	1 / 0	99.9%
+lsrB	 The cellular location of this protein was experimentally confirmed - AI2 transporter subunit; periplasmic-binding prote ... ...	Periplasmic	36684.96	1 / 0	100%
+ynfD	 The cellular location of this protein was experimentally confirmed - Function unknown	Periplasmic	12138.91	0 / 0	99.6%
+ycdO	 The cellular location of this protein was experimentally confirmed - Function unknown; acid-inducible; essential gene	Periplasmic	41137.74	0 / 0	100%
+yodA	 The cellular location of this protein was experimentally confirmed - Periplasmic cadmium binding protein; induced by ca ... ...	Periplasmic	24761.93	1 / 0	76.6%
+yfdX	 The cellular location of this protein was experimentally confirmed - Function unknown	Periplasmic	22977.27	0 / 0	100%
+cusF	 The cellular location of this protein was experimentally confirmed - periplasmic copper-binding protein; predicted comp ... ...	Periplasmic	12251.21	0 / 0	99.6%
+flgB	 The cellular location of this protein was experimentally confirmed - Flagellar basal body rod subunit; flagellar regulo ... ...	Periplasmic	15240.24	0 / 0	None
+flgC	 The cellular location of this protein was experimentally confirmed - Flagellar basal body rod subunit; flagellar regulo ... ...	Periplasmic	13967.99	0 / 0	None
+flgF	 The cellular location of this protein was experimentally confirmed - Flagellar basal body rod subunit; flagellar regulo ... ...	Periplasmic	25912.24	0 / 0	None
+flgG	 The cellular location of this protein was experimentally confirmed - Flagellar basal body rod major subunit; flagellar ... ...	Periplasmic	27743.97	0 / 0	None
+xylF	 The cellular location of this protein was experimentally confirmed - D-xylose transporter subunit; periplasmic-binding ... ...	Periplasmic	35734.14	0 / 0	99.5%
+sapA	 The cellular location of this protein was experimentally confirmed - predicted antimicrobial peptide transporter subuni ... ...	Periplasmic	61565.08	1 / 0	100%
+flgA	 The cellular location of this protein was experimentally confirmed - Flagellar synthesis; flagellar regulon	Periplasmic	23519.15	1 / 0	96.9%
+flgI	 The cellular location of this protein was experimentally confirmed - Basal body P-ring flagellar protein; flagellar reg ... ...	Periplasmic	38169.6	0 / 0	96.8%
+torC	 The cellular location of this protein was experimentally confirmed - c-Type cytochrome	Periplasmic with N-terminal membrane anchor	43606.72	1 / 1	None
+ccmG	 The cellular location of this protein was experimentally confirmed - Thioredoxin homolog; thiol-disulfide interchange p ... ...	Periplasmic with N-terminal membrane anchor	20809.06	1 / 1	47.8%
+ccmE	 The cellular location of this protein was experimentally confirmed - Membrane-anchored periplasmic heme chaperone; make ... ...	Periplasmic with N-terminal membrane anchor	17698.38	1 / 1	95.3%
+napC	 The cellular location of this protein was experimentally confirmed - Cytochrome c homolog	Periplasmic with N-terminal membrane anchor	23100.67	1 / 1	None
+torY	 The cellular location of this protein was experimentally confirmed - Cytochrome c homolog required for periplasmic redu ... ...	Periplasmic with N-terminal membrane anchor	40286.59	1 / 1	94%
+zipA	 The cellular location of this protein was experimentally confirmed - Septal ring structural protein; affects cell divis ... ...	Periplasmic with N-terminal membrane anchor	36475.42	1 / 1	89.2%
+yebF	 The cellular location of this protein was experimentally confirmed - Function unknown	Secreted and released	13464.36	1 / 0	98.6%
+hlyE	 The cellular location of this protein was experimentally confirmed - Latent hemolysin expressed in presence of Salmonel ... ...	Secreted and released	34002.96	2 / 1	None

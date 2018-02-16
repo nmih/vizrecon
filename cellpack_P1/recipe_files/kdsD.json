@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.497278722386, 0.7224214763, 0.565554849944],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 33.3596375367,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "kdsD_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "kdsD",
+    "positions": [
+        [[7.693016008561741, -5.23332286404764, -0.716573236502146], [-12.013975967903512, 11.605463362237291, 0.43346565013048444], [-1.8233668884657914, -0.0625140843786642, -12.803585122646805], [5.299114456506004, -22.143225295547055, 5.844870135465374], [11.938838548661257, 0.3585287634488863, -15.888600645468342], [-7.429774100203824, -9.662040597023289, 3.456754021667709], [1.0645598406787917, 14.260780669390655, 12.7712297007947], [-7.7979602075283685, 2.2213130921182245, 15.689887948024905]]
+    ],
+    "meshName": "kdsD",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "E03010_clean-X_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "E03010_clean-X_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.00915690161752, 0.961516370993, 0.333470326474],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 42.5036477641,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "srkA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "srkA",
+    "positions": [
+        [[-18.895115583480536, -2.4676048711121594, 5.376225155620771], [-10.156953638541319, -6.125195853863109, -8.108244616783315], [4.449967157791294, 19.33807503060703, 8.123553421409694], [-6.77710155526941, -14.582077428985071, 5.166081482829545], [9.30770733299895, -6.847101124029674, -20.28693388015218], [-0.9134841655838442, 2.693128568961809, 14.0980257750872], [9.416472699829255, 8.983670807401076, -6.574702577681731], [7.962329489164281, -9.682514269081727, -1.0810891885615774], [-17.46831197649157, 12.10812909905717, 23.645892644925322]]
+    ],
+    "meshName": "srkA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1zyl-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1zyl-A_clean",
+    "useRotAxis": 0
+}

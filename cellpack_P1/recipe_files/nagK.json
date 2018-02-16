@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.142275217947, 0.32606552477, 0.953532348364],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 35.5343080238,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "nagK_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "nagK",
+    "positions": [
+        [[19.95180652542578, -9.120054659857963, -0.6417955384580997], [-18.429335043180867, 5.590059455823926, 4.512235766164697], [9.97554521144698, 7.063151676871071, -2.5607530668579455], [-7.455975380349311, 17.180068872393267, -3.635056026695935], [-4.052539437586936, 2.3428504508609027, -7.343622165611972], [-20.348403220572376, -0.23651739287009207, -12.157740432617148], [5.902373239396461, -2.0734574233979544, 12.601430954749773], [9.606241297115643, -16.19800891638596, 10.11071757777693]]
+    ],
+    "meshName": "nagK",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2ap1-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2ap1-A_clean",
+    "useRotAxis": 0
+}

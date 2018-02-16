@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.082738264178, 0.987076072524, 0.926757097998],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 34.0910553735,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "argI_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "argI",
+    "positions": [
+        [[16.2301428309621, 12.543376836540896, 8.41574574805604], [1.7156039946694976, -15.92199966586587, -0.48741830610130793], [5.905333134569481, -7.646408606196181, -16.498133243398332], [-6.5054813856613745, -7.414050035733682, 10.702702059628953], [7.209062770686734, 4.777536236081565, -0.2956320518449618], [-10.686943317392359, -10.12008072592281, -10.0446795066442], [-1.6765208689658986, 16.483610157510658, 8.92274628021133], [-12.018938268838786, 6.610387285961649, 1.2310714928088404]]
+    ],
+    "meshName": "argI",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1duv-G_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1duv-G_clean",
+    "useRotAxis": 0
+}

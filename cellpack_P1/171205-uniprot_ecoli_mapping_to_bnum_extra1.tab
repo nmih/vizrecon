@@ -1,0 +1,117 @@
+Entry	Protein names	Gene names	Gene names  (ordered locus )	Gene names  (primary )	Status
+P69831	PTS system galactitol-specific EIIC component (EIIC-Gat) (Galactitol permease IIC component)	gatC b2092 JW2076	b2092 JW2076	gatC	reviewed
+P24251	Sigma factor-binding protein Crl (Curlin genes transcriptional activatory protein)	crl b0240 JW0230	b0240 JW0230	crl	reviewed
+P77196	Putative outer membrane usher protein YfcU	yfcU yfcT b4661 JW2334/JW2335 b2337 b2338	b4661 JW2334/JW2335	yfcU	reviewed
+P31452	Putative permease IIC component GlvC (PTS system EIIC component)	glvC b3683 JW3660	b3683 JW3660	glvC	reviewed
+P0ACL0	Glycerol-3-phosphate regulon repressor	glpR b3423 JW3386	b3423 JW3386	glpR	reviewed
+P33369	Putative multidrug resistance outer membrane protein MdtQ	mdtQ yohG yohH b2139 JW5838/JW5358 b2138	b2139 JW5838/JW5358	mdtQ	reviewed
+P69789	Phosphotransferase enzyme IIB component GlvB (EC 2.7.1.-) (PTS system EIIB component)	glvB glvC b3682 JW3659	b3682 JW3659	glvB	reviewed
+P39347	Putative protein IntB (Int(P4)) (Putative prophage P4 integrase)	intB b4271 JW4227	b4271 JW4227	intB	reviewed
+P75681	Putative ferric transport system permease-like protein AfuB	afuB fbpB b0263 JW0255	b0263 JW0255	afuB	reviewed
+P76071	Transposase InsH for insertion sequence element IS5Y	insH5 b1370 JW1363	b1370 JW1363	insH5	reviewed
+P77228	Putative inner membrane metabolite transport protein YdfJ	ydfJ b4600 JW1536 b1543	b4600 JW1536	ydfJ	reviewed
+P76168	Putative defective protein IntQ (Putative lambdoid prophage Qin defective integrase)	intQ b1579 JW1571	b1579 JW1571	intQ	reviewed
+P77481	Putative uncharacterized ABC transporter ATP-binding protein YcjV	ycjV ymjB b4524 JW1311/JW5203 b1318	b4524 JW1311/JW5203	ycjV	reviewed
+P45766	Putative amino-acid ABC transporter-binding protein YhdW	yhdW b3268 JW3236	b3268 JW3236	yhdW	reviewed
+P77354	Putative inner membrane protein YafU	yafU b0218 JW0207	b0218 JW0207	yafU	reviewed
+P76655	Putative outer membrane usher protein YqiG	yqiG b3046 JW5507	b3046 JW5507	yqiG	reviewed
+Q46791	Putative uncharacterized response regulatory protein YgeK	ygeK ygeL b2856 JW5458/JW2824 b2855	b2856 JW5458/JW2824	ygeK	reviewed
+P77551	Putative endopeptidase RzpR (EC 3.4.-.-) (Putative Rz endopeptidase from lambdoid prophage Rac)	rzpR ydaX b1362 JW5212	b1362 JW5212	rzpR	reviewed
+Q46834	Putative type II secretion system C-type protein YghF (Putative general secretion pathway C-type protein YghF)	yghF b2970 JW5484	b2970 JW5484	yghF	reviewed
+P0CF60	Putative transposase InsD for insertion element IS2E	insD8 b1578 JW1570	b1578 JW1570	insD8	reviewed
+P42906	Putative N-acetylgalactosamine-6-phosphate deacetylase (Aga-6-P deacetylase) (EC 3.5.1.-)	agaA b3135 JW5527	b3135 JW5527	agaA	reviewed
+P39212	Transposase InsN for insertion sequence element IS911B	insN2 b4283 JW5771	b4283 JW5771	insN2	reviewed
+P75679	Transposase InsN for insertion sequence element IS911A	insN1 b0255 JW5024	b0255 JW5024	insN1	reviewed
+P28369	Putative peptide chain release factor homolog (RF-H)	prfH b0236 JW0226	b0236 JW0226	prfH	reviewed
+P33924	Putative uncharacterized outer membrane protein YejO	yejO b2190 JW5839	b2190 JW5839	yejO	reviewed
+P77601	Putative HTH-type transcriptional regulator YkgA	ykgA b0300 JW5037	b0300 JW5037	ykgA	reviewed
+P75980	Putative protein BeeE (Putative protein BeeE from lambdoid prophage e14 region)	beeE ymfO b1151 JW1137	b1151 JW1137	beeE	reviewed
+P36943	Putative attaching and effacing protein homolog	eaeH b0297 JW0291	b0297 JW0291	eaeH	reviewed
+P75717	Putative uncharacterized protein ExoD	exoD ybcC b0539 JW0526	b0539 JW0526	exoD	reviewed
+P75680	Putative transposase InsO for insertion sequence element IS911A	insO1 b0257 JW0247	b0257 JW0247	insO1	reviewed
+P75981	Putative protein JayE (Putative protein JayE from lambdoid prophage e14 region)	jayE ymfP b1152 JW5170	b1152 JW5170	jayE	reviewed
+P0ADF3	Putative rho operon leader peptide	rhoL b3782 JW3755	b3782 JW3755	rhoL	reviewed
+P28697	Uncharacterized protein MbiA (Modifier of biofilm)	mbiA htgA htpY b0012 JW5001	b0012 JW5001	mbiA	reviewed
+P31061	Prophage DNA-packing protein NohA (Putative prophage Qin DNA-packaging protein Nu1 homolog)	nohA b1548 JW1541	b1548 JW1541	nohA	reviewed
+P75718	Putative protein RenD (Putative defective protein Ren from DLP12 prophage)	renD b0542 JW0530	b0542 JW0530	renD	reviewed
+P24211	Putative protein RhsE	rhsE b1456 JW1451	b1456 JW1451	rhsE	reviewed
+P77087	Putative uncharacterized protein TfaX	tfaX ylcE b0563 JW0552	b0563 JW0552	tfaX	reviewed
+P75971	Putative uncharacterized protein b1142	b1142 JW1128	b1142 JW1128		reviewed
+P11291	Putative uncharacterized protein b3808 (CyaX) (O161)	b3808 JW3780	b3808 JW3780		reviewed
+P77169	Putative uncharacterized protein YagJ	yagJ b0276 JW0270	b0276 JW0270	yagJ	reviewed
+P75697	Putative uncharacterized acetyltransferase YaiX (EC 2.3.1.-)	yaiX yaiF b4579 JW0350/JW5814 b0359 b0362	b4579 JW0350/JW5814	yaiX	reviewed
+P37008	Putative uncharacterized protein YagB	yagB b0266 JW0259	b0266 JW0259	yagB	reviewed
+Q2EEQ3	Putative uncharacterized protein YahH	yahH b0322 JW5893	b0322 JW5893	yahH	reviewed
+P0DP64	Putative protein YbeM	ybeM b4581 JW0621 b0626	b4581 JW0621	ybeM	reviewed
+P08339	Putative uncharacterized protein b4223	b4223 JW4182	b4223 JW4182		reviewed
+P39220	Putative uncharacterized protein YabP	yabP b4659 JW0055 b0056	b4659 JW0055	yabP	reviewed
+P39221	Uncharacterized protein YabQ	yabQ b0057 JW0056	b0057 JW0056	yabQ	reviewed
+P77199	Putative uncharacterized protein YaiT	yaiT b4580 JW0362/JW5051 b0371 b0374	b4580 JW0362/JW5051	yaiT	reviewed
+P75684	Uncharacterized protein YagP	yagP b4694 JW0276	b4694 JW0276	yagP	reviewed
+P0DP63	Putative protein YbeH	ybeH b4581 JW0620 b0625	b4581 JW0620	ybeH	reviewed
+P76023	Putative uncharacterized protein YchS	ychS b1228 JW5881	b1228 JW5881	ychS	reviewed
+Q47719	Putative uncharacterized protein b4286	b4286 JW4246	b4286 JW4246		reviewed
+P76123	Putative uncharacterized protein YddK	yddK b1471 JW1467	b1471 JW1467	yddK	reviewed
+P76164	Uncharacterized protein YdfW (Uncharacterized protein YdfW in Qin prophage region)	ydfW b1567 JW1559	b1567 JW1559	ydfW	reviewed
+P33353	Putative uncharacterized protein YehQ	yehQ b2122 JW2110	b2122 JW2110	yehQ	reviewed
+P77519	Putative uncharacterized protein YddL	yddL b1472 JW1468	b1472 JW1468	yddL	reviewed
+P76508	Putative uncharacterized protein YfdL	yfdL b2355 JW5384	b2355 JW5384	yfdL	reviewed
+Q46786	Putative uncharacterized protein YgeF	ygeF b2850 JW2818	b2850 JW2818	ygeF	reviewed
+Q46795	Putative uncharacterized protein YgeO	ygeO b2859 JW5846	b2859 JW5846	ygeO	reviewed
+Q47688	Putative uncharacterized protein YkfC	ykfC b0258 JW5813	b0258 JW5813	ykfC	reviewed
+P76000	Putative uncharacterized protein YcgI	ycgI ymgH b4521 JW1162/JW5179 b1173	b4521 JW1162/JW5179	ycgI	reviewed
+P76509	Putative uncharacterized protein YfdM	yfdM b2356 JW2352	b2356 JW2352	yfdM	reviewed
+P75704	Putative uncharacterized protein YkiA	ykiA b0392 JW0383	b0392 JW0383	ykiA	reviewed
+Q2EER5	Putative uncharacterized protein YmjC	ymjC b4525 JW5960	b4525 JW5960	ymjC	reviewed
+P77658	Putative uncharacterized protein YnaA	ynaA b1368 JW1361	b1368 JW1361	ynaA	reviewed
+P76119	Putative transposase YncI	yncI yncM b1459 JW1453/JW5237 b1458	b1459 JW1453/JW5237	yncI	reviewed
+P76122	Uncharacterized protein YddJ	yddJ b1470 JW1466	b1470 JW1466	yddJ	reviewed
+P32051	Uncharacterized lipoprotein YdeK (ORFT)	ydeK orfT b1510 JW1503	b1510 JW1503	ydeK	reviewed
+P64526	Putative uncharacterized protein YeeW	yeeW b2006 JW1988	b2006 JW1988	yeeW	reviewed
+P75711	Uncharacterized protein YbbV	ybbV b0510 JW0498	b0510 JW0498	ybbV	reviewed
+P77460	Putative uncharacterized protein YbcY	ybcY b0562 JW0551	b0562 JW0551	ybcY	reviewed
+P37003	Putative uncharacterized protein YbfG	ybfG b0691 JW5094/JW5095 b0690	b0691 JW5094/JW5095	ybfG	reviewed
+P77779	Putative uncharacterized protein YbfO	ybfO b0703 JW0692	b0703 JW0692	ybfO	reviewed
+P0AD35	Putative uncharacterized protein YfdO	yfdO b2358 JW2355	b2358 JW2355	yfdO	reviewed
+P76628	Putative uncharacterized transporter YgaY	ygaY b2681 JW2655 b2680	b2681 JW2655	ygaY	reviewed
+Q46796	Uncharacterized protein YgeP	ygeP b2862 JW2831	b2862 JW2831	ygeP	reviewed
+P37629	Putative uncharacterized protein YhiL	yhiL b4660 JW3457 b3489 b3490	b4660 JW3457	yhiL	reviewed
+P37635	Putative uncharacterized protein YhiS	yhiS b3504 JW3471	b3504 JW3471	yhiS	reviewed
+P76137	Putative uncharacterized protein ydet	ydeT b1505 JW1499	b1505 JW1499	ydeT	reviewed
+P76165	Uncharacterized protein YdfX	ydfX b1568 JW1560	b1568 JW1560	ydfX	reviewed
+P45505	Putative uncharacterized protein YfaH	yfaH b2238 JW2232	b2238 JW2232	yfaH	reviewed
+P76616	Putative uncharacterized protein YgaQ	ygaQ ygaR yqaC yqaD b4462 JW2631/JW2633/JW5425/JW5426 b2654/b2657/b2658	b4462 JW2631/JW2633/JW5425/JW5426	ygaQ	reviewed
+P76356	Putative uncharacterized protein YoeA	yoeA b4582 JW1980 b1995 b1998	b4582 JW1980	yoeA	reviewed
+Q2EEP9	Putative uncharacterized protein YafF	yafF b4503 JW0208	b4503 JW0208	yafF	reviewed
+P32690	Putative uncharacterized protein YjbI	yjbI b4038 JW3998	b4038 JW3998	yjbI	reviewed
+Q9Z3A0	Putative uncharacterized protein YjgW	yjgW b4274 JW4233	b4274 JW4233	yjgW	reviewed
+P39391	Putative uncharacterized protein YjiT	yjiT b4342 JW5787	b4342 JW5787	yjiT	reviewed
+P33669	Putative uncharacterized protein YbbD	ybbD b0501 JW0489	b0501 JW0489	ybbD	reviewed
+Q2EEQ8	Putative defective transposase YbfQ	ybfQ b4514 JW0694	b4514 JW0694	ybfQ	reviewed
+P76069	Putative uncharacterized protein YdaY	ydaY b1366 JW1360	b1366 JW1360	ydaY	reviewed
+P56259	Putative uncharacterized protein YifN	yifN b3777 JW3749 b3776	b3777 JW3749	yifN	reviewed
+P39309	Putative uncharacterized protein YtfA	ytfA b4205 JW4163	b4205 JW4163	ytfA	reviewed
+P75675	Putative uncharacterized protein YkfJ	ykfJ b0235 JW0225	b0235 JW0225	ykfJ	reviewed
+P75978	Uncharacterized protein YmfN	ymfN b1149 JW1135	b1149 JW1135	ymfN	reviewed
+P76692	Putative uncharacterized protein YzgL	yzgL b3427 JW3390	b3427 JW3390	yzgL	reviewed
+P76066	Putative uncharacterized protein YdaW	ydaW b1361 JW5211	b1361 JW5211	ydaW	reviewed
+P76322	Uncharacterized protein YedM	yedM b1935 JW1920	b1935 JW1920	yedM	reviewed
+Q46793	Putative uncharacterized protein YgeN	ygeN ygeM b2858 JW5459/JW5460 b2857	b2858 JW5459/JW5460	ygeN	reviewed
+Q46797	Putative uncharacterized protein YgeQ	ygeQ b2863 JW5461	b2863 JW5461	ygeQ	reviewed
+Q79CP2	Putative uncharacterized protein YgiA	ygiA b3036 JW5889	b3036 JW5889	ygiA	reviewed
+P39369	Putative uncharacterized protein YjhR	yjhR b4308 JW4271	b4308 JW4271	yjhR	reviewed
+P0DP22	Putative inactive recombination-promoting nuclease-like protein YjiQ	yjiQ rpnD b4339 JW4302	b4339 JW4302	yjiQ	reviewed
+P77759	Putative uncharacterized protein YlbH	ylbH b0499 JW0488	b0499 JW0488	ylbH	reviewed
+Q46840	Putative uncharacterized protein YghO	yghO b2981 JW5848	b2981 JW5848	yghO	reviewed
+P32109	Putative uncharacterized protein YibJ	yibJ b3595 JW5647	b3595 JW5647	yibJ	reviewed
+Q79E92	Putative transposase YkgN	ykgN b4505 JW0258	b4505 JW0258	ykgN	reviewed
+P77688	Putative uncharacterized protein YlbG	ylbG b0502 JW5880	b0502 JW5880	ylbG	reviewed
+P76138	Putative HTH-type transcriptional regulator YneL	yneL b1506 JW5244	b1506 JW5244	yneL	reviewed
+Q2EET0	Putative uncharacterized protein YpdJ	ypdJ b4545 JW5386	b4545 JW5386	ypdJ	reviewed
+P46879	Uncharacterized protein YqgD	yqgD b2941 JW2908	b2941 JW2908	yqgD	reviewed
+Q47138	Putative uncharacterized protein YdfE (ORF6)	ydfE b1577 JW1568	b1577 JW1568	ydfE	reviewed
+P46856	Putative uncharacterized protein YrhA	yrhA b3443 JW5864	b3443 JW5864	yrhA	reviewed
+Q2EES3	Putative uncharacterized protein YoeF	yoeF b4538 JW5328	b4538 JW5328	yoeF	reviewed
+P76612	Uncharacterized protein YpjB	ypjB b2649 JW2629	b2649 JW2629	ypjB	reviewed
+P76613	Putative uncharacterized protein YpjC	ypjC b2650 JW5424	b2650 JW5424	ypjC	reviewed
+P64562	Putative uncharacterized protein YqfE	yqfE b2915 JW2882	b2915 JW2882	yqfE	reviewed

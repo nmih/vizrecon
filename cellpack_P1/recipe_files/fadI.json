@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.365893765042, 0.580358364091, 0.275914405984],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 44.9687033552,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "fadI_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "fadI",
+    "positions": [
+        [[-8.587954691553325, -11.811929252510854, 13.90230255885166], [-11.178804574710183, -11.919916610306926, -7.461810029660904], [-9.261339906582245, 7.0690494946391, 6.390868855441457], [9.724088296328539, 7.470310137232817, 13.35292418230761], [-19.089164045444377, 0.3585115477963484, -12.672381369404523], [19.10774594212068, 0.4927233791016656, -0.600076099813175], [18.31834169655129, -24.758636134355392, -2.103022594776286], [2.949973525878845, -12.517520595311739, 1.563853728385026], [-0.7649915879940545, 8.250334020292655, -10.358575810653194], [3.9370566478902242, 22.58350688037178, 0.13602552488946867]]
+    ],
+    "meshName": "fadI",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b2342_17_434_4wys_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b2342_17_434_4wys_clean",
+    "useRotAxis": 0
+}

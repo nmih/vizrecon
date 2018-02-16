@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.545504288959, 0.274055545286, 0.0179802426429],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.7531546075,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "lpxM_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "lpxM",
+    "positions": [
+        [[-10.072393149307711, 8.09889173353426, 6.641120890923671], [10.74183034137113, 2.861448446979647, -10.788841421703637], [-10.071146830125814, 0.7105465545177887, -9.261886281935894], [-6.832208993524164, -9.511656685748235, 13.331772631034054], [-6.103540980696495, 25.99571089821856, -6.264978091830236], [-8.186624955198473, -15.464203879100225, -0.06212275129227027], [16.927714317786755, 9.451413568625808, 2.1349894405731735], [9.787441412081733, -9.675689153884608, 5.6741272903509605]]
+    ],
+    "meshName": "lpxM",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1855_26_317_5knk_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1855_26_317_5knk_clean",
+    "useRotAxis": 0
+}

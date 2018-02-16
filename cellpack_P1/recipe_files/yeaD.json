@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.995671599525, 0.707501121918, 0.306874483538],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 31.3705911441,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "yeaD_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "yeaD",
+    "positions": [
+        [[-7.154012639322785, 11.736205637753788, -3.798500746609401], [-16.633242852984075, -4.061892579628602, -9.269577927961269], [1.416787423338257, -11.99684109275779, 12.040263426072425], [16.428743683551215, -1.7115189150555061, -2.1417391580963905], [-6.5965413367961, -1.4650829182885945, 15.716062592969445], [1.3338993177428504, 3.4077616497940637, -15.36393837913248], [10.215332664589285, 9.478142022106093, 6.036319048371051], [-4.239032157844843, -7.85213000955014, -1.7626275114372825]]
+    ],
+    "meshName": "yeaD",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "2htb-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "2htb-A_clean",
+    "useRotAxis": 0
+}

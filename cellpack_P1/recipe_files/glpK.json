@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.825094876383, 0.770883145013, 0.305440113873],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 43.9178100825,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "glpK_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "glpK",
+    "positions": [
+        [[-7.698614625594289, 2.9913283818930605, 15.568406417072188], [-1.1571088167278991, -1.1310308919759047, -24.455101060120665], [-9.313825284586272, -14.526057972608015, 10.166104016855549], [13.241977157051403, 6.528531595155169, 12.47017713464615], [-0.6083973885303534, 20.099823465046, 13.527843558418903], [-3.0908414019996573, -15.033576798345024, -8.637804933774152], [9.777047942554246, -9.282750014788315, 4.289239945148541], [-22.99388124559338, -2.9400553657913977, 8.564520985600666], [12.008530540667879, 3.001957805577684, -14.197987020826808], [11.17152688968773, -14.118973866756741, -16.204189917724303], [9.031747929665022, 14.582394756632846, -2.476429318124975], [-8.686069004776005, 7.836297172275802, -0.696938709473393]]
+    ],
+    "meshName": "glpK",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1bu6-O_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1bu6-O_clean",
+    "useRotAxis": 0
+}

@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.193278293705, 0.448508180194, 0.917410296479],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 36.920695668,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "aroA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "aroA",
+    "positions": [
+        [[12.434130305762048, -9.837096382626784, 10.738075434127719], [-14.858809886202724, 3.278215164588951, -12.554993624344064], [8.617049359624547, 2.3644992738635975, 21.429480810687018], [8.526156568365888, 7.66749023377817, -2.3408545314604803], [1.8826236934107754, -8.948108757144235, -13.149342662419262], [0.31983075650009174, 0.5932402483273078, -23.73060126969386], [1.2297535906591455, 16.035968049419427, -12.742946753606173], [-3.563952857040496, 8.680830737747362, 12.927305172856943], [-2.4375013138860413, -12.323456825207572, 19.83348766559494], [-5.953934627504218, -9.961705711424026, 4.051523700052022]]
+    ],
+    "meshName": "aroA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1g6s-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1g6s-A_clean",
+    "useRotAxis": 0
+}

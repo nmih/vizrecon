@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.485131848767, 0.281970109813, 0.14283014895],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 34.5454709569,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ldcA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ldcA",
+    "positions": [
+        [[11.109553719159994, 12.376487537839305, 6.749057350158611], [17.65012525341091, -5.092107490891463, 0.8665047223356204], [-16.8708916533177, 6.50934535020472, -7.59638942625477], [3.023830273532275, -7.584286420420311, -6.130014953912344], [-15.510022814823753, -9.275812373072716, -5.420195745157795], [-11.635190929674314, -7.090505310879442, 10.953903412368838], [13.33848595649955, 7.4905618660942395, -10.067645506147375], [0.13785804316711994, 4.127560745188648, 9.790767973827604]]
+    ],
+    "meshName": "ldcA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "b1192_1_298_3tlz_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "b1192_1_298_3tlz_clean",
+    "useRotAxis": 0
+}

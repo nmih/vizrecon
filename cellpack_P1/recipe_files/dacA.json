@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.704009301189, 0.162034149172, 0.534702674858],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 51.4189744636,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "dacA_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "dacA",
+    "positions": [
+        [[-8.680236722332188, 7.0835707321967325, 7.762267529286023], [-7.032503667845552, -1.354920468108547, -37.99486765275216], [11.735717666210581, 1.259508022163565, 11.593108502252758], [-3.7536690723303887, -7.764661800907265, -22.594448938165048], [6.353424524723025, 18.38424101005119, 18.82059369979908], [-3.0534988851163, -23.160941253962353, -9.916412973577865], [-3.749783761646115, -7.576699803039497, 16.3280326062064], [5.683553258847576, 15.624429682525724, 2.373766737360362], [1.9593321333455032, -11.069735890895457, 0.46423103388589243]]
+    ],
+    "meshName": "dacA",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "3mzf-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "3mzf-A_clean",
+    "useRotAxis": 0
+}

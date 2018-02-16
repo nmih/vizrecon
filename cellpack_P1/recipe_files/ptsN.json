@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.237564049235, 0.0809989827806, 0.0154649816491],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 34.9673631226,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "ptsN_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "ptsN",
+    "positions": [
+        [[-4.704778198730164, -9.023008410994109, 4.609756457409661], [6.412454387569283, 9.821207842187263, 13.237392260525954], [3.697523038501534, 5.038930205304068, -2.28096467507688], [7.4329859187367795, 5.066806190515574, -19.669288169814184], [3.6405014766874664, -11.023041959739832, -13.513000383107883], [-10.341674741078531, -2.226818034968784, -15.826581793328748], [-9.879350275115684, 0.04465712828642164, 15.822063370929367], [2.8301181632092662, 0.6687144351547215, 24.651504072482684]]
+    ],
+    "meshName": "ptsN",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1a6j-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1a6j-A_clean",
+    "useRotAxis": 0
+}

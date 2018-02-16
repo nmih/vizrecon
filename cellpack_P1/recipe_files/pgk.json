@@ -1,0 +1,56 @@
+{
+    "packingMode": "random",
+    "partners_position": [],
+    "weight": 0.20000000000000001,
+    "color": [0.737231017501, 0.849705591904, 0.406479291372],
+    "results": [],
+    "radii": [[10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0, 10.0]],
+    "cutoff_boundary": null,
+    "encapsulatingRadius": 41.3172458523,
+    "positions2": null,
+    "rejectionThreshold": 30,
+    "isAttractor": false,
+    "Type": "MultiSphere",
+    "orientBiasRotRangeMax": -3.1415926535897931,
+    "gradient": "",
+    "nbMol": 0,
+    "jitterMax": [1.0, 1.0, 1.0],
+    "packingPriority": 0,
+    "rotAxis": [
+        0.0,
+        0.0,
+        0.0
+    ],
+    "overwrite_nbMol_value": 0,
+    "nbJitter": 5,
+    "molarity": 0,
+    "useOrientBias": false,
+    "rotRange": 6.2831000000000001,
+    "coordsystem": "left",
+    "meshFile": "pgk_coarse.dae",
+    "orientBiasRotRangeMin": -3.1415926535897931,
+    "perturbAxisAmplitude": 0.10000000000000001,
+    "proba_binding": 0.5,
+    "principalVector": [1.0, 0.0, 0.0],
+    "offset": [0.0, 0.0, 0.0],
+    "properties": {},
+    "partners_name": [],
+    "name": "pgk",
+    "positions": [
+        [[24.769601031789644, -2.5486864249938446, -14.682118283788837], [-24.718265583789496, 8.05198674629259, 4.250922040572581], [-1.8199842877635672, -3.7878381335660083, 4.592858239209269], [-14.88311660278437, -2.6300634938151397, 13.798006642705573], [6.391939748646704, -5.54631760015834, -13.931541401780834], [-10.16258539243787, 14.726215649919054, 14.51480507813789], [4.48650250895049, -17.77216472497542, -5.070759264533389], [-10.307373689455288, 15.58190365798491, -2.908627209514793], [20.15032480589341, -9.364169908155546, 1.2060999442886906]]
+    ],
+    "meshName": "pgk",
+    "excluded_partners_name": [],
+    "placeType": "jitter",
+    "cutoff_surface": 20.052597999572754,
+    "proba_not_binding": 0.5,
+    "source": {
+        "pdb": "1zmr-A_clean",
+        "transform": {
+            "center": true
+        }
+    },
+    "use_mesh_rb": false,
+    "pdb": "1zmr-A_clean",
+    "useRotAxis": 0
+}
