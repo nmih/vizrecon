@@ -1,0 +1,118 @@
+<html>
+    <head>
+        <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+        <script src="https://cdn.rawgit.com/arose/ngl/v2.0.0-dev.24/dist/ngl.js"></script>
+        <script src="https://rawgit.com/nmih/vizrecon_rawgit/master/glm.js"></script>
+        <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script> -->
+        <style>
+            html, body {
+                width: 100%;
+                height: 100%;
+                overflow: hidden;
+                margin: 0;
+                padding: 0;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="viewport" style="width:100%; height:100%;"></div>
+        <script>
+            // Setup to load data from rawgit
+NGL.DatasourceRegistry.add(
+    "data", new NGL.StaticDatasource( "//cdn.rawgit.com/arose/ngl/v2.0.0-dev.24/data/" )
+);
+
+// Create NGL Stage object
+var stage = new NGL.Stage( "viewport" );
+
+// Handle window resizing
+window.addEventListener( "resize", function( event ){
+    stage.handleResize();
+}, false );
+
+
+
+// Code for example: component/shape
+
+var shape = new NGL.Shape("shape", { dashedCylinder: true })
+
+shape.addSphere([ 0, 0, 9 ], [ 1, 0, 0 ], 1.5)
+shape.addSphere([ 12, 5, 15 ], [ 1, 0.5, 0 ], 1)
+shape.addCone([ 0, 2, 7 ], [ 0, 3, 3 ], [ 1, 1, 0 ], 1.5)
+shape.addArrow([ 1, 2, 7 ], [ 30, 3, 3 ], [ 1, 0, 1 ], 1.0)
+shape.addArrow([ 2, 2, 7 ], [ 30, -3, -3 ], [ 1, 0.5, 1 ], 1.0)
+shape.addBox([ 23, 1, 2 ], [ 0, 1, 0 ], 2, [ 0, 1, 1 ], [ 1, 0, 1 ])
+
+shape.addOctahedron( [8, 5, 14 ], [ 0, 1, 0 ], 2, [ 0, 1, 1 ], [ 1, 0, 1 ])
+shape.addTorus([ 16, 5, 14 ], [ 0, 1, 0 ], 2, [ 0, 1, 1 ], [ 1, 0, 1 ])
+
+
+var position =[[ 0, 0, 9 ],[ 12, 5, 15 ],[ 0, 2, 7 ],[ 1, 2, 7 ],[ 2, 2, 7 ],[ 23, 1, 2 ],[8, 5, 14 ],[ 16, 5, 14 ]]
+var pdb=['1crn']
+var dict={}
+for(var i = 0; i<position.length; i++){
+   if ( position[i] in dict )
+   {
+     //continue
+   }
+  else
+  {
+
+    dict[position[i]] = pdb[0]
+         }
+}
+console.log(dict)
+
+var x = 0
+var y = 0
+var z = 0
+stage.mouseControls.add(
+"clickPick-left", function (stage, pickingProxy)  {       
+    
+  console.log('here is  the position')
+  var mouseposition=pickingProxy.position;
+  x=(mouseposition["x"]).toString()
+  y=mouseposition["y"].toString()
+  z=mouseposition["z"].toString()
+  
+  console.log(x+","+y+","+z)
+  
+
+                                                   
+  //console.log(typeof(pickingProxy.position))                                   
+  //console.log(mouseposition)
+                                               
+                }
+ );
+
+
+stage.mouseControls.add('clickPick-left', function(stage, obj){
+  // stage.loadFile('rcsb://1crn', {defaultRepresentation: true})
+ // var string='rcsb://'+dict[mousePosition
+  //console.log('her eis  thedict[]')
+  //console.log(mouseposition)
+  //console.log(typeof(mouseposition))
+  var string='rcsb://'
+  var id=dict[x+","+y+","+z];
+  //string=string.concat(id)
+  string = string + id
+  console.log('here is the string')
+  console.log(string)
+  
+   stage.loadFile(string, {defaultRepresentation: true}).then(function(comp){
+    comp.setPosition([parseInt(x),parseInt(y),parseInt(z)])
+    console.log([parseInt(x),parseInt(y),parseInt(z)])
+  })
+})
+
+
+
+
+
+var shapeComp = stage.addComponentFromObject(shape)
+shapeComp.addRepresentation("buffer")
+shapeComp.autoView()
+
+</script>
+</body>
+</html>
