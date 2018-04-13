@@ -48,7 +48,7 @@ shape.addTorus([ 16, 5, 14 ], [ 0, 1, 0 ], 2, [ 0, 1, 1 ], [ 1, 0, 1 ])
 
 
 var position =[[ 0, 0, 9 ],[ 12, 5, 15 ],[ 0, 2, 7 ],[ 1, 2, 7 ],[ 2, 2, 7 ],[ 23, 1, 2 ],[8, 5, 14 ],[ 16, 5, 14 ]]
-var pdb=['1crn']
+var pdb=['1e7i','2a73','1qjs','1e7i','1igt','1kcw','3v83','2msc']
 var dict={}
 for(var i = 0; i<position.length; i++){
    if ( position[i] in dict )
@@ -58,9 +58,10 @@ for(var i = 0; i<position.length; i++){
   else
   {
 
-    dict[position[i]] = pdb[0]
+    dict[position[i]] = pdb[i]
          }
 }
+console.log('here is the dict')
 console.log(dict)
 
 var x = 0
