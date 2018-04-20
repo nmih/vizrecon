@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html lang="en">
+
+<head>
+    <!--<![endif]-->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>VizRecon App</title>
+
+    <script src="js/jquery.min.js"></script>
+
+    <!--Enable direct gene lookup-->
+    <script type="text/javascript">
+        $(function () { $("#test_link").click(function (a) { a.preventDefault(), $.ajax({ dataType: "jsonp", data: "data=".concat($("#gene_name").val()), jsonp: "callback", url: "/thispoint?callback=?", success: function (a) { jq = "", jq = a[0].name_id, $(".result").append(jq), $(".result").append(" ") } }) }), $("#gene_name").keypress(function (a) { 13 === a.keyCode && (a.preventDefault(), console.log("test_link entered"), $.ajax({ dataType: "jsonp", data: "data=".concat($("#gene_name").val()), jsonp: "callback", url: "/thispoint?callback=?", success: function (a) { jq = "", jq = a[0].name_id, $(".result").append(jq), $(".result").append(" ") } })) }) });
+    </script>
+
+    <!--Enable search box functionality-->
+    <script type="text/javascript">
+        var upDownIndex = -1;
+        $(function () {
+            $("#search").keyup(function (s) {
+                $(".searchResults").show(), $.ajax({
+                    dataType: "jsonp",
+                    data: "data=".concat($("#search").val()),
+                    jsonp: "callback",
+                    url: "/search?callback=?",
+                    success: function (s) {
+                        if ($(".searchResults").html(null), "" == s) $(".searchResults").html("<i>No results found</i>");
+                        else {
+                            for ($(".searchResults").html('<dl style="list-style-type:none" id="searchResList">'), i = 0; i < s.length; i++) $(".searchResults").append('<dt class="searchTitle" id="' + String(i) + "_" + s[i].name_id + '">' + s[i].name_id + ": " + s[i].gene_id + "</dt>"), s[i].description.length < 40 ? $(".searchResults").append('<dd class="searchDesc">' + s[i].description + "</dd>") : $(".searchResults").append('<dd class="searchDesc">' + s[i].description.slice(0, 33) + "...</dd>");
+                            $(".searchResults").append("</dl>")
+                        }
+                    }
+                });
+            });
+        });
+    </script>
+
+    <!--NGL script-->
+    <script src="https://cdn.rawgit.com/arose/ngl/v0.10.3/dist/ngl.js"></script>
+
+    <!--google font-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Open+Sans" rel="stylesheet">
+
+    <!--Modernizr JS-->
+    <script src="js/modernizr-2.6.2.min.js"></script>
+
+    <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+
+    <!-- CSS -->
+    <!-- load bootstrap and our own personal stylesheet -->
+    <script src="js/bootstrap.min.js"></script>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <!-- Preloader -->
+    <div id="loading">
+        <img id="loader" src="images/ajax-loader.gif" alt="Loading...">
+        </img>
+    </div>
+    <!--End of Preloader -->
+
+    <div id="vr-page">
+        <header id="vr-header" class="">
+            <div class="container">
+                <div class="row">
+                    <div class="header-logo">
+                        <a href="#" target="_blank">
+                            VizRecon
+                        </a>
+                    </div>
+                    <div class="header-menu">
+
+                        <a href="#" target="_blank">
+                            about
+                        </a>
+
+                        <a href="#" target="_blank">
+                            download
+                        </a>
+                        <button type="button" class="grey">log in</button>
+                        <button type="button" class="green">start</button>
+                    </div>
+                </div>
+            </div>
+        </header>
+    </div>
+    <div id="separator">
+        <br>
+    </div>
+    <div id="viewport" style="height:70vh; z-index:1;">
+        <script type="text/javascript">
+            // execute this last
+            window.addEventListener('load', function () {
+                // Create NGL Stage object
+                var stage = new NGL.Stage("viewport", { backgroundColor: "white" });
+                // Create color scheme
+                var chosenView = true;
+                /*var schemeId = NGL.ColormakerRegistry.addScheme(function (params) {
+                    this.atomColor = function (atom) {
+                        if (atom.serial < 500) {
+                            return 0x0000FF;  // blue
+                        } else if (atom.serial > 500 && atom.serial < 1850) {
+                            return 0xFF0000;  // red
+                        } else {
+                            return 0x00FF00;  // green
+                        }
+                    };
+                });*/
+                // Handle window resizing
+
+                window.addEventListener("resize", function (event) {
+                    stage.handleResize();
+                }, false);
+                // Load PDB entry 2PW6
+                stage.loadFile("rcsb://5t4q").then(function (o) {
+                    o.addRepresentation("cartoon", {/* color: schemeId*/ });  // pass schemeId  here
+                    o.autoView();
+                    $('#loading').hide();
+                });;
+                document.getElementById("test_ngl").addEventListener("click", function (e) {
+                    console.log(document.getElementsByClassName("searchTitle")[0]);
+                    stage.removeAllComponents();
+                    if (chosenView) {
+                        var url = "rcsb://2PW6" + ".mmtf";
+                        chosenView = !chosenView;
+                        document.getElementById("test_ngl").innerText = "Show 5T4Q";
+                    } else {
+                        var url = "rcsb://5t4q" + ".mmtf";
+                        document.getElementById("test_ngl").innerText = "Show 2PW6";
+                        chosenView = !chosenView;
+                    }
+                    stage.loadFile(url, { defaultRepresentation: true });
+                });
+
+            });
+        </script>
+    </div>
+    <div class="container-1">
+        <span class="icon">
+            <i class="fa fa-search"></i>
+        </span>
+        <input type="search" id="search" placeholder="Search" autocomplete="off" autocapitalize="off" onblur="$('.searchResults').hide();"
+        />
+        <div class="searchResults" style="width:300px; float:right; display:none">
+        </div>
+    </div>
+    <br>
+    <br>
+    <div id='app-tools'>
+        <ul class='mouse-tools'>
+            <li>
+                <input type="radio" id="pan" name="tool" checked="checked" />
+            </li>
+            <li>
+                <input type="radio" id="orbit" name="tool" />
+            </li>
+            <li>
+                <input type="radio" id="zoom" name="tool" />
+            </li>
+        </ul>
+    </div>
+    <div class="app-tools" data-toggle="buttons">
+      <label class="btn mouse-tools">
+        <input type="radio" name="tool" id="pan" checked> Pan
+      </label>
+      <label class="btn mouse-tools">
+        <input type="radio" name="tool" id="orbit"> Samsung
+      </label>
+      <label class="btn mouse-tools">
+        <input type="radio" name="tool" id="zoom"> Sony
+      </label>
+    </div>
+    <!--
+    <div id="select_div">
+        Gene:
+        <input type="text" id="gene_name" maxlength="5">
+        <br>
+        <br>
+        <button id="test_link" class="btn btn-primary btn-lg">Get Uniprot</button>
+        <button id="test_ngl" class="btn btn-primary btn-lg" style="float:right;">Show 2PW6</button>
+    </div>
+    <br>
+    <div class="result">
+    </div>-->
+</body>
+
+<footer id="vr-footer" style="float:bottom;">
+    <div class="container">
+        <div class="row">
+            <div class="footer-links">
+                <div class="footer-link">
+                    <ol>
+                        <li>
+                            <a href="#" target="_blank">contact us</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">privacy policy</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">terms of use</a>
+                        </li>
+                        <li>
+                            <a href="#" target="_blank">github</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="footer-copyright">
+                <span>© 2017 Systems Biology Research Group at the University of California San Diego. See downloads page for licensing
+                    information.
+                    <br> The content of this site does not necessarily reflect the views of the Regents of the University of
+                    California. </span>
+            </div>
+            <div class="ask-spacer-sm"></div>
+        </div>
+    </div>
+</footer>
+
+
+</html>
