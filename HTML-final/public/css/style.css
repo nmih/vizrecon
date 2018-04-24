@@ -135,39 +135,37 @@
   font-style: normal;
 }
 
-#app-tools{
-  height: 200px;
+.btn-secondary-top {
+  width: 30px;
+  height: 30px;
+  background: #FAFAFA;
+  border: 2px solid #BDBDBD;
+  border-radius: 10px 10px 0px 0px;
 }
 
-.mouse-tools {
-  list-style-type:none;
-  margin:0 0 0 0;
-  height: 200px;
-  padding:0;
+.btn-secondary-top active {
+  width: 30px;
+  height: 30px;
+  background: #E0E0E0;
+  border: 2px solid #BDBDBD;
+  border-radius: 0px 10px 10px 0px;
 }
 
-.mouse-tools li {
-  float:left;
-  margin:0 5px 0 0;
-  width:100px;
-  height:40px;
-  position:relative;
+.btn-secondary-mid {
+  width: 30px;
+  height: 30px;
+  background: #FAFAFA;
+  border: 2px solid #BDBDBD;
+  border-radius: 0px;
 }
 
-.mouse-tools input {
-  display:block;
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+.btn-secondary-mid active {
+  width: 30px;
+  height: 30px;
+  background: #FAFAFA;
+  border: 2px solid #BDBDBD;
+  border-radius: 0px;
 }
-
-.mouse-tools input[type="radio"] {
-  z-index:100;
-}
-
-
 
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)

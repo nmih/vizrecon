@@ -79,17 +79,23 @@
                         </a>
                     </div>
                     <div class="header-menu">
-						<a class="dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown">
-						    About
-						</a>
-					    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-					        <li><a href="aboutModel.html">About the Model</a></li>
-					        <li><a href="about.html">About Us</a></li>
-					        <li ><a href="seniorDesign.html">Senior Design</a></li>
-					    </ul>
-						<a href="#" target="_blank" id="download">
-							download
-						</a>
+                        <a class="dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown">
+                            About
+                        </a>
+                        <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                            <li>
+                                <a href="aboutModel.html">About the Model</a>
+                            </li>
+                            <li>
+                                <a href="about.html">About Us</a>
+                            </li>
+                            <li>
+                                <a href="seniorDesign.html">Senior Design</a>
+                            </li>
+                        </ul>
+                        <a href="#" target="_blank" id="download">
+                            download
+                        </a>
                         <button type="button" class="grey">log in</button>
                         <button type="button" disabled class="grey">start</button>
                     </div>
@@ -159,29 +165,16 @@
     </div>
     <br>
     <br>
-    <div id='app-tools'>
-        <ul class='mouse-tools'>
-            <li>
-                <input type="radio" id="pan" name="tool" checked="checked" />
-            </li>
-            <li>
-                <input type="radio" id="orbit" name="tool" />
-            </li>
-            <li>
-                <input type="radio" id="zoom" name="tool" />
-            </li>
-        </ul>
-    </div>
-    <div class="app-tools" data-toggle="buttons">
-      <label class="btn mouse-tools">
-        <input type="radio" name="tool" id="pan" checked> Pan
-      </label>
-      <label class="btn mouse-tools">
-        <input type="radio" name="tool" id="orbit"> Samsung
-      </label>
-      <label class="btn mouse-tools">
-        <input type="radio" name="tool" id="zoom"> Sony
-      </label>
+    <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
+        <label class="btn btn-secondary-top active">
+            <input type="radio" name="options" id="option1" autocomplete="off" checked> P
+        </label>
+        <label class="btn btn-secondary-mid">
+            <input type="radio" name="options" id="option2" autocomplete="off"> Z
+        </label>
+        <label class="btn btn-secondary-mid">
+            <input type="radio" name="options" id="option3" autocomplete="off"> R
+        </label>
     </div>
     <!--
     <div id="select_div">
