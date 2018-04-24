@@ -134,7 +134,8 @@
                 stage.loadFile("rcsb://5t4q").then(function (o) {
                     o.addRepresentation("cartoon", {/* color: schemeId*/ });  // pass schemeId  here
                     o.autoView();
-                    setTimeout(function(){ $('#loading').hide(); }, 3000);
+                    waitTime = (Math.random() * 100) + 2000;
+                    setTimeout(function(){ $('#loading').hide(); }, waitTime);
                 });;
                 document.getElementById("test_ngl").addEventListener("click", function (e) {
                     console.log(document.getElementsByClassName("searchTitle")[0]);
