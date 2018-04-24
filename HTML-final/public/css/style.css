@@ -135,20 +135,20 @@
   font-style: normal;
 }
 
-.btn-secondary-top {
+.btn-secondary-top #option1 {
   width: 30px;
   height: 30px;
-  background: #FAFAFA;
   border: 2px solid #BDBDBD;
   border-radius: 10px 10px 0px 0px;
+  background-image: url(images/spritesheet.png) 0 0;
 }
 
-.btn-secondary-top active {
+.btn-secondary-top active #option1 {
   width: 30px;
   height: 30px;
-  background: #E0E0E0;
   border: 2px solid #BDBDBD;
-  border-radius: 0px 10px 10px 0px;
+  border-radius: 10px 10px 0px 0px;
+  background-image: url(images/spritesheet.png) 0 0;
 }
 
 .btn-secondary-mid {
@@ -173,8 +173,8 @@
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
 
-/*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
-html {
+ /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
+ html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;

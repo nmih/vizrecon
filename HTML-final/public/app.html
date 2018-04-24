@@ -65,6 +65,11 @@
     <!-- Preloader -->
     <div id="loading">
         <img id="loader" src="images/ajax-loader.gif" alt="Loading...">
+        <script>
+            $(document).bind('scroll', function () {
+                window.scrollTo(0, 0);
+            });
+        </script>
         </img>
     </div>
     <!--End of Preloader -->
@@ -135,7 +140,7 @@
                     o.addRepresentation("cartoon", {/* color: schemeId*/ });  // pass schemeId  here
                     o.autoView();
                     waitTime = (Math.random() * 100) + 2000;
-                    setTimeout(function(){ $('#loading').hide(); }, waitTime);
+                    setTimeout(function () { $('#loading').hide(); $(document).unbind('scroll');}, waitTime);
                 });;
                 document.getElementById("test_ngl").addEventListener("click", function (e) {
                     console.log(document.getElementsByClassName("searchTitle")[0]);
@@ -168,7 +173,7 @@
     <br>
     <div class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
         <label class="btn btn-secondary-top active">
-            <input type="radio" name="options" id="option1" autocomplete="off" checked> P
+            <input type="radio" name="options" id="option1" autocomplete="off" checked>
         </label>
         <label class="btn btn-secondary-mid">
             <input type="radio" name="options" id="option2" autocomplete="off"> Z
@@ -222,6 +227,5 @@
         </div>
     </div>
 </footer>
-
 
 </html>
