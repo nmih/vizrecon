@@ -7,6 +7,168 @@
   font-style: normal;
 }
 
+/* Custom CSS for app.html */
+
+#loading {
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+  display: block;
+  opacity: 0.9;
+  background-color: #18a652;
+  z-index: 9998;
+  text-align: center;
+}
+
+#loader {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 9999;
+  width: 80px;
+  height: 80px;
+  transform: translate(-40px, -40px);
+}
+
+#separator {
+  max-height: 1px;
+}
+
+.container-1{
+    width: 300px;
+    vertical-align: middle;
+    white-space: nowrap;
+    position: absolute;
+    top: 70px;
+    right: 35px;
+  }
+
+  .container-1 input#search{
+    width: 300px;
+    height: 40px;
+    background: #ffffff;
+    border: solid 1px #bDBDBD;
+    font-size: 15pt;
+    float: left;
+    color: #63717f;
+    padding-left: 45px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    
+  }
+
+  .container-1 input#search::-webkit-input-placeholder {
+    color: #bdbdbd;
+ }
+  
+ .container-1 input#search:-moz-placeholder {
+    color: #bdbdbd;  
+ }
+  
+ .container-1 input#search::-moz-placeholder {
+    color: #bdbdbd;  
+ }
+  
+ .container-1 input#search:-ms-input-placeholder {  
+    color: #bdbdbd;  
+ }
+
+ .container-1 .icon{
+    position: absolute;
+    top: -20%;
+    margin-left: 17px;
+    margin-top: 17px;
+    z-index: 1;
+    color: #63717f;
+}
+
+.searchResults {
+    display:absolute;
+    top: 50px;
+    width: 300px;
+    white-space: nowrap;
+    position: relative;
+    float: right;
+    background: #ffffff;
+    border: solid #BDBDBD;
+    border-width: 1px;
+    box-sizing: border-box;
+    font-size: 12pt;
+    z-index: 999;
+    color: #63717f;
+    padding-left: 15px;
+    padding-right: 15px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    margin-bottom: -450px;
+    margin-left: -300px;
+    max-height: 450px;
+    overflow-y: scroll;
+  }
+
+.searchResults::-webkit-scrollbar:vertical { 
+    width: auto;
+}
+
+.searchTitle:hover, .searchTitle:hover + .searchDesc {
+  color: #27AE60;
+  padding-left: -15px;
+  padding-right: -15px;
+  cursor: pointer;
+}
+
+.searchTitle:focus, .searchTitle:focus + .searchDesc {
+  color: #27AE60;
+  padding-left: -15px;
+  padding-right: -15px;
+} 
+@charset "UTF-8";
+@font-face {
+  font-family: 'icomoon';
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx");
+  src: url("../fonts/icomoon/icomoon.eot?srf3rx#iefix") format("embedded-opentype"), url("../fonts/icomoon/icomoon.ttf?srf3rx") format("truetype"), url("../fonts/icomoon/icomoon.woff?srf3rx") format("woff"), url("../fonts/icomoon/icomoon.svg?srf3rx#icomoon") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+#app-tools{
+  height: 200px;
+}
+
+.mouse-tools {
+  list-style-type:none;
+  margin:0 0 0 0;
+  height: 200px;
+  padding:0;
+}
+
+.mouse-tools li {
+  float:left;
+  margin:0 5px 0 0;
+  width:100px;
+  height:40px;
+  position:relative;
+}
+
+.mouse-tools input {
+  display:block;
+  position:absolute;
+  top:0;
+  left:0;
+  right:0;
+  bottom:0;
+}
+
+.mouse-tools input[type="radio"] {
+  z-index:100;
+}
+
+
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.
@@ -1961,6 +2123,7 @@ pre code {
 .container:after {
   clear: both;
 }
+/*
 @media (min-width: 768px) {
   .container {
     width: 760px;
@@ -1975,7 +2138,7 @@ pre code {
   .container {
     width: 1180px;
   }
-}
+}*/
 
 .container-fluid {
   margin-right: auto;
@@ -1992,9 +2155,10 @@ pre code {
 }
 
 .row {
-  margin-left: -20px;
-  margin-right: -20px;
+  margin-left: 0px;
+  margin-right: 0px;
 }
+
 .row:before, .row:after {
   content: " ";
   display: table;
