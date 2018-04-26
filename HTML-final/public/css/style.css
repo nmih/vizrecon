@@ -17,7 +17,7 @@
   position: fixed;
   display: block;
   opacity: 0.9;
-  background-color: #18a652;
+  background-color: #ffffff;
   z-index: 9998;
   text-align: center;
 }
@@ -135,36 +135,37 @@
   font-style: normal;
 }
 
-.btn-secondary-top #option1 {
-  width: 30px;
-  height: 30px;
-  border: 2px solid #BDBDBD;
-  border-radius: 10px 10px 0px 0px;
-  background-image: url(images/spritesheet.png) 0 0;
+#toolbox {
+  position: absolute;
+  top: 70px;
+  left: 30px;
 }
 
-.btn-secondary-top active #option1 {
-  width: 30px;
-  height: 30px;
+#tool1 {
+  width: 34px;
+  height: 34px;
   border: 2px solid #BDBDBD;
-  border-radius: 10px 10px 0px 0px;
-  background-image: url(images/spritesheet.png) 0 0;
+  border-radius: 5px 5px 0px 0px;
+  background-image: url(/images/spritesheet.png);
+  background-position: -30px 0;
 }
 
-.btn-secondary-mid {
-  width: 30px;
-  height: 30px;
-  background: #FAFAFA;
+#tool2 {
+  width: 34px;
+  height: 34px;
   border: 2px solid #BDBDBD;
-  border-radius: 0px;
+  border-top: none;
+  border-bottom: none;
+  background-image: url(/images/spritesheet.png);
+  background-position: -30px -27px;
 }
 
-.btn-secondary-mid active {
-  width: 30px;
-  height: 30px;
-  background: #FAFAFA;
+#tool-final {
+  width: 34px;
+  height: 34px;
   border: 2px solid #BDBDBD;
-  border-radius: 0px;
+  background-image: url(/images/spritesheet.png);
+  background-position: -30px -60px;
 }
 
 /*!
