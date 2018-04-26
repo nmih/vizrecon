@@ -168,6 +168,13 @@
   background-position: -30px -60px;
 }
 
+#coordinates {
+  color: #bdbdbd;
+  position: absolute;
+  left: 30px;
+  top: 480px;
+}
+
 /*!
  * Bootstrap v3.3.5 (http://getbootstrap.com)
  * Copyright 2011-2015 Twitter, Inc.

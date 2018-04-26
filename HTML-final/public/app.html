@@ -120,6 +120,7 @@
             </div>
         </header>
     </div>
+    <div id="coordinates">(0,0,0)</div>
     <div id="separator">
         <br>
     </div>
@@ -129,10 +130,15 @@
             window.addEventListener('load', function () {
                 // Create NGL Stage object
                 var stage = new NGL.Stage("viewport", { backgroundColor: "white" });
+                document.getElementById("coordinates").innerHTML = "(" + String(stage.viewerControls.position.x) + "," + String(stage.viewerControls.position.y) + "," + String(stage.viewerControls.position.z) + ")";
                 // Handle window resizing
                 window.addEventListener("resize", function (event) {
                     stage.handleResize();
                 }, false);
+
+                stage.mouseObserver.signals.moved.add( function () {
+                    document.getElementById("coordinates").innerHTML = "(" + String((stage.viewerControls.position.x).toFixed(2)) + "," + String((stage.viewerControls.position.y).toFixed(2)) + "," + String((stage.viewerControls.position.z).toFixed(2)) + ")";
+                })
 
                 // Load PDB entry 2PW6
                 stage.loadFile("rcsb://5t4q").then(function (o) {
@@ -143,7 +149,9 @@
                     setTimeout(function () { $('#loading').hide(); $(document).unbind('scroll'); }, waitTime);
                 });;
 
-                $(".option2").change(function () { console.log("changed"); });
+                $(".toolbox").change(function () {
+                    console.log("changed");
+                }).change();
                 /*
                 document.getElementById("test_ngl").addEventListener("click", function (e) {
                     console.log(document.getElementsByClassName("searchTitle")[0]);
@@ -161,6 +169,8 @@
                 });
                 */
             });
+
+            console.log(stage.ViewerControls.signals.changed());
         </script>
     </div>
     <div class="container-1">
