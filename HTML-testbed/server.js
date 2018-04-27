@@ -46,7 +46,6 @@ function GetName(cli, gene, cb) {
         putout = geneInfo[0].name_id;
         callback();
     });
-
 };
 
 function GetUniprotAndName(cli, gene) {
@@ -123,4 +122,24 @@ app.get('/thispoint', function (req, res, err) {
             res.send(req.query.callback + '(' + JSON.stringify(obj) + ');');
         });
     };
+});
+
+app.get('/search', function (req, res, err) {
+    var searchStr = JSON.stringify(req.query.data);
+    searchStr = searchStr.slice(1,-1);
+    var splitArray = searchStr.split(" ");
+    var concStr = splitArray.join('%');
+    concStr = "'%" + concStr + "%'";
+    console.log(concStr);
+    var sql = {
+        text: "SELECT gene_id, name_id, description FROM protein WHERE gene_id||name_id||description ILIKE" +concStr+ "LIMIT 15"
+    };
+
+    client.query(sql, function (err, resu, callback) {
+        var obj = {};
+        var searchResult = resu.rows;
+        res.header('Content-type', 'application/json');
+        res.header('Charset', 'utf8');
+        res.send(req.query.callback + '(' + JSON.stringify(searchResult) + ');');
+    });
 });
