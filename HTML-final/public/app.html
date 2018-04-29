@@ -126,7 +126,6 @@
     </div>
     <div id="viewport" style="height:70vh; z-index:1;">
         <script type="text/javascript">
-            // execute this last
             window.addEventListener('load', function () {
                 // Create NGL Stage object
                 var stage = new NGL.Stage("viewport", { backgroundColor: "white" });
@@ -138,7 +137,11 @@
 
                 stage.mouseObserver.signals.moved.add( function () {
                     document.getElementById("coordinates").innerHTML = "(" + String((stage.viewerControls.position.x).toFixed(2)) + "," + String((stage.viewerControls.position.y).toFixed(2)) + "," + String((stage.viewerControls.position.z).toFixed(2)) + ")";
-                })
+                });
+
+                document.getElementById("toolbox").addEventListener("click", function (e) {
+                    console.log("clicked")
+                });
 
                 // Load PDB entry 2PW6
                 stage.loadFile("rcsb://5t4q").then(function (o) {
@@ -170,7 +173,6 @@
                 */
             });
 
-            console.log(stage.ViewerControls.signals.changed());
         </script>
     </div>
     <div class="container-1">
