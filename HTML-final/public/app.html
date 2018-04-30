@@ -73,17 +73,10 @@
         </img>
     </div>
     <!--End of Preloader -->
-
-    <div id="toolbox" class="btn-group-vertical btn-group-toggle" data-toggle="buttons">
-        <label id="tool1" class="btn btn-secondary-top">
-            <input type="radio" name="options" id="option1" autocomplete="off" checked>
-        </label>
-        <label id="tool2" class="btn btn-secondary-mid">
-            <input type="radio" name="options" id="option2" autocomplete="off">
-        </label>
-        <label id="tool-final" class="btn btn-secondary-mid">
-            <input type="radio" name="options" id="option3" autocomplete="off">
-        </label>
+    <div id="toolbox" class="btn-group-vertical" role="toolbar" aria-label="viewport toolbar">
+            <button type="button" class="btn btn-secondary-top" id="tool1"></button>
+            <button type="button" class="btn btn-secondary" id="tool2"></button>
+            <button type="button" class="btn btn-secondary" id="tool-final"></button>
     </div>
 
     <div id="vr-page">
@@ -149,9 +142,13 @@
                     setTimeout(function () { $('#loading').hide(); $(document).unbind('scroll'); }, waitTime);
                 });;
 
-                $(".toolbox").change(function () {
-                    console.log("changed");
-                }).change();
+
+                //toolbar functions
+                document.getElementById("tool1").onclick = function(){o.toggleSpin()};
+                document.getElementById("tool2").onclick = function(){stage.toggleFullscreen()};
+                document.getElementById("tool-final").onclick = function() {stage.autoView()};
+
+
                 /*
                 document.getElementById("test_ngl").addEventListener("click", function (e) {
                     console.log(document.getElementsByClassName("searchTitle")[0]);
@@ -170,7 +167,7 @@
                 */
             });
 
-            console.log(stage.ViewerControls.signals.changed());
+            // console.log(stage.ViewerControls.signals.changed());
         </script>
     </div>
     <div class="container-1">
