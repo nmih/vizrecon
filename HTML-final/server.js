@@ -2,6 +2,7 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 
+
 const { Client } = require('pg');
 // Pooling is fairly trivial but will be necessary for our web application
 // const { Pool } = require('pg');
@@ -26,7 +27,6 @@ var port = process.env.PORT || 8080;
 // make express look in the public directory for assets (css/js/img)
 app.use(express.static(__dirname + '/public'));
 app.use(bodyParser.urlencoded({ extended: false }));
-app.use(bodyParser.json());
 
 // set the home page route
 app.listen(port, function (err) {
