@@ -2,7 +2,6 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 
-
 const { Client } = require('pg');
 // Pooling is fairly trivial but will be necessary for our web application
 // const { Pool } = require('pg');
@@ -45,11 +44,13 @@ app.post('/runit', function (req, res) {
     jon = jon.slice(1, 6);
     console.log('body: ' + jon);
     var obj = GetUniprot(client, jon);
-    console.log('result is: ' + JSON.stringify(obj))
+    console.log('result is: ' + JSON.stringify(obj));
     res.send(obj);
 });
 
-app.get('*', error.error404);
+app.use(function (req, res, next) {
+    res.status(404).sendFile(__dirname + "/public/notFound.html");
+  });
 
 app.get('/thispoint', function (req, res, err) {
     console.log('query: ' + JSON.stringify(req.query));
