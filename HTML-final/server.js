@@ -99,6 +99,14 @@ app.get('/search', function (req, res, err) {
     });
 });
 
+app.get('/app', function (req, res, next) {
+    res.sendFile(__dirname + "/public/app.html");
+});
+
+app.get('/vizrecon.app', function (req, res, next) {
+    res.sendFile(__dirname + "/public/app.html");
+});
+
 app.use(function (req, res, next) {
     res.status(404).sendFile(__dirname + "/public/notfound.html");
 });

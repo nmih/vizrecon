@@ -10,14 +10,14 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>VizRecon App | VizRecon</title>
+    <title>VizRecon App</title>
 
     <script src="js/jquery.min.js"></script>
 
-    <!--Enable direct gene lookup-->
+    <!--Enable direct gene lookup for #test_link
     <script type="text/javascript">
         $(function () { $("#test_link").click(function (a) { a.preventDefault(), $.ajax({ dataType: "jsonp", data: "data=".concat($("#gene_name").val()), jsonp: "callback", url: "/thispoint?callback=?", success: function (a) { jq = "", jq = a[0].name_id, $(".result").append(jq), $(".result").append(" ") } }) }), $("#gene_name").keypress(function (a) { 13 === a.keyCode && (a.preventDefault(), console.log("test_link entered"), $.ajax({ dataType: "jsonp", data: "data=".concat($("#gene_name").val()), jsonp: "callback", url: "/thispoint?callback=?", success: function (a) { jq = "", jq = a[0].name_id, $(".result").append(jq), $(".result").append(" ") } })) }) });
-    </script>
+    </script>-->
 
     <!--Enable search box functionality-->
     <script type="text/javascript">
@@ -94,19 +94,19 @@
                         </a>
                         <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
                             <li>
-                                <a href="aboutModel.html">About the Model</a>
+                                <a href="aboutModel.html" target="_blank">About the Model</a>
                             </li>
                             <li>
-                                <a href="about.html">About Us</a>
+                                <a href="about.html" target="_blank">About Us</a>
                             </li>
                             <li>
-                                <a href="seniorDesign.html">Senior Design</a>
+                                <a href="seniorDesign.html" target="_blank">Senior Design</a>
                             </li>
                         </ul>
-                        <a href="#" target="_blank" id="download">
+                        <a href="download.html" target="_blank" id="download">
                             download
                         </a>
-                        <button type="button" class="grey">log in</button>
+                        <button type="button" disabled class="grey">log in</button>
                         <button type="button" disabled class="grey">start</button>
                     </div>
                 </div>
