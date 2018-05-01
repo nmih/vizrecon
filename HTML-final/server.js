@@ -48,10 +48,6 @@ app.post('/runit', function (req, res) {
     res.send(obj);
 });
 
-app.use(function (req, res, next) {
-    res.status(404).sendFile(__dirname + "/public/notfound.html");
-  });
-
 app.get('/thispoint', function (req, res, err) {
     console.log('query: ' + JSON.stringify(req.query));
 
@@ -101,4 +97,8 @@ app.get('/search', function (req, res, err) {
         res.header('Charset', 'utf8');
         res.send(req.query.callback + '(' + JSON.stringify(searchResult) + ');');
     });
+});
+
+app.use(function (req, res, next) {
+    res.status(404).sendFile(__dirname + "/public/notfound.html");
 });
