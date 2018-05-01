@@ -49,6 +49,8 @@ app.post('/runit', function (req, res) {
     res.send(obj);
 });
 
+app.get('*', error.error404);
+
 app.get('/thispoint', function (req, res, err) {
     console.log('query: ' + JSON.stringify(req.query));
 
