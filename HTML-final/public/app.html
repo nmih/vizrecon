@@ -74,9 +74,9 @@
     </div>
     <!--End of Preloader -->
     <div id="toolbox" class="btn-group-vertical" role="toolbar" aria-label="viewport toolbar">
-            <button type="button" class="btn btn-secondary-top" id="tool1"></button>
-            <button type="button" class="btn btn-secondary" id="tool2"></button>
-            <button type="button" class="btn btn-secondary" id="tool-final"></button>
+        <button type="button" class="btn btn-secondary-top" id="tool1"></button>
+        <button type="button" class="btn btn-secondary" id="tool2"></button>
+        <button type="button" class="btn btn-secondary" id="tool-final"></button>
     </div>
 
     <div id="vr-page">
@@ -85,7 +85,8 @@
                 <div class="row">
                     <div class="header-logo">
                         <a href="index" target="_blank">
-                            VizRecon</a> <small style="color: lightblue; user-select: none;">beta</small>
+                            VizRecon</a>
+                        <small style="color: lightblue; user-select: none;">beta</small>
                     </div>
                     <div class="header-menu">
                         <a class="dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown">
@@ -127,7 +128,7 @@
                     stage.handleResize();
                 }, false);
 
-                stage.mouseObserver.signals.moved.add( function () {
+                stage.mouseObserver.signals.moved.add(function () {
                     document.getElementById("coordinates").innerHTML = "(" + String((stage.viewerControls.position.x).toFixed(2)) + "," + String((stage.viewerControls.position.y).toFixed(2)) + "," + String((stage.viewerControls.position.z).toFixed(2)) + ")";
                 });
 
@@ -146,9 +147,9 @@
 
 
                 //toolbar functions
-                document.getElementById("tool1").onclick = function(){stage.toggleSpin()};
-                document.getElementById("tool2").onclick = function(){stage.toggleFullscreen()};
-                document.getElementById("tool-final").onclick = function() {stage.autoView()};
+                document.getElementById("tool1").onclick = function () { stage.toggleSpin() };
+                document.getElementById("tool2").onclick = function () { stage.toggleFullscreen() };
+                document.getElementById("tool-final").onclick = function () { stage.autoView() };
 
 
                 /*
@@ -203,16 +204,16 @@
                 <div class="footer-link">
                     <ol>
                         <li>
-                            <a href="contact">contact us</a>
+                            <a href="contact" target="_blank">contact us</a>
                         </li>
                         <li>
-                            <a href="privacyPolicy">privacy policy</a>
+                            <a href="privacyPolicy" target="_blank">privacy policy</a>
                         </li>
                         <li>
-                            <a href="termsOfUse">terms of use</a>
+                            <a href="termsOfUse" target="_blank">terms of use</a>
                         </li>
                         <li>
-                            <a href="https://github.com/nmih/vizrecon">github</a>
+                            <a href="https://github.com/nmih/vizrecon" target="_blank">github</a>
                         </li>
                     </ol>
                 </div>
