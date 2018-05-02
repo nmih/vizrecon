@@ -103,6 +103,34 @@ app.get('/app', function (req, res, next) {
     res.sendFile(__dirname + "/public/app.html");
 });
 
+app.get('/about', function (req, res, next) {
+    res.sendFile(__dirname + "/public/about.html");
+});
+
+app.get('/index', function (req, res, next) {
+    res.sendFile(__dirname + "/public/index.html");
+});
+
+app.get('/seniorDesign', function (req, res, next) {
+    res.sendFile(__dirname + "/public/seniorDesign.html");
+});
+
+app.get('/tutorial', function (req, res, next) {
+    res.sendFile(__dirname + "/public/tutorial.html");
+});
+
+app.get('/notfound', function (req, res, next) {
+    res.sendFile(__dirname + "/public/notfound.html");
+});
+
+app.get('/aboutModel', function (req, res, next) {
+    res.sendFile(__dirname + "/public/aboutModel.html");
+});
+
+app.get('/vr.app', function (req, res, next) {
+    res.sendFile(__dirname + "/public/app.html");
+});
+
 app.get('/vizrecon.app', function (req, res, next) {
     res.sendFile(__dirname + "/public/app.html");
 });
