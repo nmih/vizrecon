@@ -9,9 +9,9 @@ const { Client } = require('pg');
 
 const client = new Client({
     host: 'ec2-54-235-220-220.compute-1.amazonaws.com',
-    user: process.env.DB_USER,
-    password: process.env.DB_PASSWORD,
-    database: process.env.DB_DATABASE,
+    user: 'mlkxucedzbnozx',
+    password: '054e5f07f8b5160946e2232ec93d1e03d8dd0eee1acefdec0b66992b41aa5645',
+    database: 'd36e9jg3mk08tc',
     ssl: true,
 });
 
