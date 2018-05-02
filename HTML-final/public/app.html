@@ -140,11 +140,12 @@
                 stage.loadFile("rcsb://5t4q").then(function (o) {
                     o.addRepresentation("cartoon", {/* color: schemeId*/ });  // pass schemeId  here
                     o.autoView();
+                    var pa = o.structure.getPrincipalAxes();
+                    stage.animationControls.rotate(pa.getRotationQuaternion(), 1500);
                     // Clear preloader upon initial load
                     waitTime = (Math.random() * 100) + 2000;
                     setTimeout(function () { $('#loading').hide(); $(document).unbind('scroll'); }, waitTime);
                 });;
-
 
                 //toolbar functions
                 document.getElementById("tool1").onclick = function () { stage.toggleSpin() };
