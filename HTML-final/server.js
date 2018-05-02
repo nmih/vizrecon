@@ -12,7 +12,7 @@ const client = new Client({
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
-    ssl: true
+    ssl: true,
 });
 
 client.connect();
@@ -75,6 +75,7 @@ app.get('/thispoint', function (req, res, err) {
             res.header('Content-type', 'application/json');
             res.header('Charset', 'utf8');
             res.send(req.query.callback + '(' + JSON.stringify(obj) + ');');
+            if (err) throw err;
         });
     };
 });
@@ -96,6 +97,7 @@ app.get('/search', function (req, res, err) {
         res.header('Content-type', 'application/json');
         res.header('Charset', 'utf8');
         res.send(req.query.callback + '(' + JSON.stringify(searchResult) + ');');
+        if (err) throw err;
     });
 });
 
