@@ -1,6 +1,14 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
+const aws = require('aws-sdk');
+
+let s3 = new aws.S3({
+  db_host: process.env.DB-HOST,
+  db_user: process.env.DB-USER,
+  db_pw: process.env.DB-PASSWORD,
+  db_db: process.env.DB-DATABASE
+});
 
 const { Client } = require('pg');
 // Pooling is fairly trivial but will be necessary for our web application
@@ -30,7 +38,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 // set the home page route
 app.listen(port, function (err) {
     if (err) throw err;
-    console.log('Our app is running on http://localhost:' + port);
+    console.log('App is running on port ' + port);
 });
 
 app.post('/endpoint', function (req, res) {

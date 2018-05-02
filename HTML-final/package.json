@@ -14,6 +14,7 @@
   "license": "GPL-3.0",
   "dependencies": {
     "ajax-request": "1.2.3",
+    "aws-sdk": "2.230.1",
     "body-parser": "1.18.2",
     "express": "4.16.2",
     "express-error-handler": "^1.1.0",
