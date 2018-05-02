@@ -1,14 +1,6 @@
 var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
-const aws = require('aws-sdk');
-
-let s3 = new aws.S3({
-  db_host: process.env.DB-HOST,
-  db_user: process.env.DB-USER,
-  db_pw: process.env.DB-PASSWORD,
-  db_db: process.env.DB-DATABASE
-});
 
 const { Client } = require('pg');
 // Pooling is fairly trivial but will be necessary for our web application
@@ -16,11 +8,11 @@ const { Client } = require('pg');
 // const pool = new Pool()
 
 const client = new Client({
-    host: 'ec2-54-235-220-220.compute-1.amazonaws.com',
-    user: 'mlkxucedzbnozx',
-    password: '054e5f07f8b5160946e2232ec93d1e03d8dd0eee1acefdec0b66992b41aa5645',
-    database: 'd36e9jg3mk08tc',
-    ssl: true,
+    host: process.env.DB_HOST,
+    user: process.env.DB_USER,
+    password: process.env.DB_PASSWORD,
+    database: process.env.DB_DATABASE,
+    ssl: true
 });
 
 client.connect();
