@@ -3853,6 +3853,7 @@ select[multiple].input-lg,
   -webkit-user-select: none;
   -moz-user-select: none;
   -ms-user-select: none;
+  -khtml-user-select: none;
   user-select: none;
 }
 .btn:focus, .btn.focus, .btn:active:focus, .btn:active.focus, .btn.active:focus, .btn.active.focus {
@@ -7755,6 +7756,11 @@ button.grey:hover{
   float: left;
   font-size: 22px;
   font-weight: bolder;
+  user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .header-logo a{
   color: #27AE60;
@@ -7764,6 +7770,11 @@ button.grey:hover{
   text-align: center;
   text-transform: uppercase;
   font-weight: bold;
+  user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .header-menu a{
   color: #333333;
@@ -7854,6 +7865,11 @@ button.grey:hover{
 .footer-link{
   display: table;
   margin: 20px auto;
+  user-select: none;
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
 }
 .footer-link ol{
   padding: 0;
