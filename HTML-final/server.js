@@ -8,7 +8,7 @@ const { Client } = require('pg');
 // const pool = new Pool()
 
 const client = new Client({
-    host: process.env.DB_HOST,
+    host: 'ec2-54-235-220-220.compute-1.amazonaws.com',
     user: process.env.DB_USER,
     password: process.env.DB_PASSWORD,
     database: process.env.DB_DATABASE,
@@ -32,7 +32,7 @@ app.listen(port, function (err) {
     if (err) throw err;
     console.log('App is running on port ' + port);
 });
-
+/*
 app.post('/endpoint', function (req, res) {
     var obj = {};
     console.log('body: ' + JSON.stringify(req.body));
@@ -79,7 +79,7 @@ app.get('/thispoint', function (req, res, err) {
         });
     };
 });
-
+*/
 app.get('/search', function (req, res, err) {
     var searchStr = JSON.stringify(req.query.data);
     searchStr = searchStr.slice(1, -1);
@@ -115,14 +115,17 @@ app.get('/index', function (req, res, next) {
 
 app.get('/seniorDesign', function (req, res, next) {
     res.sendFile(__dirname + "/public/seniorDesign.html");
+    if (next) throw next;
 });
 
 app.get('/tutorial', function (req, res, next) {
     res.sendFile(__dirname + "/public/tutorial.html");
+    if (next) throw next;
 });
 
 app.get('/notfound', function (req, res, next) {
     res.sendFile(__dirname + "/public/notfound.html");
+    if (next) throw next;
 });
 
 app.get('/aboutModel', function (req, res, next) {
