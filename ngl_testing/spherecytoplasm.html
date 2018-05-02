@@ -1,0 +1,36 @@
+<html>
+
+<head>
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdn.rawgit.com/arose/ngl/v0.10.4/dist/ngl.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/stage.js/0.8.2/stage.web.min.js"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r79/three.min.js"></script>
+    <script src="https://cdn.rawgit.com/arose/ngl/v0.10.3/dist/ngl.js"></script>
+    <script src="https://rawgit.com/nmih/846581df3846900d6b451b41de2f1c38/raw/f3109e423bf41bd29067f41775e0c8f9468ba49c/glm.js"></script>
+    <style>
+        html,
+        body {
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            margin: 0;
+            padding: 0;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="viewport" style="width:100%; height:100%;"></div>
+    <script>
+        var stage = new NGL.Stage("viewport");
+
+        // Handle window resizing
+        window.addEventListener("resize", function (event) {
+            stage.handleResize();
+        }, false);
+
+        stage.loadFile('sphere_cytoplasm.obj', function (err) {if (err) throw err;});
+    </script>
+</body>
+
+</html>
