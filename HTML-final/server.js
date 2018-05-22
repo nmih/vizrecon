@@ -115,17 +115,14 @@ app.get('/index', function (req, res, next) {
 
 app.get('/seniorDesign', function (req, res, next) {
     res.sendFile(__dirname + "/public/seniorDesign.html");
-    if (next) throw next;
 });
 
 app.get('/tutorial', function (req, res, next) {
     res.sendFile(__dirname + "/public/tutorial.html");
-    if (next) throw next;
 });
 
 app.get('/notfound', function (req, res, next) {
     res.sendFile(__dirname + "/public/notfound.html");
-    if (next) throw next;
 });
 
 app.get('/aboutModel', function (req, res, next) {

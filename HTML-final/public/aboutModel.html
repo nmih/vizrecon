@@ -2,15 +2,17 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> 
-<html class="no-js"> <!--<![endif]-->
-	<head>
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+<!--<![endif]-->
+
+<head>
 
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 
 	<title>About | VizRecon</title>
-	
+
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 
@@ -41,8 +43,9 @@
 	<script src="js/respond.min.js"></script>
 	<![endif]-->
 
-	</head>
-	<body>
+</head>
+
+<body>
 	<!-- Title bar -->
 	<div id="vr-page">
 		<header id="vr-header" class="">
@@ -56,13 +59,19 @@
 					<div class="header-menu">
 
 						<a class="dropdown-toggle" href="#" id="dropdownMenu1" data-toggle="dropdown">
-						    About
+							About
 						</a>
-					    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
-					        <li><a href="aboutModel">About the Model</a></li>
-					        <li><a href="about">About Us</a></li>
-					        <li ><a href="seniorDesign">Senior Design</a></li>
-					    </ul>
+						<ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+							<li>
+								<a href="aboutModel">About the Model</a>
+							</li>
+							<li>
+								<a href="about">About Us</a>
+							</li>
+							<li>
+								<a href="seniorDesign">Senior Design</a>
+							</li>
+						</ul>
 
 						<a href="download">
 							download
@@ -82,8 +91,8 @@
 							<h2 class="section-title">
 								About the Model
 							</h2>
-							<h3 class="section-subtitle"> 
-								Learn about how we constructed this 3D structural visualization of an E. coli cell and how we set it on display 
+							<h3 class="section-subtitle">
+								Learn about how we constructed this 3D structural visualization of an E. coli cell and how we set it on display
 							</h3>
 						</div>
 					</div>
@@ -100,11 +109,22 @@
 							Abstract
 						</h3>
 						<p>
-							No complete, three-dimensional reconstruction of a prokaryote-scale cell exists to represent proteomic, metabolomic, and genomic data in an accessible manner. With the availability of experimental and computational information on the structures, stoichiometry, and localization of cellular components of <i>Escherichia coli</i>, along with the development of visualization tools such as cellPACK and chromosome simulation models, we have the “ingredients” we need to put together a model for the well-studied organism. This project integrates this data into an interactive, three-dimensional structural biology model of an <i>E. coli</i> cell for modern web browsers. The cell model contains still structural representations of the proteins, protein complexes, cell membrane, and chromosome, and is built on a pipeline that can produce a similar model from different data. It can be used as a stepping stone for organizing the information available on <i>E. coli</i> and as a stepping stone to develop models for other organisms at the prokaryotic and eukaryotic scales.
+							No complete, three-dimensional reconstruction of a prokaryote-scale cell exists to represent proteomic, metabolomic, and
+							genomic data in an accessible manner. With the availability of experimental and computational information on the structures,
+							stoichiometry, and localization of cellular components of
+							<i>Escherichia coli</i>, along with the development of visualization tools such as cellPACK and chromosome simulation
+							models, we have the “ingredients” we need to put together a model for the well-studied organism. This project integrates
+							this data into an interactive, three-dimensional structural biology model of an
+							<i>E. coli</i> cell for modern web browsers. The cell model contains still structural representations of the proteins,
+							protein complexes, cell membrane, and chromosome, and is built on a pipeline that can produce a similar model from
+							different data. It can be used as a stepping stone for organizing the information available on
+							<i>E. coli</i> and as a stepping stone to develop models for other organisms at the prokaryotic and eukaryotic scales.
 						</p>
 					</div>
 					<div>
-						<center><img src="images/FINALArtboard 1@2x.png" class="img-responsive" style="max-height: 450px"></center>
+						<center>
+							<img src="images/FINALArtboard 1@2x.png" class="img-responsive" style="max-height: 450px">
+						</center>
 					</div>
 
 					<div class="col-md-12 col-sm-12">
@@ -113,104 +133,137 @@
 						</h3>
 						<div id="accordion">
 							<div class="card">
-						    	<div class="card-header" id="headingOne">
-						      		<h4 class="mb-0">
-						      			
-						        		<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-							          	Proteins and Complexes
-							        	</button>
-							      	</h4>
-						  		</div>
+								<div class="card-header" id="headingOne">
+									<h4 class="mb-0">
 
-						  		<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-							      <div class="card-body">
-							      	<ul>
-							      		<li>
-							      			Structures
-							      			<p>Structures were determined using;aldjf;alsdjf;alwoejrower</p>
-							      		</li>
-							      		<li>
-							      			Orientations and Localizations
-							      			<p>Membrane protein orientationa;dljfa;sldkfj ;a ;j </p>
-							      		</li>
-							      		<li>
-							      			Stoichiometries
-							      			<p>Stoichiometries of proteomics were primarily based off experimental data from (add reference here Schmidt Heinnemann??) </p>
-							      			<p>Complex concentrations or copy numbers of complexes per cell were estimated using mass fractions from the ME model. The copy numbers were calculated with the assumption that there is a "limiting" complex and that the number of complexes were to be maximized. In other words, the mass fraction gave us the ratio between the complexes and we wanted to figure out how to best maximize the number of complexes while maintaining the ratio. However, because some of the complexes were severely limiting such that less than 1% of proteins would be in complexes, another complex would be used as the "limit" instead. The code for this calculation could be found in the Github.  
-							      			</p>
-							      		</li>
-							      	</ul>
-							      </div>
-							    </div>
-							</div>
+										<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+											Proteins and Complexes
+										</button>
+									</h4>
+								</div>
 
-							<div class="card">
-						    	<div class="card-header" id="headingTwo">
-						      		<h4 class="mb-0">
-						        		<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-							          	Cell Membranes
-							        	</button>
-							      	</h4>
-						  		</div>
-
-						  		<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-							      	<div class="card-body">
-								      	<p>Cell Membranes were made using Blender software. E. coli tomograms (add reference and image here) were first used to create a representation of the membranes. The tomograms were processed using IMOD to create a 3D representation of the membrane. However, due to the lack of full cell tomograms for E. coli, experimental dimensions (listed below) were used to reconstruct an estimated membrane representation. The E. coli cell was assumed to be a volume composed of a cylinder with two hemishperes attached at the ends.The model from the tomograms was then shrink wrapped onto the cylindrical model to give the overall model a more realistic shape. Additionally, the estimated model was able to fill in a lot of the incomplete regions of the tomogram derived membranes. </p>
-								      	<div class="col-sm-4">
-								      		<img src="images/tomogramModel.png" height="200"/>
-								      	</div>
-								      	<div class="col-sm-4">		
-								      		<img src="images/membranes3.png" height="200"/>
-								      	</div>
-								      	<div class="col-sm-4">
-								      		<img src="images/blenderMembrane.png" alt="blenderMembrane" height="200"/>
-								      	</div>
-								      	
-								      	<p>The model is scaled such that 1 Angstrom = 1 cm. The E. coli cell model here is approximately 2.5 micrometers long by 1.2 micrometers wide. The general width of the periplasm around the middle of the cell (DPB) is about 30-25 nm and the widths at the ends, PPC1 and PPC2, are 260nm and 80nm, respectively. The experimental dimensions used were referenced from (heinemanna and schmidt paper put here) for E. coli MG1655 in LB media. </p>
-								      	<p> Some helpful links:
-									      	<ul> 
-									      		<li><a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-3810/" class="text-info">Tomograms</a></li>
-									      		<li><a href="http://bio3d.colorado.edu/imod/" class="text-info">IMOD</a></li>
-									      		<li><a href="https://www.blender.org/" class="text-info">Blender</a></li>
-									      	</ul>
-									    </p>
-							      	</div>
-							    </div>
-							</div>
-
-							<div class="card">
-						    	<div class="card-header" id="headingThree">
-						      		<h4 class="mb-0">
-						        		<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
-							          	DNA Model
-							        	</button>
-							      	</h4>
-						  		</div>
-
-						  		<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-							      <div class="card-body">
-							      	<div class="col-sm-12">
-										<img src="images/tmp.bmp" class="col-sm-4 img-responsive">
-										<p class="col-md-8"> This model uses a 500 bpb (beads per base pair) representation of the E. coli chromosome. Dimensions are about 1.78 micrometers by 0.78 micrometers with the origin of representation at midcell. The midcell origin was chosen arbitrarily. The DNA chromosome model was generously shared with us by William C. Hacker and Professor Adrian H. Elcock. </p>
+								<div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+									<div class="card-body">
+										<ul>
+											<li>
+												Structures
+												<p>Genome-scale models (GEMs) are used for computational studies of metabolism, protein synthesis, and transcriptional
+													regulation based on a specific organism. Recently, structural information has been mapped to those models, which
+													are now called genome-scale models with protein structures (GEM-PROs) and provide a new view linking systems
+													and structural biology. This pipeline has expanded knowledge of biochemical network properties and can help
+													make predictions on whole-cell phenotypes. This comprehensive information can only be visualized in two dimensions,
+													so it is necessary to create a pipeline that generates three-dimensional models using GEM-PRO output data. One
+													way to generate these models is by gathering the data for the system and putting it into a single “recipe” file
+													(will be discussed further in the model assembly) and using this recipe to generate a virtual model through
+													a computational engine with built-in assembly algorithms.
+												</p>
+											</li>
+											<li>
+												Orientations and Localizations
+												<p>Membrane protein orientationa;dljfa;sldkfj ;a ;j </p>
+											</li>
+											<li>
+												Stoichiometries
+												<p>Stoichiometries of proteomics were primarily based off experimental data from (add reference here Schmidt Heinnemann??)
+													</p>
+												<p>Complex concentrations or copy numbers of complexes per cell were estimated using mass fractions from the ME
+													model. The copy numbers were calculated with the assumption that there is a "limiting" complex and that the
+													number of complexes were to be maximized. In other words, the mass fraction gave us the ratio between the complexes
+													and we wanted to figure out how to best maximize the number of complexes while maintaining the ratio. However,
+													because some of the complexes were severely limiting such that less than 1% of proteins would be in complexes,
+													another complex would be used as the "limit" instead. The code for this calculation could be found in the Github.
+												</p>
+											</li>
+										</ul>
 									</div>
-							      </div>
-							    </div>
+								</div>
 							</div>
 
 							<div class="card">
-						    	<div class="card-header" id="headingFour">
-						      		<h4 class="mb-0">
-						        		<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
-							          	Integration of all Elements
-							        	</button>
-							      	</h4>
-						  		</div>
+								<div class="card-header" id="headingTwo">
+									<h4 class="mb-0">
+										<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
+											Cell Membranes
+										</button>
+									</h4>
+								</div>
 
-						  		<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-							      <div class="card-body">
+								<div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+									<div class="card-body">
+										<p>Cell Membranes were made using Blender software. E. coli tomograms (add reference and image here) were first used
+											to create a representation of the membranes. The tomograms were processed using IMOD to create a 3D representation
+											of the membrane. However, due to the lack of full cell tomograms for E. coli, experimental dimensions (listed
+											below) were used to reconstruct an estimated membrane representation. The E. coli cell was assumed to be a volume
+											composed of a cylinder with two hemishperes attached at the ends.The model from the tomograms was then shrink
+											wrapped onto the cylindrical model to give the overall model a more realistic shape. Additionally, the estimated
+											model was able to fill in a lot of the incomplete regions of the tomogram derived membranes. </p>
+										<div class="col-sm-4">
+											<img src="images/tomogramModel.png" height="200" />
+										</div>
+										<div class="col-sm-4">
+											<img src="images/membranes3.png" height="200" />
+										</div>
+										<div class="col-sm-4">
+											<img src="images/blenderMembrane.png" alt="blenderMembrane" height="200" />
+										</div>
+
+										<p>The model is scaled such that 1 Angstrom = 1 cm. The E. coli cell model here is approximately 2.5 micrometers long
+											by 1.2 micrometers wide. The general width of the periplasm around the middle of the cell (DPB) is about 30-25
+											nm and the widths at the ends, PPC1 and PPC2, are 260nm and 80nm, respectively. The experimental dimensions used
+											were referenced from (heinemanna and schmidt paper put here) for E. coli MG1655 in LB media. </p>
+										<p> Some helpful links:
+											<ul>
+												<li>
+													<a href="http://www.ebi.ac.uk/pdbe/entry/emdb/EMD-3810/" class="text-info">Tomograms</a>
+												</li>
+												<li>
+													<a href="http://bio3d.colorado.edu/imod/" class="text-info">IMOD</a>
+												</li>
+												<li>
+													<a href="https://www.blender.org/" class="text-info">Blender</a>
+												</li>
+											</ul>
+										</p>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingThree">
+									<h4 class="mb-0">
+										<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+											DNA Model
+										</button>
+									</h4>
+								</div>
+
+								<div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+									<div class="card-body">
+										<div class="col-sm-12">
+											<img src="images/chromosome.png" class="col-sm-4 img-responsive">
+											<p class="col-md-8"> This model uses a 500 bpb (beads per base pair) representation of the E. coli chromosome. Dimensions are about
+												1.78 micrometers by 0.78 micrometers with the origin of representation at midcell. The midcell origin was chosen
+												arbitrarily. The DNA chromosome model was generously shared with us by William C. Hacker and Professor Adrian
+												H. Elcock. </p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="card">
+								<div class="card-header" id="headingFour">
+									<h4 class="mb-0">
+										<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+											Integration of all Elements
+										</button>
+									</h4>
+								</div>
+
+								<div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+									<div class="card-body">
 										<p> cellPACK </p>
-							      </div>
-							    </div>
+									</div>
+								</div>
 							</div>
 						</div>
 
@@ -219,32 +272,32 @@
 						</h3>
 						<div id="accordion">
 							<div class="card">
-						    	<div class="card-header" id="heading21">
-						      		<h4 class="mb-0">
-						      			<button class="list-group-item-text" data-toggle="collapse" data-target="#collapse21" aria-expanded="true" aria-controls="collapse21">
-							          	Backend Development
-							        	</button>
-						      		</h4>
-						      	</div>
-						      	
-						      	<div class="card">
-						    		<div class="card-header" id="heading22">
-						      			<h4 class="mb-0">
-						      				<button class="list-group-item-text" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" aria-controls="collapse22">
-							          		Frontend Development
-							        		</button>
-						      			</h4>
-						      		</div>
-						    	</div>
-						    	<div class="card">
-							    	<div class="card-header" id="heading23">
-							      		<h4 class="mb-0">
-						      				<button class="list-group-item-text" data-toggle="collapse" data-target="#collapse23" aria-expanded="true" aria-controls="collapse23">
-							          		Integration of Frontend and Backend
-							        		</button>
-							      		</h4>
-							      	</div>
-							    </div>
+								<div class="card-header" id="heading21">
+									<h4 class="mb-0">
+										<button class="list-group-item-text" data-toggle="collapse" data-target="#collapse21" aria-expanded="true" aria-controls="collapse21">
+											Backend Development
+										</button>
+									</h4>
+								</div>
+
+								<div class="card">
+									<div class="card-header" id="heading22">
+										<h4 class="mb-0">
+											<button class="list-group-item-text" data-toggle="collapse" data-target="#collapse22" aria-expanded="true" aria-controls="collapse22">
+												Frontend Development
+											</button>
+										</h4>
+									</div>
+								</div>
+								<div class="card">
+									<div class="card-header" id="heading23">
+										<h4 class="mb-0">
+											<button class="list-group-item-text" data-toggle="collapse" data-target="#collapse23" aria-expanded="true" aria-controls="collapse23">
+												Integration of Frontend and Backend
+											</button>
+										</h4>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -252,7 +305,7 @@
 			</div>
 		</div>
 
-		
+
 
 		<footer id="vr-footer">
 			<div class="container">
@@ -276,7 +329,8 @@
 						</div>
 					</div>
 					<div class="footer-copyright">
-						<span>© 2017 Systems Biology Research Group at the University of California San Diego. See downloads page for licensing information.<br> The content of this site does not necessarily reflect the views of the Regents of the University of California. </span>
+						<span>© 2017 Systems Biology Research Group at the University of California San Diego. See downloads page for licensing information.
+							<br> The content of this site does not necessarily reflect the views of the Regents of the University of California. </span>
 					</div>
 					<div class="ask-spacer-sm"></div>
 				</div>
@@ -284,7 +338,7 @@
 		</footer>
 	</div>
 
-	
+
 	<!-- jQuery -->
 	<script src="js/jquery.min.js"></script>
 	<!-- jQuery Easing -->
@@ -303,5 +357,6 @@
 	<script src="js/wow.min.js"></script>
 	<!-- Main JS -->
 	<script src="js/main.js"></script>
-	</body>
+</body>
+
 </html>
