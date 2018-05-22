@@ -12,3 +12,5 @@ No complete, three-dimensional reconstruction of a prokaryote-scale cell exists 
 
 ### A whole-cell visual reconstruction for the modern browser
 <Informative text about the files contained in HTML-final and how they are displayed>
+
+## Work in progress and known issues
