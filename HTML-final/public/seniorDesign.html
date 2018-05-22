@@ -73,7 +73,7 @@
 						</ul>
 
 						<a href="download">
-							download
+							Downloads
 						</a>
 						<button type="button" disabled class="grey">log in</button>
 						<button type="button" class="green" onclick="window.location.href='app'">start</button>
@@ -116,16 +116,19 @@
 								<br/> Advisor: Bernhard &Oslash;. Palsson
 							</h3>
 							<p>
-								<small> for full list of people who were involved in this project please visit
-									<b>About > About Us </b>
+								<small>For the full list of people who were involved in this project, please visit
+									<b>
+										<a href="about" style="color:#30ad63;">About > About Us</a>
+									</b>
 								</small>
 							</p>
 						</div>
 
 						<div>
 							<p class="pull-right">
-								<a button class="section-1-title" type="button" data-toggle="collapse" data-target=".collapse" aria-expanded="false" aria-controls="heading1 heading2 heading3 heading4 heading5 heading6 heading7 heading15">
-									+Expand all</a>
+								<a id="expand" button class="section-1-title" type="button" data-toggle="collapse" data-target=".collapse" aria-expanded="false"
+								 aria-controls="heading1 heading2 heading3 heading4 heading5 heading6 heading7 heading15" style="cursor: pointer;"
+								 onclick="if(document.getElementById('expand').innerHTML=='+ Expand all'){document.getElementById('expand').innerHTML='- Collapse all';}else{document.getElementById('expand').innerHTML='+ Expand all';}">+ Expand all</a>
 							</p>
 						</div>
 

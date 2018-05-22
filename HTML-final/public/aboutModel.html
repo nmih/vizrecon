@@ -74,7 +74,7 @@
 						</ul>
 
 						<a href="download">
-							download
+							Downloads
 						</a>
 						<button type="button" disabled class="grey">log in</button>
 						<button type="button" class="green" onclick="window.location.href='app'">start</button>
@@ -131,11 +131,17 @@
 						<h3 class="section-1-title">
 							Constructing the Model
 						</h3>
+						<div>
+							<p class="pull-right">
+								<a id="expand" button class="section-1-title" type="button" data-toggle="collapse" data-target=".collapse" aria-expanded="false"
+								 aria-controls="heading1 heading2 heading3 heading4 heading5 heading6 heading7 heading15" style="cursor: pointer;"
+								 onclick="if(document.getElementById('expand').innerHTML=='+ Expand all'){document.getElementById('expand').innerHTML='- Collapse all';}else{document.getElementById('expand').innerHTML='+ Expand all';}">+ Expand all</a>
+							</p>
+						</div>
 						<div id="accordion">
 							<div class="card">
 								<div class="card-header" id="headingOne">
 									<h4 class="mb-0">
-
 										<button class="list-group-item-text" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
 											Proteins and Complexes
 										</button>
@@ -160,18 +166,23 @@
 											</li>
 											<li>
 												Orientations and Localizations
-												<p>Membrane protein orientationa;dljfa;sldkfj ;a ;j </p>
+												<p>For membrane proteins, orientation data was provided by the Orientations of Proteins in Membranes (OPM) database
+													and the tool TMHMM, which uses hidden Markov model (a machine learning algorithm) to predict transmembrane helices
+													of membrane proteins. For cytoplasmic proteins and membrane proteins without detailed data, the SWISS-MODEL
+													homology-modeling tool was found to be extraordinarily useful to predict morphologies. cellPACK includes these
+													orientation constraints when packing species onto points on the generated membrane, described below.
+												</p>
 											</li>
 											<li>
 												Stoichiometries
-												<p>Stoichiometries of proteomics were primarily based off experimental data from (add reference here Schmidt Heinnemann??)
-													</p>
+												<p>Stoichiometries of proteomics were primarily based off experimental data from <a href="https://www.ncbi.nlm.nih.gov/pmc/articles/PMC4888949/" style="color:#30ad63;">Schmidt et al., 2016</a>.
+												</p>
 												<p>Complex concentrations or copy numbers of complexes per cell were estimated using mass fractions from the ME
 													model. The copy numbers were calculated with the assumption that there is a "limiting" complex and that the
 													number of complexes were to be maximized. In other words, the mass fraction gave us the ratio between the complexes
 													and we wanted to figure out how to best maximize the number of complexes while maintaining the ratio. However,
 													because some of the complexes were severely limiting such that less than 1% of proteins would be in complexes,
-													another complex would be used as the "limit" instead. The code for this calculation could be found in the Github.
+													another complex would be used as the "limit" instead. The code for this calculation can be found on Github.
 												</p>
 											</li>
 										</ul>
