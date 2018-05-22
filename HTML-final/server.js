@@ -109,6 +109,10 @@ app.get('/about', function (req, res, next) {
     res.sendFile(__dirname + "/public/about.html");
 });
 
+app.get('/people', function (req, res, next) {
+    res.sendFile(__dirname + "/public/about.html");
+});
+
 app.get('/index', function (req, res, next) {
     res.sendFile(__dirname + "/public/index.html");
 });
