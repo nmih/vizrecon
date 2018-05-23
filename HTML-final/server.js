@@ -149,6 +149,18 @@ app.get('/gantt', function (req, res, next) {
     res.sendFile(__dirname + "/public/images/gantt.png");
 });
 
+app.get('/files/paper', function (req, res) {
+    res.download(__dirname + '/public/files/BENG187CFinalReport.pdf', 'VizReconPaper.pdf');
+});
+
+app.get('/files/poster', function (req, res) {
+    res.download(__dirname + '/public/files/SeniorDesignPoster-finalAligned.pdf', 'VizReconPoster.pdf');
+});
+
+app.get('/files/presentation', function (req, res) {
+    res.download(__dirname + '/public/files/finalpresentation.pdf', 'VizReconPresentation.pdf');
+});
+
 app.get('/vr.app', function (req, res, next) {
     res.sendFile(__dirname + "/public/app.html");
 });
