@@ -133,6 +133,14 @@ app.get('/aboutModel', function (req, res, next) {
     res.sendFile(__dirname + "/public/aboutModel.html");
 });
 
+app.get('/download', function (req, res, next) {
+    res.sendFile(__dirname + "/public/downloads.html");
+});
+
+app.get('/downloads', function (req, res, next) {
+    res.sendFile(__dirname + "/public/downloads.html");
+});
+
 app.get('/contact', function (req, res, next) {
     res.sendFile(__dirname + "/public/about.html");
 });
