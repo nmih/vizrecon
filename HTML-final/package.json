@@ -18,7 +18,7 @@
     "body-parser": "1.18.2",
     "express": "4.16.2",
     "express-error-handler": "^1.1.0",
-    "foreman": "2.0.0",
+    "foreman": "^3.0.0",
     "ngl": "0.10.4",
     "pg": "7.4.1"
   }
