@@ -133,6 +133,10 @@ app.get('/aboutModel', function (req, res, next) {
     res.sendFile(__dirname + "/public/aboutModel.html");
 });
 
+app.get('/contact', function (req, res, next) {
+    res.sendFile(__dirname + "/public/about.html");
+});
+
 app.get('/vr.app', function (req, res, next) {
     res.sendFile(__dirname + "/public/app.html");
 });
