@@ -146,8 +146,7 @@
   height: 34px;
   border: 2px solid #BDBDBD;
   border-radius: 5px 5px 0px 0px;
-  background-image: url(/images/spritesheet.png);
-  background-position: -30px 0;
+  background-color: #fafafa;
 }
 
 #tool2 {
@@ -156,16 +155,14 @@
   border: 2px solid #BDBDBD;
   border-top: none;
   border-bottom: none;
-  background-image: url(/images/spritesheet.png);
-  background-position: -30px -27px;
+  background-color: #fafafa;
 }
 
 #tool-final {
   width: 34px;
   height: 34px;
   border: 2px solid #BDBDBD;
-  background-image: url(/images/spritesheet.png);
-  background-position: -30px -60px;
+  background-color: #f7bbbc;
 }
 
 #coordinates {
