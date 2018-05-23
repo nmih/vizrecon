@@ -145,6 +145,10 @@ app.get('/contact', function (req, res, next) {
     res.sendFile(__dirname + "/public/about.html");
 });
 
+app.get('/privacyPolicy', function (req, res, next) {
+    res.sendFile(__dirname + "/public/privacyPolicy.html");
+});
+
 app.get('/gantt', function (req, res, next) {
     res.sendFile(__dirname + "/public/images/gantt.png");
 });

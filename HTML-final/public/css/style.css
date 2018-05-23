@@ -181,6 +181,7 @@
  /*! normalize.css v3.0.3 | MIT License | github.com/necolas/normalize.css */
  html {
   font-family: sans-serif;
+  text-size-adjust: 100%;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
 }
@@ -327,6 +328,7 @@ button,
 html input[type="button"],
 input[type="reset"],
 input[type="submit"] {
+  appearance: button;
   -webkit-appearance: button;
   cursor: pointer;
 }
@@ -358,6 +360,7 @@ input[type="number"]::-webkit-outer-spin-button {
 }
 
 input[type="search"] {
+  appearance: textfield;
   -webkit-appearance: textfield;
   box-sizing: content-box;
 }
@@ -3364,6 +3367,7 @@ textarea.form-control {
 }
 
 input[type="search"] {
+  appearance: none;
   -webkit-appearance: none;
 }
 
@@ -6572,6 +6576,7 @@ button.close {
   cursor: pointer;
   background: transparent;
   border: 0;
+  appearance: none;
   -webkit-appearance: none;
 }
 
@@ -7775,6 +7780,13 @@ button.grey:hover{
 }
 .header-menu a{
   color: #333333;
+}
+
+.header-menu a:hover{
+  color: #27AE60;
+}
+.header-menu li>a:hover{
+  color: #27AE60;
 }
 .header-menu>*{
   margin: auto 5px;
